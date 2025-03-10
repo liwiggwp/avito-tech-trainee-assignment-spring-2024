@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Api from "../Services/ApiRequest";
+import CardMovie from "../Components/CardMovie";
 
 export default function HOME() {
   const { movies, getMovies } = Api();
@@ -10,6 +11,7 @@ export default function HOME() {
   return (
     <div>
       <h1>Home</h1>
+      <CardMovie movies={movies}/>
     </div>
   );
 }

@@ -8,7 +8,7 @@ export default function useApi() {
   const getMovies = async () => {
     try {
       const response = await get(`/moved`);
-      setMovies(response.data);
+      setMovies(response.data[0]);
     } catch (error) {
       console.log(error);
     }
