@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Тестовое задание для стажёра Frontend (весенняя волна 2024)
+## Суть задания
+Разработать фронтенд приложения для быстрого поиска информации по фильмам и сериалам с платформы «Кинопоиска».
+## Общие вводные
+- Тестовое необходимо реализовать с использованием [API Кинопоиска](https://api.kinopoisk.dev/documentation). 
+- ***Важно: при работе над тестовым, убедитесь, что токен не расположен в вашем GitHub публично***
+- Результат тестового должен соответствовать требованиям описанным ниже. 
+- В пунктах «Будет плюсом» обозначены требования, выполнять которые не обязательно, но даже частичное выполнение этих пунктов позволит лучше раскрыть ваши знания и навыки.
+## Функциональные требования
+Приложение должно состоять из двух страниц:
+1. Страница со списком всех фильмов
+2. Страница отдельного фильма
+#### На странице со списком всех фильмов:
+1. Отображается список фильмов и сериалов
+2. Реализована  пагинация
+3. Можно выбрать количество фильмов для показа на странице (по умолчанию должно быть 10)
+4. Можно отфильтровать выдачу (по году, стране и возрастному рейтингу)
+5. Реализован поиск по названию фильма
+6. Можно перейти на страницу фильма из выдачи
+#### Будет плюсом:
+1. Если реализована возможность поделиться результатами выдачи с другими пользователями через копирование ссылки. (Подсказка: для этого можно записывать в query-параметры фильтры и пагинацию)
+2. Если сохраняется история поиска (например, последние 20 запросов)
+3. Если при вводе нового названия появляется suggest с предложениями из ранее введенных значений
+4. Если при вводе значений происходит фильтрация подсказок по вхождению.  Например, при вводе «бой»: могут быть предложены результаты, содержащие «бой»: «при**бой**», «**бой**кий», «беспере**бой**ность» и т.д. (Ориентир: поиск в Google, который предлагает варианты из предыдущих запросов)
+5. Если поиск осуществляется не при каждом вводе символа, а в момент когда с ввода последнего символа прошла 1 секунда (debounce)
+#### На странице с отдельным фильмом:
+1. Отображается информация о фильме или сериале, в том числе:
+	- название фильма/сериала
+	- описание
+	- рейтинг
+	- список актёров (с пагинацией, если их больше 10); 
+	- список сезонов и серий (с пагинацией, если они подразумеваются)) 
+	- отзывы пользователей (с пагинацией)
+	- постеры, отображение которых реализовано в виде «карусели»
+2. Реализован вывод списка фильмов, похожих на текущий, в виде «карусели». По каждому элементу можно кликнуть и открыть его страницу
+3. В случае, если какой-то из списков пустой (список отзывов, актёров, сезонов), реализовано отображение заглушки на подобие «нет информации о ...»
+4. Реализована кнопка «назад», которая ведет на выдачу. Фильтры и номер страницы при этом должны сохраняться.
+### Будет плюсом ко всей работе:
+1. Если будет реализована авторизация. Проверку пароля можно захардкодить
+2. Если будет реализована страница c поиском рандомного фильма как тут: [референс](https://www.kinopoisk.ru/chance/). При этом на этой странице будет реализована следующая функциональность: 
+	- страница с рандомным поиском будет доступна только авторизованным пользователям
+	- есть возможность установить фильтры: по жанру, по стране производства, по типу контента (сериал/фильм), по году выпуска, по рейтингу Кинопоиска (от конкретного значения), по сети производства (HBO, Netflix и т.п.)
+	- есть кнопка «Случайный фильм», которая перекидывает на страницу найденного фильма
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Нефункциональные требования
+1. Стек технологий:
+	- фронтенд фреймворк: React
+	- можно использовать любую общедоступную библиотеку компонент. 
+	- Node.js
+	- пакетный менеджер: npm
+1. Запуск проекта в режиме разработчика должен происходить по команде `TOKEN=<your api token> npm run start`
+2. Реализован адаптивный интерфейс: с приложением должно быть удобно работать, как с мобильного экрана, так и с десктопа
+3. Роутинг выполнен с использованием [React Router v6](https://reactrouter.com/en/main)
+4. При переходах по ссылкам страница не перезагружается (SPA, без next.js)
