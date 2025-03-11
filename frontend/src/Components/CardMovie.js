@@ -8,6 +8,7 @@ import {
   Typography,
 } from "@mui/material";
 import DefaultImage from "../Assets/placeholder.jpg";
+import { Link } from "react-router-dom";
 
 const CardMovie = ({ movies }) => {
   return (
@@ -19,7 +20,7 @@ const CardMovie = ({ movies }) => {
         {movies.map((movie) => {
           return (
             <Grid item key={movie.id} xs={12} sm={6} md={4}>
-              <Card>
+              <Card component={Link} to={`/${movie.id}`}>
                 <CardMedia
                   component="img"
                   height="400"
