@@ -12,10 +12,7 @@ import { Link } from "react-router-dom";
 
 const CardMovie = ({ movies }) => {
   return (
-    <Container>
-      <Typography variant="h2" align="center" gutterBottom>
-        Фильмы
-      </Typography>
+    <Container sx={{mt: 10}}>
       <Grid container spacing={4} justifyContent="center">
         {movies.map((movie) => {
           return (

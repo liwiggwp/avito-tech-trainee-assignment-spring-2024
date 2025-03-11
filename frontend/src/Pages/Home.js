@@ -12,7 +12,6 @@ export default function HOME() {
   return (
     <div>
       <Header />
-      <h1>Home</h1>
       <CardMovie movies={movies}/>
     </div>
   );
