@@ -66,48 +66,60 @@ const MoviePage = () => {
                 src={movie?.poster?.url}
                 alt={movie?.poster?.url}
               />
-              <Typography sx={{ fontWeight: "bold", mt: 2, p: 1 }}>
-                Трейлер
-              </Typography>
+
               {movie?.videos?.trailers?.[0]?.url && !playTrailer && (
-                <Box
-                  sx={{
-                    position: "relative",
-                    backgroundImage: `url(${movie?.backdrop?.url})`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                    height: "200px",
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "#fff",
-                  }}
-                  onMouseEnter={handleMouseEnter}
-                  onMouseLeave={handleMouseLeave}
-                >
-                  {showTrailer && (
-                    <Box
-                      component="img"
-                      src={playButton}
-                      alt="Play"
-                      sx={{ width: "50px", height: "50px", cursor: "pointer" }}
-                      onClick={handlePlayTrailer}
-                    />
-                  )}
-                </Box>
+                <>
+                  <Typography sx={{ fontWeight: "bold", mt: 2, p: 1 }}>
+                    Трейлер
+                  </Typography>
+                  <Box
+                    sx={{
+                      position: "relative",
+                      backgroundImage: `url(${movie?.backdrop?.url})`,
+                      backgroundSize: "cover",
+                      backgroundPosition: "center",
+                      height: "200px",
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      color: "#fff",
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    {showTrailer && (
+                      <Box
+                        component="img"
+                        src={playButton}
+                        alt="Play"
+                        sx={{
+                          width: "50px",
+                          height: "50px",
+                          cursor: "pointer",
+                        }}
+                        onClick={handlePlayTrailer}
+                      />
+                    )}
+                  </Box>
+                </>
               )}
 
               {playTrailer && movie?.videos?.trailers?.[0]?.url && (
-                <Box>
-                  <iframe
-                    src={movie.videos.trailers[0].url}
-                    title={movie.videos.trailers[0].name}
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    style={{ width: "100%", height: "100%" }}
-                  ></iframe>
-                </Box>
+                <>
+                  <Typography sx={{ fontWeight: "bold", mt: 2, p: 1 }}>
+                    Трейлер
+                  </Typography>
+                  <Box>
+                    <iframe
+                      src={movie.videos.trailers[0].url}
+                      title={movie.videos.trailers[0].name}
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      style={{ width: "100%", height: "100%" }}
+                    ></iframe>
+                  </Box>
+                </>
               )}
             </Grid>
 
@@ -258,9 +270,7 @@ const MoviePage = () => {
               <Typography variant="h6" sx={{ mt: 3, fontWeight: "bold" }}>
                 Описание
               </Typography>
-              <Typography variant="body1">
-                {movie?.description}
-              </Typography>
+              <Typography variant="body1">{movie?.description}</Typography>
             </Grid>
 
             <Grid item xs={12} md={3}>
@@ -293,28 +303,34 @@ const MoviePage = () => {
                   {showAllActors ? "Скрыть" : "Еще"}
                 </Typography>
               )}
-              <Typography variant="h6" sx={{ fontWeight: "bold", mt: 2 }}>
-                Роли дублирования
-              </Typography>
-              {movie?.persons
-                ?.filter((person) => person.profession === "актеры дубляжа")
-                .slice(0, showAllActorsVoice ? undefined : 10)
-                .map((actor, index) => (
-                  <Typography key={index} variant="body2">
-                    {actor.name}
-                  </Typography>
-                ))}
               {movie?.persons?.filter(
                 (person) => person.profession === "актеры дубляжа"
-              ).length > 10 && (
-                <Typography
-                  onClick={handleShowAllActorsVoice}
-                  variant="subtitle2"
-                  color="grey"
-                  sx={{ cursor: "pointer", textTransform: "none" }}
-                >
-                  {showAllActorsVoice ? "Скрыть" : "Еще"}
-                </Typography>
+              ).length > 0 && (
+                <>
+                  <Typography variant="h6" sx={{ fontWeight: "bold", mt: 2 }}>
+                    Роли дублирования
+                  </Typography>
+                  {movie?.persons
+                    ?.filter((person) => person.profession === "актеры дубляжа")
+                    .slice(0, showAllActorsVoice ? undefined : 10)
+                    .map((actor, index) => (
+                      <Typography key={index} variant="body2">
+                        {actor.name}
+                      </Typography>
+                    ))}
+                  {movie?.persons?.filter(
+                    (person) => person.profession === "актеры дубляжа"
+                  ).length > 10 && (
+                    <Typography
+                      onClick={handleShowAllActorsVoice}
+                      variant="subtitle2"
+                      color="grey"
+                      sx={{ cursor: "pointer", textTransform: "none" }}
+                    >
+                      {showAllActorsVoice ? "Скрыть" : "Еще"}
+                    </Typography>
+                  )}
+                </>
               )}
             </Grid>
           </Grid>
