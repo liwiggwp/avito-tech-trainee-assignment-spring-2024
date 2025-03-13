@@ -1,6 +1,2508 @@
 const initialMovies = {
   docs: [
     {
+      id: 354799,
+      externalId: {
+        kpHD: "46807a953ecf150bbe2778c5da397786",
+        tmdb: 126850,
+      },
+      name: "Шерлок Холмс и доктор Ватсон: Смертельная схватка",
+      alternativeName: null,
+      enName: null,
+      names: [
+        {
+          name: "Шерлок Холмс и доктор Ватсон: Смертельная схватка",
+          language: "RU",
+          type: "Russian title on kinopoisk",
+        },
+      ],
+      type: "movie",
+      typeNumber: 1,
+      year: 1980,
+      description:
+        "Шерлок Холмс вступил в смертельную схватку с главарем английской преступности профессором Мориарти. В сети полиции попали все, кроме главаря, и друзья на время решили укрыться в тихой Швейцарии. Но от гнева Мориарти ещё не ускользал никто.",
+      shortDescription:
+        "Великому сыщику предстоит битва с королем преступного мира. Детектив с Виктором Евграфовым в роли Мориарти",
+      slogan: null,
+      status: null,
+      rating: {
+        kp: 8.441,
+        imdb: 8.4,
+        filmCritics: 0,
+        russianFilmCritics: 0,
+        await: null,
+      },
+      votes: {
+        kp: 131203,
+        imdb: 2564,
+        filmCritics: 0,
+        russianFilmCritics: 0,
+        await: 0,
+      },
+      movieLength: 64,
+      totalSeriesLength: null,
+      seriesLength: null,
+      ratingMpaa: null,
+      ageRating: 12,
+      poster: {
+        url: "https://image.openmoviedb.com/kinopoisk-images/1629390/4faf245a-e3d4-4f41-9284-b23fa9e2cb69/orig",
+        previewUrl:
+          "https://image.openmoviedb.com/kinopoisk-images/1629390/4faf245a-e3d4-4f41-9284-b23fa9e2cb69/x1000",
+      },
+      backdrop: {
+        url: "https://image.openmoviedb.com/kinopoisk-ott-images/239697/2a00000161d2a3720919a8e7c3947cb9e15d/orig",
+        previewUrl:
+          "https://image.openmoviedb.com/kinopoisk-ott-images/239697/2a00000161d2a3720919a8e7c3947cb9e15d/x1000",
+      },
+      genres: [
+        {
+          name: "криминал",
+        },
+        {
+          name: "детектив",
+        },
+      ],
+      countries: [
+        {
+          name: "СССР",
+        },
+      ],
+      persons: [
+        {
+          id: 266224,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_266224.jpg",
+          name: "Василий Ливанов",
+          enName: null,
+          description: "Шерлок Холмс",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 174122,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_174122.jpg",
+          name: "Виталий Соломин",
+          enName: null,
+          description: "доктор Ватсон",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 307742,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_307742.jpg",
+          name: "Рина Зелёная",
+          enName: null,
+          description: "миссис Хадсон",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 174235,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_174235.jpg",
+          name: "Борислав Брондуков",
+          enName: null,
+          description: "инспектор Лестрейд",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 294128,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_294128.jpg",
+          name: "Виктор Евграфов",
+          enName: null,
+          description: "профессор Мориарти",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 198165,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_198165.jpg",
+          name: "Александр Захаров",
+          enName: null,
+          description: "Рональд Адэр",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 261550,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_261550.jpg",
+          name: "Борис Клюев",
+          enName: null,
+          description: "Майкрофт Холмс",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 313652,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_313652.jpg",
+          name: "Николай Крюков",
+          enName: null,
+          description: "полковник Моран",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 345958,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_345958.jpg",
+          name: "Игнат Лейрер",
+          enName: null,
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 315877,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_315877.jpg",
+          name: "Анатолий Подшивалов",
+          enName: null,
+          description: "маркёр Прайс",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 273450,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_273450.jpg",
+          name: "Юрий Эллер",
+          enName: null,
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 921132,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_921132.jpg",
+          name: "Дима Хрилев",
+          enName: null,
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 2212664,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2212664.jpg",
+          name: "Ираклий Андроников",
+          enName: null,
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 298517,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_298517.jpg",
+          name: "Алексей Кожевников",
+          enName: null,
+          description: "мистер Меррей",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 200010,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_200010.jpg",
+          name: "Дмитрий Зебров",
+          enName: null,
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 277575,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_277575.jpg",
+          name: "Владимир Дашкевич",
+          enName: null,
+          description: null,
+          profession: "композиторы",
+          enProfession: "composer",
+        },
+        {
+          id: 1997291,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1997291.jpg",
+          name: "Марк Каплан",
+          enName: null,
+          description: null,
+          profession: "художники",
+          enProfession: "designer",
+        },
+        {
+          id: 2003531,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2003531.jpg",
+          name: "Нелли Лев",
+          enName: null,
+          description: null,
+          profession: "художники",
+          enProfession: "designer",
+        },
+        {
+          id: 284219,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_284219.jpg",
+          name: "Игорь Масленников",
+          enName: null,
+          description: null,
+          profession: "режиссеры",
+          enProfession: "director",
+        },
+        {
+          id: 2001366,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2001366.jpg",
+          name: "Людмила Образумова",
+          enName: null,
+          description: null,
+          profession: "монтажеры",
+          enProfession: "editor",
+        },
+        {
+          id: 276887,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_276887.jpg",
+          name: "Анатолий Лапшов",
+          enName: null,
+          description: null,
+          profession: "операторы",
+          enProfession: "operator",
+        },
+        {
+          id: 281143,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_281143.jpg",
+          name: "Юрий Векслер",
+          enName: null,
+          description: null,
+          profession: "операторы",
+          enProfession: "operator",
+        },
+        {
+          id: 1750660,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1750660.jpg",
+          name: "Григорий Прусовский",
+          enName: null,
+          description: null,
+          profession: "продюсеры",
+          enProfession: "producer",
+        },
+        {
+          id: 76130,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_76130.jpg",
+          name: "Игорь Ефимов",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 318192,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_318192.jpg",
+          name: "Олег Даль",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 224383,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_224383.jpg",
+          name: "Владимир Валуцкий",
+          enName: null,
+          description: null,
+          profession: "сценаристы",
+          enProfession: "writer",
+        },
+        {
+          id: 70084,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_70084.jpg",
+          name: "Артур Конан Дойл",
+          enName: "Arthur Conan Doyle",
+          description: null,
+          profession: "сценаристы",
+          enProfession: "writer",
+        },
+      ],
+      premiere: {
+        country: null,
+        world: null,
+        russia: null,
+        digital: null,
+        cinema: null,
+        bluray: null,
+        dvd: null,
+      },
+      sequelsAndPrequels: [
+        {
+          id: 77265,
+          name: "Шерлок Холмс и доктор Ватсон: Кровавая надпись",
+          alternativeName: null,
+          enName: null,
+          type: "movie",
+          poster: {
+            url: "https://image.openmoviedb.com/kinopoisk-images/1599028/f4457949-8fd0-4a99-ad6d-55045625ce46/orig",
+            previewUrl:
+              "https://image.openmoviedb.com/kinopoisk-images/1599028/f4457949-8fd0-4a99-ad6d-55045625ce46/x1000",
+          },
+        },
+        {
+          id: 77269,
+          name: "Шерлок Холмс и доктор Ватсон: Знакомство",
+          alternativeName: null,
+          enName: null,
+          type: "movie",
+          poster: {
+            url: "https://image.openmoviedb.com/kinopoisk-images/1898899/c5ee4880-336c-428e-9829-029bb54bcf17/orig",
+            previewUrl:
+              "https://image.openmoviedb.com/kinopoisk-images/1898899/c5ee4880-336c-428e-9829-029bb54bcf17/x1000",
+          },
+        },
+        {
+          id: 368936,
+          name: "Приключения Шерлока Холмса и доктора Ватсона: Король шантажа",
+          alternativeName: null,
+          enName: null,
+          type: "movie",
+          poster: {
+            url: "https://image.openmoviedb.com/kinopoisk-images/1600647/2d95eac5-dd8d-44bb-953b-f2e98b790e5b/orig",
+            previewUrl:
+              "https://image.openmoviedb.com/kinopoisk-images/1600647/2d95eac5-dd8d-44bb-953b-f2e98b790e5b/x1000",
+          },
+        },
+        {
+          id: 368937,
+          name: "Приключения Шерлока Холмса и доктора Ватсона: Охота на тигра",
+          alternativeName: null,
+          enName: null,
+          type: "movie",
+          poster: {
+            url: "https://image.openmoviedb.com/kinopoisk-images/1704946/a363b456-4477-4318-9597-1d0dfd2ab9a7/orig",
+            previewUrl:
+              "https://image.openmoviedb.com/kinopoisk-images/1704946/a363b456-4477-4318-9597-1d0dfd2ab9a7/x1000",
+          },
+        },
+        {
+          id: 77263,
+          name: "Приключения Шерлока Холмса и доктора Ватсона: Собака Баскервилей",
+          alternativeName: null,
+          enName: null,
+          type: "movie",
+          poster: {
+            url: "https://image.openmoviedb.com/kinopoisk-images/1599028/f08ba921-02dd-4d19-9c15-757e040335d6/orig",
+            previewUrl:
+              "https://image.openmoviedb.com/kinopoisk-images/1599028/f08ba921-02dd-4d19-9c15-757e040335d6/x1000",
+          },
+        },
+        {
+          id: 77264,
+          name: "Шерлок Холмс и доктор Ватсон: Сокровища Агры",
+          alternativeName: null,
+          enName: null,
+          type: "movie",
+          poster: {
+            url: "https://image.openmoviedb.com/kinopoisk-images/1599028/4e73f6f3-fd0f-4132-8100-bf88f52496f6/orig",
+            previewUrl:
+              "https://image.openmoviedb.com/kinopoisk-images/1599028/4e73f6f3-fd0f-4132-8100-bf88f52496f6/x1000",
+          },
+        },
+        {
+          id: 77267,
+          name: "Шерлок Холмс и доктор Ватсон: Двадцатый век начинается",
+          alternativeName: null,
+          enName: null,
+          type: "movie",
+          poster: {
+            url: "https://image.openmoviedb.com/kinopoisk-images/1704946/7e38a527-c67a-46ff-a6ad-2e44d47b4710/orig",
+            previewUrl:
+              "https://image.openmoviedb.com/kinopoisk-images/1704946/7e38a527-c67a-46ff-a6ad-2e44d47b4710/x1000",
+          },
+        },
+      ],
+      watchability: {
+        items: [
+          {
+            name: "KION",
+            logo: {
+              url: "https://avatars.mds.yandex.net/get-ott/239697/daeb142e-3ecc-4bb2-9bff-4827996643ab/orig",
+            },
+            url: "https://kion.ru/video/movie/697282197?utm_source=yandex&utm_medium=organic&utm_campaign=wizard",
+          },
+          {
+            name: "24ТВ",
+            logo: {
+              url: "https://avatars.mds.yandex.net/get-ott/2439731/85e83b8d-1159-4781-bad5-ce0a809b3843/orig",
+            },
+            url: "https://24h.tv/contents/1980-sherlok-holms-i-doktor-vat-562683761041342783",
+          },
+          {
+            name: "Kinopoisk HD",
+            logo: {
+              url: "https://yastatic.net/s3/kinopoisk-frontend/hd-www/release/apple-touch-icon-180x180.png",
+            },
+            url: "https://hd.kinopoisk.ru/?rt=46807a953ecf150bbe2778c5da397786",
+          },
+        ],
+      },
+      top10: null,
+      top250: 147,
+      isSeries: false,
+      ticketsOnSale: false,
+      lists: ["top250", "top500", "top-250-2020", "hd"],
+      networks: null,
+      createdAt: "2024-04-13T01:57:10.875Z",
+      updatedAt: "2025-03-10T01:00:46.827Z",
+      isTmdbChecked: true,
+    },
+    {
+      id: 1108571,
+      externalId: {
+        kpHD: "46699d8b8013479e9d6d7f940e0b43d3",
+        imdb: "tt6741368",
+        tmdb: 458302,
+      },
+      name: "Приключения Реми",
+      alternativeName: "Rémi sans famille",
+      enName: null,
+      names: [
+        {
+          name: "Pryhody malenkoho Remi",
+          language: "UA",
+          type: "Transliteration",
+        },
+        {
+          name: "Без семьи",
+          language: "RU",
+          type: null,
+        },
+        {
+          name: "Les aventures de Rémi",
+          language: "CA",
+          type: "Français",
+        },
+        {
+          name: "O Pequeno Órfão",
+          language: "BR",
+          type: null,
+        },
+        {
+          name: "Remi Sans Famille",
+          language: "US",
+          type: null,
+        },
+      ],
+      type: "movie",
+      typeNumber: 1,
+      year: 2018,
+      description:
+        "Удивительное путешествие по Франции маленького Реми в компании уличного музыканта, обезьянки и цирковой собаки.  Вместе им предстоит пережить неожиданные встречи, приключения и испытания, чтобы раскрыть тайну происхождения мальчика.",
+      shortDescription:
+        "Мальчик Реми и уличный артист Виталис бродят по Франции XIX века. Красивая авантюрная мелодрама для всей семьи",
+      slogan: null,
+      status: null,
+      rating: {
+        kp: 8.335,
+        imdb: 7.1,
+        filmCritics: 0,
+        russianFilmCritics: 0,
+        await: null,
+      },
+      votes: {
+        kp: 113091,
+        imdb: 3204,
+        filmCritics: 0,
+        russianFilmCritics: 1,
+        await: 0,
+      },
+      movieLength: 105,
+      totalSeriesLength: null,
+      seriesLength: null,
+      ratingMpaa: null,
+      ageRating: 18,
+      poster: {
+        url: "https://image.openmoviedb.com/kinopoisk-images/1599028/3bb8ef0f-0230-4eeb-acb0-e2b44329de37/orig",
+        previewUrl:
+          "https://image.openmoviedb.com/kinopoisk-images/1599028/3bb8ef0f-0230-4eeb-acb0-e2b44329de37/x1000",
+      },
+      backdrop: {
+        url: "https://image.openmoviedb.com/kinopoisk-ott-images/1652588/2a0000016d1fad5a7fa59ff75917c900760d/orig",
+        previewUrl:
+          "https://image.openmoviedb.com/kinopoisk-ott-images/1652588/2a0000016d1fad5a7fa59ff75917c900760d/x1000",
+      },
+      genres: [
+        {
+          name: "мелодрама",
+        },
+        {
+          name: "приключения",
+        },
+        {
+          name: "семейный",
+        },
+      ],
+      countries: [
+        {
+          name: "Франция",
+        },
+        {
+          name: "Бельгия",
+        },
+      ],
+      persons: [
+        {
+          id: 5001216,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5001216.jpg",
+          name: "Малом Пакуин",
+          enName: "Maleaume Paquin",
+          description: "Rémi",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 11670,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_11670.jpg",
+          name: "Даниель Отой",
+          enName: "Daniel Auteuil",
+          description: "Vitalis",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 42004,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_42004.jpg",
+          name: "Виржини Ледуайен",
+          enName: "Virginie Ledoyen",
+          description: "Mme Harper",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 44104,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_44104.jpg",
+          name: "Жонатан Заккаи",
+          enName: "Jonathan Zaccaï",
+          description: "Jérôme Barberin",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 41906,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_41906.jpg",
+          name: "Жак Перрен",
+          enName: "Jacques Perrin",
+          description: "Rémi âgé",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 5035,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5035.jpg",
+          name: "Людивин Санье",
+          enName: "Ludivine Sagnier",
+          description: "Mme Barberin",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 4939642,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4939642.jpg",
+          name: "Альбан Массон",
+          enName: "Albane Masson",
+          description: "Lise",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 1605363,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1605363.jpg",
+          name: "Зои Бойл",
+          enName: "Zoe Boyle",
+          description: "Mme Milligan",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 13302,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_13302.jpg",
+          name: "Николас Роу",
+          enName: "Nicholas Rowe",
+          description: "James Milligan",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 38170,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_38170.jpg",
+          name: "Никола Даффетт",
+          enName: "Nicola Duffett",
+          description: "Mrs. Driscoll",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 1136501,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1136501.jpg",
+          name: "Саймон Армстронг",
+          enName: "Simon Armstrong",
+          description: "Mr. Driscoll",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 4413451,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4413451.jpg",
+          name: "Флер Жеффрие",
+          enName: "Fleur Geffrier",
+          description: "Dame auberge",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 793125,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_793125.jpg",
+          name: "Жером Кашон",
+          enName: "Jérôme Cachon",
+          description: "Gendarme Albi",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 462835,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_462835.jpg",
+          name: "Ксавьер Лафит",
+          enName: "Xavier Lafitte",
+          description: "Docteur",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 1751782,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1751782.jpg",
+          name: "Эллиот Буссон",
+          enName: "Elliot Bousson",
+          description: "Eliott",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 4734817,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4734817.jpg",
+          name: "Осеан Ле Коссен",
+          enName: "Océane Le Caoussin",
+          description: "Betty",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 4734818,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4734818.jpg",
+          name: "Марго Ле Коссен",
+          enName: "Margaux Le Caoussin",
+          description: "Eloïse",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 5616594,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5616594.jpg",
+          name: "Саид Алами",
+          enName: "Saïd Alami",
+          description: "Bradley Driscoll",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 1967998,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1967998.jpg",
+          name: "Ксавьер Потье",
+          enName: "Xavier Pottier",
+          description: "Patron de bar",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 56470,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_56470.jpg",
+          name: "Кармен Ферланд",
+          enName: "Carmen Ferland",
+          description: "Gouvernante Milligan (в титрах: Carmen Ferlan)",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 1091689,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1091689.jpg",
+          name: "Бенуа Бертон",
+          enName: "Benoît Berthon",
+          description: "Gendarme subalterne Albi",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 1280200,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1280200.jpg",
+          name: "Режис Мэйнард",
+          enName: "Régis Maynard",
+          description: "Paysan",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 465687,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_465687.jpg",
+          name: "Седрик Вебер",
+          enName: "Cédric Weber",
+          description: "Aubergiste",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 41636,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_41636.jpg",
+          name: "Ксавье Мали",
+          enName: "Xavier Maly",
+          description: "Curé Chavanon",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 1748740,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1748740.jpg",
+          name: "Джонатан Вейт",
+          enName: "Jonathan Waite",
+          description: "Majordome Toulouse",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 227356,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_227356.jpg",
+          name: "Венсан Жуан",
+          enName: "Vincent Jouan",
+          description: "Le juge",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 1163984,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1163984.jpg",
+          name: "Жан-Ив Лемуан",
+          enName: "Jean-Yves Lemoine",
+          description: "Commissaire de police (в титрах: Jean-Yves R. Lemoine)",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 736124,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_736124.jpg",
+          name: "Рафаэль Симонет",
+          enName: "Raphaël Simonet",
+          description: "Fermier 1",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 3035409,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3035409.jpg",
+          name: "Элоиз Жене",
+          enName: "Eloïse Genet",
+          description: "Villageoise Chavanon",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 5616595,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5616595.jpg",
+          name: "Лорен Беляш",
+          enName: "Laurent Belhache",
+          description: "Doublure Vitalis",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 5135502,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5135502.jpg",
+          name: "Мишель Грос",
+          enName: "Michel Gros",
+          description: "Doublure Vitalis",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 5616596,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5616596.jpg",
+          name: "Матис Гийон",
+          enName: "Mathis Guillon",
+          description: "Doublure Rémi",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 5616597,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5616597.jpg",
+          name: "Татис Лаборд-Раффель",
+          enName: "Tatis Laborde-Raffel",
+          description: "Doublure Rémi",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 5616598,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5616598.jpg",
+          name: "Эктор Бори",
+          enName: "Hector Borie",
+          description: "Doublure Rémi",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 5616599,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5616599.jpg",
+          name: "Вирджиния Шардон",
+          enName: "Virginie Chardon",
+          description: "Doublure Rémi nuit",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 4117511,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4117511.jpg",
+          name: "Николас де Лавернь",
+          enName: "Nicolas de Lavergne",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 5341725,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5341725.jpg",
+          name: "Себастьен Лашери",
+          enName: "Sebastien Lacheray",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 2825155,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2825155.jpg",
+          name: "Руперт Уинн-Джеймс",
+          enName: "Rupert Wynne-James",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 762706,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_762706.jpg",
+          name: "Ромарик Лоуренс",
+          enName: "Romaric Laurence",
+          description: null,
+          profession: "композиторы",
+          enProfession: "composer",
+        },
+        {
+          id: 1986871,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1986871.jpg",
+          name: "Себастьен Инизан",
+          enName: "Sébastien Inizan",
+          description: null,
+          profession: "художники",
+          enProfession: "designer",
+        },
+        {
+          id: 1987675,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1987675.jpg",
+          name: "Патрик Шмитт",
+          enName: "Patrick Schmitt",
+          description: null,
+          profession: "художники",
+          enProfession: "designer",
+        },
+        {
+          id: 2004774,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2004774.jpg",
+          name: "Агнес Безье",
+          enName: "Agnes Beziers",
+          description: null,
+          profession: "художники",
+          enProfession: "designer",
+        },
+        {
+          id: 2473121,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2473121.jpg",
+          name: "Антуан Блоссье",
+          enName: "Antoine Blossier",
+          description: null,
+          profession: "режиссеры",
+          enProfession: "director",
+        },
+        {
+          id: 3226156,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3226156.jpg",
+          name: "Стефан Гарнье",
+          enName: "Stéphane Garnier",
+          description: null,
+          profession: "монтажеры",
+          enProfession: "editor",
+        },
+        {
+          id: 868728,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_868728.jpg",
+          name: "Ромейн Лакурбас",
+          enName: "Romain Lacourbas",
+          description: null,
+          profession: "операторы",
+          enProfession: "operator",
+        },
+        {
+          id: 231346,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_231346.jpg",
+          name: "Эрик Йехельманн",
+          enName: "Eric Jehelmann",
+          description: null,
+          profession: "продюсеры",
+          enProfession: "producer",
+        },
+        {
+          id: 226565,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_226565.jpg",
+          name: "Филипп Руссле",
+          enName: "Philippe Rousselet",
+          description: null,
+          profession: "продюсеры",
+          enProfession: "producer",
+        },
+        {
+          id: 676527,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_676527.jpg",
+          name: "Фабрис Джанферми",
+          enName: "Fabrice Gianfermi",
+          description: null,
+          profession: "продюсеры",
+          enProfession: "producer",
+        },
+        {
+          id: 4750160,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4750160.jpg",
+          name: "Седрик Иланд",
+          enName: "Cédric Iland",
+          description: null,
+          profession: "продюсеры",
+          enProfession: "producer",
+        },
+        {
+          id: 1159783,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1159783.jpg",
+          name: "Ольга Шорохова",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 273180,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_273180.jpg",
+          name: "Никита Прозоровский",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 1824212,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1824212.jpg",
+          name: "Наталья Грачёва",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 1557066,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1557066.jpg",
+          name: "Антон Эльдаров",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 2956583,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2956583.jpg",
+          name: "Владимир Левашёв",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 4165159,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4165159.jpg",
+          name: "Татьяна Манетина",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 3713007,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3713007.jpg",
+          name: "Ульяна Куликова",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 1649331,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1649331.jpg",
+          name: "Наталья Фищук",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 1232680,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1232680.jpg",
+          name: "Илья Бледный",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 297868,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_297868.jpg",
+          name: "Ирина Савина",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 257034,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_257034.jpg",
+          name: "Валерий Сторожик",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 4950190,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4950190.jpg",
+          name: "Маргарита Корш",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 273498,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_273498.jpg",
+          name: "Михаил Тихонов",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 4544457,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4544457.jpg",
+          name: "Евгений Рубцов",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 2221788,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2221788.jpg",
+          name: "Александр Запорожец",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 6268494,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_6268494.jpg",
+          name: "Алиса Смирнова",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 5662719,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5662719.jpg",
+          name: "Милана Скударева",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 1539232,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1539232.jpg",
+          name: "Сергей Чихачёв",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 2473121,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2473121.jpg",
+          name: "Антуан Блоссье",
+          enName: "Antoine Blossier",
+          description: null,
+          profession: "сценаристы",
+          enProfession: "writer",
+        },
+        {
+          id: 559071,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_559071.jpg",
+          name: "Гектор Мало",
+          enName: "Hector Malot",
+          description: null,
+          profession: "сценаристы",
+          enProfession: "writer",
+        },
+        {
+          id: 6851705,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_6851705.jpg",
+          name: "Тосики Кумагаи",
+          enName: "Toshiki Kumagai",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+      ],
+      premiere: {
+        country: null,
+        cinema: null,
+        bluray: null,
+        dvd: null,
+        digital: "2019-09-16T00:00:00.000Z",
+        russia: "2019-07-25T00:00:00.000Z",
+        world: "2018-09-30T00:00:00.000Z",
+      },
+      watchability: {
+        items: [
+          {
+            name: "Okko",
+            logo: {
+              url: "https://avatars.mds.yandex.net/get-ott/239697/7713e586-17d1-42d1-ac62-53e9ef1e70c3/orig",
+            },
+            url: "https://okko.tv/movie/remi-sans-famille?utm_medium=referral&utm_source=yandex_search&utm_campaign=new_search_feed",
+          },
+          {
+            name: "Иви",
+            logo: {
+              url: "https://avatars.mds.yandex.net/get-ott/2419418/0dfd1724-848f-4725-9160-abc571f41c11/orig",
+            },
+            url: "https://www.ivi.ru/watch/223677?utm_source=yandex&utm_medium=wizard",
+          },
+          {
+            name: "PREMIER",
+            logo: {
+              url: "https://avatars.mds.yandex.net/get-ott/239697/0f86e907-9531-47e9-87bd-5101a08d4e30/orig",
+            },
+            url: "https://premier.one/show/10214?utm_source=yandex&utm_medium=yandex_feed_search&utm_campaign=yandex_feed",
+          },
+          {
+            name: "Триколор Кино и ТВ",
+            logo: {
+              url: "https://avatars.mds.yandex.net/get-ott/239697/947e777c-2f73-4cbc-b09d-6bfa3966ba13/orig",
+            },
+            url: "https://kino.tricolor.tv/watch/priklyucheniya-remi-2018/",
+          },
+          {
+            name: "Кино1ТВ",
+            logo: {
+              url: "https://avatars.mds.yandex.net/get-ott/1672343/4e5f7a8e-d5ac-4904-9fc0-208753ccf520/orig",
+            },
+            url: "https://kino.1tv.ru/serials/priklyucheniya-remi?utm_source=yandex&utm_medium=wizard",
+          },
+          {
+            name: "Wink",
+            logo: {
+              url: "https://avatars.mds.yandex.net/get-ott/1672343/54096cbe-cc3b-41c9-8e44-990ebbca8d61/orig",
+            },
+            url: "https://wink.ru/media_items/84327775?utm_source=yandex&utm_medium=koldunschick&utm_content=name",
+          },
+          {
+            name: "24ТВ",
+            logo: {
+              url: "https://avatars.mds.yandex.net/get-ott/2439731/85e83b8d-1159-4781-bad5-ce0a809b3843/orig",
+            },
+            url: "https://24h.tv/contents/2018-remi-sans-famille-722384456793450386",
+          },
+          {
+            name: "VK Видео",
+            logo: {
+              url: "https://avatars.mds.yandex.net/get-ott/236744/144e68b3-ba95-46ca-bf79-bf771516eea3/orig",
+            },
+            url: "https://vk.com/video-203654344_456239294",
+          },
+          {
+            name: "Смотрёшка",
+            logo: {
+              url: "https://avatars.mds.yandex.net/get-ott/236744/c88e652e-2eb1-472d-b636-a266364dbf58/orig",
+            },
+            url: "https://smotreshka.tv/archive/5de496ecb7ee6b36c71790a3?utm_source=yandex_search&utm_campaign=yandex_feed&utm_term=archive&utm_content=archive",
+          },
+          {
+            name: "KION",
+            logo: {
+              url: "https://avatars.mds.yandex.net/get-ott/239697/daeb142e-3ecc-4bb2-9bff-4827996643ab/orig",
+            },
+            url: "https://kion.ru/video/movie/1107611530?utm_source=yandex&utm_medium=organic&utm_campaign=wizard",
+          },
+          {
+            name: "Kinopoisk HD",
+            logo: {
+              url: "https://yastatic.net/s3/kinopoisk-frontend/hd-www/release/apple-touch-icon-180x180.png",
+            },
+            url: "https://hd.kinopoisk.ru/?rt=46699d8b8013479e9d6d7f940e0b43d3",
+          },
+        ],
+      },
+      top10: null,
+      top250: 136,
+      isSeries: false,
+      ticketsOnSale: false,
+      lists: ["top250", "top500", "hd-family", "hd"],
+      networks: null,
+      createdAt: "2024-04-13T02:10:10.681Z",
+      updatedAt: "2025-03-11T01:00:54.592Z",
+      fees: {
+        russia: {
+          value: 121143,
+          currency: "$",
+        },
+        world: {
+          value: 7443906,
+          currency: "$",
+        },
+      },
+      videos: {
+        trailers: [
+          {
+            url: "https://www.youtube.com/embed/liXHciCs0w4",
+            name: "Приключения Реми - дублированный трейлер",
+            site: "youtube",
+            type: "TRAILER",
+          },
+          {
+            url: "https://www.youtube.com/embed/cM20ZJ2UjOg",
+            name: "Приключения Реми (официальный трейлер)",
+            site: "youtube",
+            type: "TRAILER",
+          },
+          {
+            url: "https://www.youtube.com/embed/rhe-8LSwXqI",
+            name: "Trailer (English Subs)",
+            site: "youtube",
+            type: "TRAILER",
+          },
+        ],
+      },
+      logo: {
+        url: "https://image.openmoviedb.com/tmdb-images/original/3c7ZGOK8sexPCziS8cWom7ACF6T.png",
+        previewUrl:
+          "https://image.openmoviedb.com/tmdb-images/w500/3c7ZGOK8sexPCziS8cWom7ACF6T.png",
+      },
+      isTmdbChecked: true,
+    },
+    {
+      id: 5105855,
+      externalId: {
+        kpHD: "65fbd5ff9a534808a54e1e39a6c22811",
+        imdb: "tt13097932",
+        tmdb: 760774,
+      },
+      name: "Одна жизнь",
+      alternativeName: "One Life",
+      enName: null,
+      names: [
+        {
+          name: "Lazos De vida",
+          language: "MX",
+          type: null,
+        },
+        {
+          name: "یک زندگی",
+          language: "IR",
+          type: null,
+        },
+        {
+          name: "ONE LIFE 奇跡が繋いだ6000の命",
+          language: "JP",
+          type: null,
+        },
+        {
+          name: "Los niños de Winton",
+          language: "ES",
+          type: null,
+        },
+      ],
+      type: "movie",
+      typeNumber: 1,
+      year: 2023,
+      description:
+        "Скромного и непубличного джентльмена Николаса Уинтона приглашают на телевизионное ток-шоу, где он наконец-то узнает всю правду о событиях Второй мировой войны, когда он пытался спасти сотни детей от гибели в концлагере. Одна жизнь может изменить судьбы сотен людей — как в прошлом, так и в настоящем.",
+      shortDescription:
+        "Молодой филантроп придумывает, как спасти сотни детей от концлагеря. Проникновенная драма с Энтони Хопкинсом",
+      slogan: "Основано на реальной истории невидимого подвига, потрясшего мир",
+      status: null,
+      rating: {
+        kp: 8.542,
+        imdb: 7.5,
+        filmCritics: 7.3,
+        russianFilmCritics: 0,
+        await: null,
+      },
+      votes: {
+        kp: 215181,
+        imdb: 32844,
+        filmCritics: 146,
+        russianFilmCritics: 2,
+        await: 0,
+      },
+      movieLength: 109,
+      totalSeriesLength: null,
+      seriesLength: null,
+      ratingMpaa: "pg",
+      ageRating: 18,
+      poster: {
+        url: "https://image.openmoviedb.com/kinopoisk-images/9784475/4564801f-fe39-4493-b042-98038357d242/orig",
+        previewUrl:
+          "https://image.openmoviedb.com/kinopoisk-images/9784475/4564801f-fe39-4493-b042-98038357d242/x1000",
+      },
+      backdrop: {
+        url: "https://image.openmoviedb.com/kinopoisk-ott-images/236744/2a0000018e9a4990ede987ce5ae3b643a2f9/orig",
+        previewUrl:
+          "https://image.openmoviedb.com/kinopoisk-ott-images/236744/2a0000018e9a4990ede987ce5ae3b643a2f9/x1000",
+      },
+      genres: [
+        {
+          name: "драма",
+        },
+        {
+          name: "биография",
+        },
+        {
+          name: "история",
+        },
+      ],
+      countries: [
+        {
+          name: "Великобритания",
+        },
+        {
+          name: "Чехия",
+        },
+        {
+          name: "Австралия",
+        },
+        {
+          name: "США",
+        },
+      ],
+      persons: [
+        {
+          id: 8968,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_8968.jpg",
+          name: "Энтони Хопкинс",
+          enName: "Anthony Hopkins",
+          description: "Nicky Winton",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 25775,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25775.jpg",
+          name: "Хелена Бонем Картер",
+          enName: "Helena Bonham Carter",
+          description: "Babi Winton",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 739199,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_739199.jpg",
+          name: "Джонни Флинн",
+          enName: "Johnny Flynn",
+          description: "Young Nicky Winton",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 6236,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_6236.jpg",
+          name: "Лена Олин",
+          enName: "Lena Olin",
+          description: "Grete Winton",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 966872,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_966872.jpg",
+          name: "Тим Стид",
+          enName: "Tim Steed",
+          description: "Bernard",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 3821,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3821.jpg",
+          name: "Матильда Торпе",
+          enName: "Matilda Thorpe",
+          description: "Nina",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 2410232,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2410232.jpg",
+          name: "Дэниэл Браун",
+          enName: "Daniel Brown",
+          description: "Frank",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 3112178,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3112178.jpg",
+          name: "Алекс Шарп",
+          enName: "Alex Sharp",
+          description: "Trevor Chadwick",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 1454888,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1454888.jpg",
+          name: "Иржи Симек",
+          enName: "Jirí Simek",
+          description: "Rudi",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 29744,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_29744.jpg",
+          name: "Ромола Гарай",
+          enName: "Romola Garai",
+          description: "Doreen Warriner",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 7060689,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_7060689.jpg",
+          name: null,
+          enName: "Barbora Váchová",
+          description: "Monika Holub (в титрах: Barbora Vachova)",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 3562793,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3562793.jpg",
+          name: "Джулиана Моска",
+          enName: "Juliana Moska",
+          description: "Hana Hejdukova",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 5977075,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5977075.jpg",
+          name: null,
+          enName: "Jolana Jirotková",
+          description: "Gap-Toothed Girl (в титрах: Jolana Jirotkova)",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 5724247,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5724247.jpg",
+          name: null,
+          enName: "Michal Skach",
+          description: "Jan Slonek",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 7172277,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_7172277.jpg",
+          name: null,
+          enName: "Samuel Himal",
+          description: "Karel Slonek",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 10156295,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10156295.jpg",
+          name: null,
+          enName: "Matej Karas",
+          description: "Petr Slonek",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 10156296,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10156296.jpg",
+          name: null,
+          enName: "Ella Novakova",
+          description: "Lenka",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 6247716,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_6247716.jpg",
+          name: "Мартин Беднар",
+          enName: "Martin Bednár",
+          description: "Vaclav Slonek (в титрах: Martin Bednar)",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 1772409,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1772409.jpg",
+          name: "Петр Еништа",
+          enName: "Petr Jenista",
+          description: "Communist BCRC Volunteer",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 245376,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_245376.jpg",
+          name: "Самуэль Финци",
+          enName: "Samuel Finzi",
+          description: "Rabbi Hertz",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 597717,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_597717.jpg",
+          name: "Михал Роунс",
+          enName: "Michal Rones",
+          description: "Refugee Camp Guide",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 1272802,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1272802.jpg",
+          name: "Даррен Кларк",
+          enName: "Darren Clarke",
+          description: "Home Office Clerk",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 3518567,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3518567.jpg",
+          name: null,
+          enName: "Katerina Jebavá",
+          description: "German Mother (в титрах: Katerina Jebava)",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 1725370,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1725370.jpg",
+          name: "Ник Блэйкли",
+          enName: "Nick Blakeley",
+          description: "Junior Civil Servant",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 6263804,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_6263804.jpg",
+          name: null,
+          enName: "Kiana Klysch",
+          description: "Young Mother",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 5623751,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5623751.jpg",
+          name: null,
+          enName: "Sean Brodeur",
+          description: "Father",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 10156297,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10156297.jpg",
+          name: null,
+          enName: "Frantiska Polakova",
+          description: "Young Vera Diamontova",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 10156298,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10156298.jpg",
+          name: null,
+          enName: "Alzbeta Cerna",
+          description: "Eva Diamontova",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 10156299,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10156299.jpg",
+          name: null,
+          enName: "Dan Vynohradnyk",
+          description: "Tommy",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 10156300,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10156300.jpg",
+          name: null,
+          enName: "Max Vynohradnyk",
+          description: "Honza",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 5389762,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5389762.jpg",
+          name: "Антоние Форманова",
+          enName: "Antonie Formanová",
+          description: "Marta Diamontova (в титрах: Antonie Formanova)",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 4097883,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4097883.jpg",
+          name: "Рут Шмидтова",
+          enName: "Rút Schmidtová",
+          description: "Mrs. Diamantova (в титрах: Rut Schmidtova)",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 3869144,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3869144.jpg",
+          name: "Том Гленистер",
+          enName: "Tom Glenister",
+          description: "William Hughes",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 101650,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_101650.jpg",
+          name: "Майкл Гулд",
+          enName: "Michael Gould",
+          description: "Leadbetter",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 3122452,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3122452.jpg",
+          name: "Зигги Хит",
+          enName: "Ziggy Heath",
+          description: "Young Martin Blake",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 7008195,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_7008195.jpg",
+          name: null,
+          enName: "Beáta Mikusová",
+          description: "Frightened Girl (в титрах: Beata Mikusova)",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 3566200,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3566200.jpg",
+          name: "Януш Хуммель",
+          enName: "Janusz Hummel",
+          description: "Father at Train Window",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 664226,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_664226.jpg",
+          name: null,
+          enName: "Michaela Hráská",
+          description: "Mother at Train Window (в титрах: Michaela Hraska)",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 4439692,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4439692.jpg",
+          name: "Иржи Валес",
+          enName: "Jiri Vales",
+          description: "Lone Father",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 10156301,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10156301.jpg",
+          name: null,
+          enName: "Katerina Kocichová",
+          description: "Shocked Mother (в титрах: Katerina Kocichova)",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 5510153,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5510153.jpg",
+          name: null,
+          enName: "Milan Ligac",
+          description: "Czech Military",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 40827,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_40827.jpg",
+          name: "Эдриан Роулинз",
+          enName: "Adrian Rawlins",
+          description: "Geoff",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 50885,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_50885.jpg",
+          name: "Саманта Спиро",
+          enName: "Samantha Spiro",
+          description: "Esther Rantzen",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 4303605,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4303605.jpg",
+          name: "Стюарт Рамсей",
+          enName: "Stuart Ramsay",
+          description: "Gavin Campbell",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 4042553,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4042553.jpg",
+          name: null,
+          enName: "Matilda Bedford",
+          description: "Restaurant Hostess",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 15074,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_15074.jpg",
+          name: "Джонатан Прайс",
+          enName: "Jonathan Pryce",
+          description: "Martin Blake",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 451440,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_451440.jpg",
+          name: "Чарльз Армстронг",
+          enName: "Charles Armstrong",
+          description: "Wine Waiter",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 55711,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_55711.jpg",
+          name: "Энгус Кеннеди",
+          enName: "Angus Kennedy",
+          description: "New Statesman Reporter",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 3147892,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3147892.jpg",
+          name: "Лукас Краль",
+          enName: "Lukás Král",
+          description: "Reluctant Father (в титрах: Lukas Kral)",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 4362138,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4362138.jpg",
+          name: "Вилма Франтова",
+          enName: "Vilma Frantová",
+          description: "Weeping Mother (в титрах: Vilma Frantova)",
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 1542161,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1542161.jpg",
+          name: "Фолькер Бертельман",
+          enName: "Volker Bertelmann",
+          description: null,
+          profession: "композиторы",
+          enProfession: "composer",
+        },
+        {
+          id: 71133,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_71133.jpg",
+          name: "Кристина Мур",
+          enName: "Christina Moore",
+          description: null,
+          profession: "художники",
+          enProfession: "designer",
+        },
+        {
+          id: 2758711,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2758711.jpg",
+          name: "Ян Калоус",
+          enName: "Jan Kalous",
+          description: null,
+          profession: "художники",
+          enProfession: "designer",
+        },
+        {
+          id: 3247425,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3247425.jpg",
+          name: "Алин Леонелло",
+          enName: "Aline Leonello",
+          description: null,
+          profession: "художники",
+          enProfession: "designer",
+        },
+        {
+          id: 2814268,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2814268.jpg",
+          name: "Джо Уайт",
+          enName: "Jo White",
+          description: null,
+          profession: "художники",
+          enProfession: "designer",
+        },
+        {
+          id: 1997444,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1997444.jpg",
+          name: "Джоэнна Итуэлл",
+          enName: "Joanna Eatwell",
+          description: null,
+          profession: "художники",
+          enProfession: "designer",
+        },
+        {
+          id: 2002896,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2002896.jpg",
+          name: "Филиппа Харт",
+          enName: "Philippa Hart",
+          description: null,
+          profession: "художники",
+          enProfession: "designer",
+        },
+        {
+          id: 4042776,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4042776.jpg",
+          name: "Петра Венцелидесова",
+          enName: "Petra Vencelidesova",
+          description: null,
+          profession: "художники",
+          enProfession: "designer",
+        },
+        {
+          id: 7097436,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_7097436.jpg",
+          name: "Клара Зимова",
+          enName: "Klara Zimova",
+          description: null,
+          profession: "художники",
+          enProfession: "designer",
+        },
+        {
+          id: 589193,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_589193.jpg",
+          name: "Джеймс Хоуз",
+          enName: "James Hawes",
+          description: null,
+          profession: "режиссеры",
+          enProfession: "director",
+        },
+        {
+          id: 2001122,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2001122.jpg",
+          name: "Люсия Зуччетти",
+          enName: "Lucia Zucchetti",
+          description: null,
+          profession: "монтажеры",
+          enProfession: "editor",
+        },
+        {
+          id: 831685,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_831685.jpg",
+          name: "Зак Николсон",
+          enName: "Zac Nicholson",
+          description: null,
+          profession: "операторы",
+          enProfession: "operator",
+        },
+        {
+          id: 1092431,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1092431.jpg",
+          name: "Эйн Каннинг",
+          enName: "Iain Canning",
+          description: null,
+          profession: "продюсеры",
+          enProfession: "producer",
+        },
+        {
+          id: 2690772,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2690772.jpg",
+          name: "Гай Хили",
+          enName: "Guy Heeley",
+          description: null,
+          profession: "продюсеры",
+          enProfession: "producer",
+        },
+        {
+          id: 2474045,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2474045.jpg",
+          name: "Джоэнна Лори",
+          enName: "Joanna Laurie",
+          description: null,
+          profession: "продюсеры",
+          enProfession: "producer",
+        },
+        {
+          id: 42327,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_42327.jpg",
+          name: "Эмиль Шерман",
+          enName: "Emile Sherman",
+          description: null,
+          profession: "продюсеры",
+          enProfession: "producer",
+        },
+        {
+          id: 1604859,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1604859.jpg",
+          name: "Борис Токарев",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 1055690,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1055690.jpg",
+          name: "Марианна Шульц",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 2953207,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2953207.jpg",
+          name: "Юрий Романов",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 1654804,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1654804.jpg",
+          name: "Ксения Бржезовская",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 4548805,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4548805.jpg",
+          name: "Александр Васильев",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 637303,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_637303.jpg",
+          name: "Юлия Рудина",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 1758684,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1758684.jpg",
+          name: "Наталья Терешкова",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 1655611,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1655611.jpg",
+          name: "Андрей Лёвин",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 1660134,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1660134.jpg",
+          name: "Михаил Хрусталёв",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 2824466,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2824466.jpg",
+          name: "Ирина Обрезкова",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 1654785,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1654785.jpg",
+          name: "Наталья Мартынова",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 2339605,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2339605.jpg",
+          name: "Дмитрий Стрелков",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 277374,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_277374.jpg",
+          name: "Станислав Концевич",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 1663396,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1663396.jpg",
+          name: "Светлана Кузнецова",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 37392,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_37392.jpg",
+          name: "Максим Сергеев",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 4748851,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4748851.jpg",
+          name: "Иван Вальберг",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 6578961,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_6578961.jpg",
+          name: "Лев Энтелис",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 10119350,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10119350.jpg",
+          name: "Марк Васильев",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 10155557,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10155557.jpg",
+          name: "Полина Терешкова",
+          enName: null,
+          description: null,
+          profession: "актеры дубляжа",
+          enProfession: "voice_actor",
+        },
+        {
+          id: 232653,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_232653.jpg",
+          name: "Люсинда Коксон",
+          enName: "Lucinda Coxon",
+          description: null,
+          profession: "сценаристы",
+          enProfession: "writer",
+        },
+        {
+          id: 745330,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_745330.jpg",
+          name: "Ник Дрэйк",
+          enName: "Nick Drake",
+          description: null,
+          profession: "сценаристы",
+          enProfession: "writer",
+        },
+        {
+          id: 395573,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_395573.jpg",
+          name: "Барбара Уинтон",
+          enName: "Barbara Winton",
+          description: null,
+          profession: "сценаристы",
+          enProfession: "writer",
+        },
+        {
+          id: 3159483,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3159483.jpg",
+          name: "Кэтерин Брайдл",
+          enName: "Katherine Bridle",
+          description: null,
+          profession: "продюсеры",
+          enProfession: "producer",
+        },
+        {
+          id: 2512560,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2512560.jpg",
+          name: "Никки Эрншоу",
+          enName: "Nicky Earnshaw",
+          description: null,
+          profession: "продюсеры",
+          enProfession: "producer",
+        },
+        {
+          id: 5622887,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5622887.jpg",
+          name: "Саймон Гиллис",
+          enName: "Simon Gillis",
+          description: null,
+          profession: "продюсеры",
+          enProfession: "producer",
+        },
+      ],
+      premiere: {
+        country: null,
+        digital: null,
+        cinema: null,
+        bluray: null,
+        dvd: null,
+        russia: "2024-02-15T00:00:00.000Z",
+        world: "2023-09-09T00:00:00.000Z",
+      },
+      top10: null,
+      top250: 58,
+      isSeries: false,
+      audience: [
+        {
+          count: 125566,
+          country: "Россия",
+        },
+      ],
+      ticketsOnSale: false,
+      lists: ["top250", "top500", "popular-films", "rotten-tomatoes", "hd"],
+      networks: null,
+      createdAt: "2024-04-13T04:11:58.691Z",
+      updatedAt: "2025-03-11T01:00:54.686Z",
+      watchability: {
+        items: [
+          {
+            name: "Иви",
+            logo: {
+              url: "https://avatars.mds.yandex.net/get-ott/2419418/0dfd1724-848f-4725-9160-abc571f41c11/orig",
+            },
+            url: "https://www.ivi.ru/watch/odna-zhizn?utm_source=yandex&utm_medium=wizard",
+          },
+          {
+            name: "24ТВ",
+            logo: {
+              url: "https://avatars.mds.yandex.net/get-ott/2439731/85e83b8d-1159-4781-bad5-ce0a809b3843/orig",
+            },
+            url: "https://24h.tv/contents/2023-one-life-1076029935556438663",
+          },
+          {
+            name: "Kinopoisk HD",
+            logo: {
+              url: "https://yastatic.net/s3/kinopoisk-frontend/hd-www/release/apple-touch-icon-180x180.png",
+            },
+            url: "https://hd.kinopoisk.ru/?rt=65fbd5ff9a534808a54e1e39a6c22811",
+          },
+        ],
+      },
+      fees: {
+        russia: {
+          value: 693587,
+          currency: "$",
+        },
+        usa: {
+          value: 5716885,
+          currency: "$",
+        },
+        world: {
+          value: 56475835,
+          currency: "$",
+        },
+      },
+      sequelsAndPrequels: [
+        {
+          id: 602502,
+          name: "Семья Никки",
+          alternativeName: "Nicky's Family",
+          enName: null,
+          type: "movie",
+          poster: {
+            url: "https://image.openmoviedb.com/kinopoisk-images/1777765/70623832-3b39-42f1-9e68-a7fc4e08fa88/orig",
+            previewUrl:
+              "https://image.openmoviedb.com/kinopoisk-images/1777765/70623832-3b39-42f1-9e68-a7fc4e08fa88/x1000",
+          },
+        },
+      ],
+      videos: {
+        trailers: [
+          {
+            url: "https://www.youtube.com/embed/6ethollg-PI",
+            name: "Official Trailer",
+            site: "youtube",
+            type: "TRAILER",
+          },
+        ],
+      },
+      logo: {
+        url: "https://image.openmoviedb.com/tmdb-images/original/t3LmvcsV0ejbnaAzH1tRtEHjpnT.png",
+        previewUrl:
+          "https://image.openmoviedb.com/tmdb-images/w500/t3LmvcsV0ejbnaAzH1tRtEHjpnT.png",
+      },
+      isTmdbChecked: true,
+    },
+    {
       id: 1402937,
       externalId: {
         kpHD: "e5dd300a7a87429684456d365a4eee26",
@@ -967,475 +3469,6 @@ const initialMovies = {
       isTmdbChecked: true,
       studioParsed: true,
       keywordsParsed: true,
-    },
-    {
-      id: 354799,
-      externalId: {
-        kpHD: "46807a953ecf150bbe2778c5da397786",
-        tmdb: 126850,
-      },
-      name: "Шерлок Холмс и доктор Ватсон: Смертельная схватка",
-      alternativeName: null,
-      enName: null,
-      names: [
-        {
-          name: "Шерлок Холмс и доктор Ватсон: Смертельная схватка",
-          language: "RU",
-          type: "Russian title on kinopoisk",
-        },
-      ],
-      type: "movie",
-      typeNumber: 1,
-      year: 1980,
-      description:
-        "Шерлок Холмс вступил в смертельную схватку с главарем английской преступности профессором Мориарти. В сети полиции попали все, кроме главаря, и друзья на время решили укрыться в тихой Швейцарии. Но от гнева Мориарти ещё не ускользал никто.",
-      shortDescription:
-        "Великому сыщику предстоит битва с королем преступного мира. Детектив с Виктором Евграфовым в роли Мориарти",
-      slogan: null,
-      status: null,
-      rating: {
-        kp: 8.441,
-        imdb: 8.4,
-        filmCritics: 0,
-        russianFilmCritics: 0,
-        await: null,
-      },
-      votes: {
-        kp: 131203,
-        imdb: 2564,
-        filmCritics: 0,
-        russianFilmCritics: 0,
-        await: 0,
-      },
-      movieLength: 64,
-      totalSeriesLength: null,
-      seriesLength: null,
-      ratingMpaa: null,
-      ageRating: 12,
-      poster: {
-        url: "https://image.openmoviedb.com/kinopoisk-images/1629390/4faf245a-e3d4-4f41-9284-b23fa9e2cb69/orig",
-        previewUrl:
-          "https://image.openmoviedb.com/kinopoisk-images/1629390/4faf245a-e3d4-4f41-9284-b23fa9e2cb69/x1000",
-      },
-      backdrop: {
-        url: "https://image.openmoviedb.com/kinopoisk-ott-images/239697/2a00000161d2a3720919a8e7c3947cb9e15d/orig",
-        previewUrl:
-          "https://image.openmoviedb.com/kinopoisk-ott-images/239697/2a00000161d2a3720919a8e7c3947cb9e15d/x1000",
-      },
-      genres: [
-        {
-          name: "криминал",
-        },
-        {
-          name: "детектив",
-        },
-      ],
-      countries: [
-        {
-          name: "СССР",
-        },
-      ],
-      persons: [
-        {
-          id: 266224,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_266224.jpg",
-          name: "Василий Ливанов",
-          enName: null,
-          description: "Шерлок Холмс",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 174122,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_174122.jpg",
-          name: "Виталий Соломин",
-          enName: null,
-          description: "доктор Ватсон",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 307742,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_307742.jpg",
-          name: "Рина Зелёная",
-          enName: null,
-          description: "миссис Хадсон",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 174235,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_174235.jpg",
-          name: "Борислав Брондуков",
-          enName: null,
-          description: "инспектор Лестрейд",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 294128,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_294128.jpg",
-          name: "Виктор Евграфов",
-          enName: null,
-          description: "профессор Мориарти",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 198165,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_198165.jpg",
-          name: "Александр Захаров",
-          enName: null,
-          description: "Рональд Адэр",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 261550,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_261550.jpg",
-          name: "Борис Клюев",
-          enName: null,
-          description: "Майкрофт Холмс",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 313652,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_313652.jpg",
-          name: "Николай Крюков",
-          enName: null,
-          description: "полковник Моран",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 345958,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_345958.jpg",
-          name: "Игнат Лейрер",
-          enName: null,
-          description: null,
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 315877,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_315877.jpg",
-          name: "Анатолий Подшивалов",
-          enName: null,
-          description: "маркёр Прайс",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 273450,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_273450.jpg",
-          name: "Юрий Эллер",
-          enName: null,
-          description: null,
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 921132,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_921132.jpg",
-          name: "Дима Хрилев",
-          enName: null,
-          description: null,
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2212664,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2212664.jpg",
-          name: "Ираклий Андроников",
-          enName: null,
-          description: null,
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 298517,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_298517.jpg",
-          name: "Алексей Кожевников",
-          enName: null,
-          description: "мистер Меррей",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 200010,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_200010.jpg",
-          name: "Дмитрий Зебров",
-          enName: null,
-          description: null,
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 277575,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_277575.jpg",
-          name: "Владимир Дашкевич",
-          enName: null,
-          description: null,
-          profession: "композиторы",
-          enProfession: "composer",
-        },
-        {
-          id: 1997291,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1997291.jpg",
-          name: "Марк Каплан",
-          enName: null,
-          description: null,
-          profession: "художники",
-          enProfession: "designer",
-        },
-        {
-          id: 2003531,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2003531.jpg",
-          name: "Нелли Лев",
-          enName: null,
-          description: null,
-          profession: "художники",
-          enProfession: "designer",
-        },
-        {
-          id: 284219,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_284219.jpg",
-          name: "Игорь Масленников",
-          enName: null,
-          description: null,
-          profession: "режиссеры",
-          enProfession: "director",
-        },
-        {
-          id: 2001366,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2001366.jpg",
-          name: "Людмила Образумова",
-          enName: null,
-          description: null,
-          profession: "монтажеры",
-          enProfession: "editor",
-        },
-        {
-          id: 276887,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_276887.jpg",
-          name: "Анатолий Лапшов",
-          enName: null,
-          description: null,
-          profession: "операторы",
-          enProfession: "operator",
-        },
-        {
-          id: 281143,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_281143.jpg",
-          name: "Юрий Векслер",
-          enName: null,
-          description: null,
-          profession: "операторы",
-          enProfession: "operator",
-        },
-        {
-          id: 1750660,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1750660.jpg",
-          name: "Григорий Прусовский",
-          enName: null,
-          description: null,
-          profession: "продюсеры",
-          enProfession: "producer",
-        },
-        {
-          id: 76130,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_76130.jpg",
-          name: "Игорь Ефимов",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 318192,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_318192.jpg",
-          name: "Олег Даль",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 224383,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_224383.jpg",
-          name: "Владимир Валуцкий",
-          enName: null,
-          description: null,
-          profession: "сценаристы",
-          enProfession: "writer",
-        },
-        {
-          id: 70084,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_70084.jpg",
-          name: "Артур Конан Дойл",
-          enName: "Arthur Conan Doyle",
-          description: null,
-          profession: "сценаристы",
-          enProfession: "writer",
-        },
-      ],
-      premiere: {
-        country: null,
-        world: null,
-        russia: null,
-        digital: null,
-        cinema: null,
-        bluray: null,
-        dvd: null,
-      },
-      sequelsAndPrequels: [
-        {
-          id: 77265,
-          name: "Шерлок Холмс и доктор Ватсон: Кровавая надпись",
-          alternativeName: null,
-          enName: null,
-          type: "movie",
-          poster: {
-            url: "https://image.openmoviedb.com/kinopoisk-images/1599028/f4457949-8fd0-4a99-ad6d-55045625ce46/orig",
-            previewUrl:
-              "https://image.openmoviedb.com/kinopoisk-images/1599028/f4457949-8fd0-4a99-ad6d-55045625ce46/x1000",
-          },
-        },
-        {
-          id: 77269,
-          name: "Шерлок Холмс и доктор Ватсон: Знакомство",
-          alternativeName: null,
-          enName: null,
-          type: "movie",
-          poster: {
-            url: "https://image.openmoviedb.com/kinopoisk-images/1898899/c5ee4880-336c-428e-9829-029bb54bcf17/orig",
-            previewUrl:
-              "https://image.openmoviedb.com/kinopoisk-images/1898899/c5ee4880-336c-428e-9829-029bb54bcf17/x1000",
-          },
-        },
-        {
-          id: 368936,
-          name: "Приключения Шерлока Холмса и доктора Ватсона: Король шантажа",
-          alternativeName: null,
-          enName: null,
-          type: "movie",
-          poster: {
-            url: "https://image.openmoviedb.com/kinopoisk-images/1600647/2d95eac5-dd8d-44bb-953b-f2e98b790e5b/orig",
-            previewUrl:
-              "https://image.openmoviedb.com/kinopoisk-images/1600647/2d95eac5-dd8d-44bb-953b-f2e98b790e5b/x1000",
-          },
-        },
-        {
-          id: 368937,
-          name: "Приключения Шерлока Холмса и доктора Ватсона: Охота на тигра",
-          alternativeName: null,
-          enName: null,
-          type: "movie",
-          poster: {
-            url: "https://image.openmoviedb.com/kinopoisk-images/1704946/a363b456-4477-4318-9597-1d0dfd2ab9a7/orig",
-            previewUrl:
-              "https://image.openmoviedb.com/kinopoisk-images/1704946/a363b456-4477-4318-9597-1d0dfd2ab9a7/x1000",
-          },
-        },
-        {
-          id: 77263,
-          name: "Приключения Шерлока Холмса и доктора Ватсона: Собака Баскервилей",
-          alternativeName: null,
-          enName: null,
-          type: "movie",
-          poster: {
-            url: "https://image.openmoviedb.com/kinopoisk-images/1599028/f08ba921-02dd-4d19-9c15-757e040335d6/orig",
-            previewUrl:
-              "https://image.openmoviedb.com/kinopoisk-images/1599028/f08ba921-02dd-4d19-9c15-757e040335d6/x1000",
-          },
-        },
-        {
-          id: 77264,
-          name: "Шерлок Холмс и доктор Ватсон: Сокровища Агры",
-          alternativeName: null,
-          enName: null,
-          type: "movie",
-          poster: {
-            url: "https://image.openmoviedb.com/kinopoisk-images/1599028/4e73f6f3-fd0f-4132-8100-bf88f52496f6/orig",
-            previewUrl:
-              "https://image.openmoviedb.com/kinopoisk-images/1599028/4e73f6f3-fd0f-4132-8100-bf88f52496f6/x1000",
-          },
-        },
-        {
-          id: 77267,
-          name: "Шерлок Холмс и доктор Ватсон: Двадцатый век начинается",
-          alternativeName: null,
-          enName: null,
-          type: "movie",
-          poster: {
-            url: "https://image.openmoviedb.com/kinopoisk-images/1704946/7e38a527-c67a-46ff-a6ad-2e44d47b4710/orig",
-            previewUrl:
-              "https://image.openmoviedb.com/kinopoisk-images/1704946/7e38a527-c67a-46ff-a6ad-2e44d47b4710/x1000",
-          },
-        },
-      ],
-      watchability: {
-        items: [
-          {
-            name: "KION",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/239697/daeb142e-3ecc-4bb2-9bff-4827996643ab/orig",
-            },
-            url: "https://kion.ru/video/movie/697282197?utm_source=yandex&utm_medium=organic&utm_campaign=wizard",
-          },
-          {
-            name: "24ТВ",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/2439731/85e83b8d-1159-4781-bad5-ce0a809b3843/orig",
-            },
-            url: "https://24h.tv/contents/1980-sherlok-holms-i-doktor-vat-562683761041342783",
-          },
-          {
-            name: "Kinopoisk HD",
-            logo: {
-              url: "https://yastatic.net/s3/kinopoisk-frontend/hd-www/release/apple-touch-icon-180x180.png",
-            },
-            url: "https://hd.kinopoisk.ru/?rt=46807a953ecf150bbe2778c5da397786",
-          },
-        ],
-      },
-      top10: null,
-      top250: 147,
-      isSeries: false,
-      ticketsOnSale: false,
-      lists: ["top250", "top500", "top-250-2020", "hd"],
-      networks: null,
-      createdAt: "2024-04-13T01:57:10.875Z",
-      updatedAt: "2025-03-10T01:00:46.827Z",
-      isTmdbChecked: true,
     },
     {
       id: 3707,
@@ -5263,1055 +7296,7 @@ const initialMovies = {
       },
       isTmdbChecked: true,
     },
-    {
-      id: 425400,
-      externalId: {
-        kpHD: "41f8048f3544fca6ae08ec7f598ce0d9",
-        imdb: "tt1255953",
-        tmdb: 46738,
-      },
-      name: "Пожары",
-      alternativeName: "Incendies",
-      enName: null,
-      names: [
-        {
-          name: "Incêndios",
-          language: "BR",
-          type: null,
-        },
-        {
-          name: "Pogorzelisko",
-          language: "PL",
-          type: null,
-        },
-        {
-          name: "Felperzselt föld",
-          language: "HU",
-          type: null,
-        },
-        {
-          name: "La donna che canta",
-          language: "IT",
-          type: null,
-        },
-        {
-          name: "烈火焚身",
-          language: "TW",
-          type: null,
-        },
-        {
-          name: "母亲的告白",
-          language: "CN",
-          type: null,
-        },
-        {
-          name: "焦头烂额",
-          language: "CN",
-          type: null,
-        },
-        {
-          name: "烈火焚城",
-          language: "CN",
-          type: null,
-        },
-        {
-          name: "中东的希腊悲剧",
-          language: "CN",
-          type: null,
-        },
-        {
-          name: "烈火焚身",
-          language: "CN",
-          type: null,
-        },
-        {
-          name: "Изпепелени",
-          language: "BG",
-          type: null,
-        },
-        {
-          name: "Pozáry",
-          language: "CZ",
-          type: null,
-        },
-        {
-          name: "Nawals hemmelighed",
-          language: "DK",
-          type: null,
-        },
-        {
-          name: "Nawals hemmelighet - Incendies",
-          language: "NO",
-          type: null,
-        },
-        {
-          name: "Incendies - Nawals Hemmelighet",
-          language: "NO",
-          type: null,
-        },
-        {
-          name: "그을린 사랑",
-          language: "KR",
-          type: null,
-        },
-        {
-          name: "灼熱の魂（La donna che canta）",
-          language: "JP",
-          type: null,
-        },
-        {
-          name: "Die Frau, die singt",
-          language: "DE",
-          type: null,
-        },
-      ],
-      type: "movie",
-      typeNumber: 1,
-      year: 2010,
-      description:
-        "Когда брат и сестра Марван ознакомились с завещанием матери, их удивлению не было предела. Её последней волей было разыскать отца, которого близнецы считали умершим, и брата, о существовании которого они даже не подозревали. Жанна и Симон узнают, что мать тщательно скрывала от них многие обстоятельства своей трагической судьбы.",
-      shortDescription:
-        "Брат и сестра узнают о страшном прошлом умершей матери. Драма Дени Вильнёва о жертвах ближневосточных войн",
-      slogan: "The search began at the opening of their mother's will.",
-      status: null,
-      rating: {
-        kp: 8.05,
-        imdb: 8.3,
-        filmCritics: 8,
-        russianFilmCritics: 66.6667,
-        await: null,
-      },
-      votes: {
-        kp: 150624,
-        imdb: 221803,
-        filmCritics: 126,
-        russianFilmCritics: 3,
-        await: 0,
-      },
-      movieLength: 131,
-      totalSeriesLength: null,
-      seriesLength: null,
-      ratingMpaa: "r",
-      ageRating: 18,
-      poster: {
-        url: "https://image.openmoviedb.com/kinopoisk-images/4303601/40b4b961-07ab-4ce3-892f-63d6bd1fabc6/orig",
-        previewUrl:
-          "https://image.openmoviedb.com/kinopoisk-images/4303601/40b4b961-07ab-4ce3-892f-63d6bd1fabc6/x1000",
-      },
-      backdrop: {
-        url: "https://image.openmoviedb.com/kinopoisk-ott-images/1534341/2a0000017fff5812f055d71d941aeac64090/orig",
-        previewUrl:
-          "https://image.openmoviedb.com/kinopoisk-ott-images/1534341/2a0000017fff5812f055d71d941aeac64090/x1000",
-      },
-      genres: [
-        {
-          name: "драма",
-        },
-        {
-          name: "детектив",
-        },
-        {
-          name: "военный",
-        },
-      ],
-      countries: [
-        {
-          name: "Канада",
-        },
-        {
-          name: "Франция",
-        },
-      ],
-      persons: [
-        {
-          id: 383354,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_383354.jpg",
-          name: "Лубна Азабаль",
-          enName: "Lubna Azabal",
-          description: "Nawal Marwan / Simon and Jeanne's mother",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 461312,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_461312.jpg",
-          name: "Мелисса Дезормо-Полен",
-          enName: "Mélissa Désormeaux-Poulin",
-          description: "Jeanne Marwan / Simon's sister",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 380416,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_380416.jpg",
-          name: "Максим Годетт",
-          enName: "Maxim Gaudette",
-          description: "Simon Marwan / Jeanne's twin brother",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 64982,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_64982.jpg",
-          name: "Реми Жирар",
-          enName: "Rémy Girard",
-          description: "Jean Lebel / Notaire-notary",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 1959764,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1959764.jpg",
-          name: "Аллен Олтмэн",
-          enName: "Allen Altman",
-          description: "Notaire Maddad",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 1729485,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1729485.jpg",
-          name: "Абдельхафур Элаазиз",
-          enName: "Abdelghafour Elaaziz",
-          description: "Abou Tarek",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736697,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736697.jpg",
-          name: "Мустафа Камель",
-          enName: "Mustafa Kamel",
-          description: "Barbier de la Milice / Officer Milice Chrétienne",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736698,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736698.jpg",
-          name: "Хуссейн Сами",
-          enName: "Hussein Sami",
-          description: "Nihad / 5 ans / y.o.",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 176700,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_176700.jpg",
-          name: "Доминик Бриан",
-          enName: "Dominique Briand",
-          description: "Professor Niv Cohen",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 725360,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_725360.jpg",
-          name: "Фридерик Паке",
-          enName: "Frédéric Paquet",
-          description: "Médecin a l'urgence / Emergency doctor",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736699,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736699.jpg",
-          name: "Хамед Найем",
-          enName: "Hamed Najem",
-          description: "Wahab",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2633680,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2633680.jpg",
-          name: "Ахмад Массад",
-          enName: "Ahmad Massad",
-          description: "Bassem Marwan",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 1522284,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1522284.jpg",
-          name: "Бадер Алами",
-          enName: "Bader Alami",
-          description: "Nicolas Marwan",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736700,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736700.jpg",
-          name: "Маджида Хуссейн",
-          enName: "Majida Hussein",
-          description: "Grand-mére de Nawal",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736701,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736701.jpg",
-          name: "Асрия Ниджрес",
-          enName: "Asriah Nijres",
-          description: "Sage-Femme",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 57980,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_57980.jpg",
-          name: "Джон Данн-Хилл",
-          enName: "John Dunn-Hill",
-          description: "Professeur Saïd Haidar",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736702,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736702.jpg",
-          name: "Надя Эссадики",
-          enName: "Nadia Essadiqi",
-          description: "Secrétaire Université",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736703,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736703.jpg",
-          name: "Чауки Чарбаль",
-          enName: "Chaouki Charbel",
-          description: "Professeur Université",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736704,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736704.jpg",
-          name: "Аксель Гарби",
-          enName: "Axel Garbi",
-          description: "Universitaire #1",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736705,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736705.jpg",
-          name: "Амин Бензеин",
-          enName: "Amine Benzenine",
-          description: "Universitaire #2",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2639431,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2639431.jpg",
-          name: "Джойс Райе",
-          enName: "Joyce Raie",
-          description: "Étudiante Journaliste",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2639432,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2639432.jpg",
-          name: "Селин Соулер",
-          enName: "Celine Soulier",
-          description: "Journaliste Française",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736706,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736706.jpg",
-          name: "Сумая Эл-Аттиа",
-          enName: "Sumaya Al-Attia",
-          description: "Rafqa (в титрах: Sumaya Attia)",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736707,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736707.jpg",
-          name: "Мохаммад Рашид Аджлуни",
-          enName: "Moh'd Rashed Ajlouni",
-          description:
-            "Étudiant à Bout de Souffle (в титрах: Mohammad Rasheed Ajlouni)",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 1832177,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1832177.jpg",
-          name: "Набил Кони",
-          enName: "Nabil Koni",
-          description: "Oncle Charbel",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2344144,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2344144.jpg",
-          name: "Лайла Кутуб",
-          enName: "Laila Qutub",
-          description: "Jeune Cousine de Nawal",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736708,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736708.jpg",
-          name: "Раха’а Хикма",
-          enName: "Raja'a Hikma",
-          description: "Tante de Nawal",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736709,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736709.jpg",
-          name: "Рэнд Фарис",
-          enName: "Rand Faris",
-          description: "Autre Cousine de Nawal",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736710,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736710.jpg",
-          name: "Хайеф Маджид Мубарак",
-          enName: "Hayef Majeed Mubarak",
-          description: "Voisin",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736711,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736711.jpg",
-          name: "Сулван Дауд",
-          enName: "Sulwan Daoud",
-          description: "Soldat Checkpoint #1",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736712,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736712.jpg",
-          name: "Нафех Ниам",
-          enName: "Nafeh Niam",
-          description: "Soldat Checkpoint #2",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736713,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736713.jpg",
-          name: "Видад Шафаго",
-          enName: "Widad Shafago",
-          description: "Demme à l'orphelinat",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736714,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736714.jpg",
-          name: "Бакер Каббани",
-          enName: "Baker Kabbani",
-          description: "Vieux Berger",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736715,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736715.jpg",
-          name: "Базель Карим Хазем",
-          enName: "Basel Karim Hazem",
-          description: "Conducteur Autobus",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 20305,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_20305.jpg",
-          name: "Джеки Совирис",
-          enName: "Jackie Sawiris",
-          description: "Mére",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736716,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736716.jpg",
-          name: "Нура Валид",
-          enName: "Noura Waleed",
-          description: "Fillette",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736717,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736717.jpg",
-          name: "Камал Фанни",
-          enName: "Kamal Fanni",
-          description: "Milicien #1",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736718,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736718.jpg",
-          name: "Абдулла Хвеиди",
-          enName: "Abdallah Hweidi",
-          description: "Milicien #2",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736719,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736719.jpg",
-          name: "Фирас Фанни",
-          enName: "Firas Fanni",
-          description: "Milicien #3",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736720,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736720.jpg",
-          name: "Рамзи Фанни",
-          enName: "Ramzi Fanni",
-          description: "Milicien #4",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736721,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736721.jpg",
-          name: "ФаДель АбДель Латиф",
-          enName: "Fadel Abdel Latif",
-          description: "Épicier",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2470953,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2470953.jpg",
-          name: "Али Хуссейн",
-          enName: "Ali Hussein",
-          description: "Ahmed",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736722,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736722.jpg",
-          name: "Зейнаб Мохаммад",
-          enName: "Zeinab Mohammad",
-          description: "Jeunne Fille à la Porte",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736723,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736723.jpg",
-          name: "Рехаб Хазим",
-          enName: "Rehab Hazim",
-          description: "Fillette",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736724,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736724.jpg",
-          name: "Барака Рахмани",
-          enName: "Baraka Rahmani",
-          description: "Samia",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736725,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736725.jpg",
-          name: "Яда Махмуд",
-          enName: "Yada Mahmoud",
-          description: "Femme #1",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736726,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736726.jpg",
-          name: "Хадил Хишам",
-          enName: "Hadeel Hisham",
-          description: "Femme #2",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736727,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736727.jpg",
-          name: "Хинд Камел",
-          enName: "Hind Kamel",
-          description: "Femme #3",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2736728,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2736728.jpg",
-          name: "Расмейех Лефти",
-          enName: "Rasmeyeh Leftey",
-          description: "Souha",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 1291611,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1291611.jpg",
-          name: "Лара Аталла",
-          enName: "Lara Atalla",
-          description: "Femme en Colére #1",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 640064,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_640064.jpg",
-          name: "Грегуар Хецель",
-          enName: "Grégoire Hetzel",
-          description: null,
-          profession: "композиторы",
-          enProfession: "composer",
-        },
-        {
-          id: 2021187,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2021187.jpg",
-          name: "Андре-Лине Бопарлан",
-          enName: "André-Line Beauparlant",
-          description: null,
-          profession: "художники",
-          enProfession: "designer",
-        },
-        {
-          id: 2025799,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2025799.jpg",
-          name: "Софи Лефевр",
-          enName: "Sophie Lefebvre",
-          description: null,
-          profession: "художники",
-          enProfession: "designer",
-        },
-        {
-          id: 1987186,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1987186.jpg",
-          name: "Рана Эббут",
-          enName: "Rana Abboot",
-          description: null,
-          profession: "художники",
-          enProfession: "designer",
-        },
-        {
-          id: 1987187,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1987187.jpg",
-          name: "Мари-Солей Деном",
-          enName: "Marie-Soleil Dénommé",
-          description: null,
-          profession: "художники",
-          enProfession: "designer",
-        },
-        {
-          id: 1987188,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1987188.jpg",
-          name: "Амин Шариф Эль Масри",
-          enName: "Amin Charif El Masri",
-          description: null,
-          profession: "художники",
-          enProfession: "designer",
-        },
-        {
-          id: 1987189,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1987189.jpg",
-          name: "Филипп Лорд",
-          enName: "Philippe Lord",
-          description: null,
-          profession: "художники",
-          enProfession: "designer",
-        },
-        {
-          id: 415350,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_415350.jpg",
-          name: "Дени Вильнёв",
-          enName: "Denis Villeneuve",
-          description: null,
-          profession: "режиссеры",
-          enProfession: "director",
-        },
-        {
-          id: 1181010,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1181010.jpg",
-          name: "Моника Дартонн",
-          enName: "Monique Dartonne",
-          description: null,
-          profession: "монтажеры",
-          enProfession: "editor",
-        },
-        {
-          id: 415349,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_415349.jpg",
-          name: "Андре Тюрпен",
-          enName: "André Turpin",
-          description: null,
-          profession: "операторы",
-          enProfession: "operator",
-        },
-        {
-          id: 974730,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_974730.jpg",
-          name: "Люк Дери",
-          enName: "Luc Déry",
-          description: null,
-          profession: "продюсеры",
-          enProfession: "producer",
-        },
-        {
-          id: 994273,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_994273.jpg",
-          name: "Ким МакКроу",
-          enName: "Kim McCraw",
-          description: null,
-          profession: "продюсеры",
-          enProfession: "producer",
-        },
-        {
-          id: 793196,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_793196.jpg",
-          name: "Энтони Донк",
-          enName: "Anthony Doncque",
-          description: null,
-          profession: "продюсеры",
-          enProfession: "producer",
-        },
-        {
-          id: 1637715,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1637715.jpg",
-          name: "Фиби Гринберг",
-          enName: "Phoebe Greenberg",
-          description: null,
-          profession: "продюсеры",
-          enProfession: "producer",
-        },
-        {
-          id: 2673932,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2673932.jpg",
-          name: "Татьяна Литвинова",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 1801182,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1801182.jpg",
-          name: "Василиса Ушакова",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 6413666,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_6413666.jpg",
-          name: "Никита Крахмалев",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 37392,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_37392.jpg",
-          name: "Максим Сергеев",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 4548805,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4548805.jpg",
-          name: "Александр Васильев",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 4224285,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4224285.jpg",
-          name: "Игорь Ушаков",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 415350,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_415350.jpg",
-          name: "Дени Вильнёв",
-          enName: "Denis Villeneuve",
-          description: null,
-          profession: "сценаристы",
-          enProfession: "writer",
-        },
-        {
-          id: 2276729,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2276729.jpg",
-          name: "Валери Богран-Шампань",
-          enName: "Valérie Beaugrand-Champagne",
-          description: null,
-          profession: "сценаристы",
-          enProfession: "writer",
-        },
-        {
-          id: 560967,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_560967.jpg",
-          name: "Важди Мувад",
-          enName: "Wajdi Mouawad",
-          description: null,
-          profession: "сценаристы",
-          enProfession: "writer",
-        },
-        {
-          id: 1637716,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1637716.jpg",
-          name: "Пенни Манкусо",
-          enName: "Penny Mancuso",
-          description: null,
-          profession: "продюсеры",
-          enProfession: "producer",
-        },
-      ],
-      budget: {
-        currency: "$",
-        value: 6800000,
-      },
-      premiere: {
-        country: null,
-        cinema: null,
-        bluray: null,
-        digital: "2022-04-15T00:00:00.000Z",
-        dvd: "2012-03-08T00:00:00.000Z",
-        russia: "2011-12-15T00:00:00.000Z",
-        world: "2010-09-03T00:00:00.000Z",
-      },
-      watchability: {
-        items: [
-          {
-            name: "Okko",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/239697/7713e586-17d1-42d1-ac62-53e9ef1e70c3/orig",
-            },
-            url: "https://okko.tv/movie/incendies?utm_medium=referral&utm_source=yandex_search&utm_campaign=new_search_feed",
-          },
-          {
-            name: "Иви",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/2419418/0dfd1724-848f-4725-9160-abc571f41c11/orig",
-            },
-            url: "https://www.ivi.ru/watch/109241?utm_source=yandex&utm_medium=wizard",
-          },
-          {
-            name: "START",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/239697/1a632675-0d99-4268-bd5e-d5f3dd800174/orig",
-            },
-            url: "https://start.ru/watch/pozhary?utm_source=kinopoisk&utm_medium=feed_watch&utm_campaign=pozhary",
-          },
-          {
-            name: "KION",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/239697/daeb142e-3ecc-4bb2-9bff-4827996643ab/orig",
-            },
-            url: "https://kion.ru/video/movie/570645877?utm_source=yandex&utm_medium=organic&utm_campaign=wizard",
-          },
-          {
-            name: "PREMIER",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/239697/0f86e907-9531-47e9-87bd-5101a08d4e30/orig",
-            },
-            url: "https://premier.one/show/19035?utm_source=yandex&utm_medium=yandex_feed_search&utm_campaign=yandex_feed",
-          },
-          {
-            name: "Триколор Кино и ТВ",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/239697/947e777c-2f73-4cbc-b09d-6bfa3966ba13/orig",
-            },
-            url: "https://kino.tricolor.tv/watch/pozhary-2010/",
-          },
-          {
-            name: "Wink",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/1672343/54096cbe-cc3b-41c9-8e44-990ebbca8d61/orig",
-            },
-            url: "https://wink.ru/media_items/141319345?utm_source=yandex&utm_medium=koldunschick&utm_content=name",
-          },
-          {
-            name: "Большое ТВ",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/2439731/17c7ebcf-41aa-48b6-9366-621a85f1307a/orig",
-            },
-            url: "https://bolshoe.tv/promo/web/movie/41933?segment=yandex_feed&group=peoples&utm_medium=ya_feed&utm_campaign=ya_feed_41933",
-          },
-          {
-            name: "НТВ-ПЛЮС Онлайн ТВ",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/223007/c6b9b3d8-3258-4394-9cae-c86fdb56a0c6/orig",
-            },
-            url: "https://ntvplus.tv/watch/26507-pozhary?utm_source=kinopoisk",
-          },
-          {
-            name: "24ТВ",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/2439731/85e83b8d-1159-4781-bad5-ce0a809b3843/orig",
-            },
-            url: "https://24h.tv/contents/2010-incendies-653897692918675085",
-          },
-          {
-            name: "Kinopoisk HD",
-            logo: {
-              url: "https://yastatic.net/s3/kinopoisk-frontend/hd-www/release/apple-touch-icon-180x180.png",
-            },
-            url: "https://hd.kinopoisk.ru/?rt=41f8048f3544fca6ae08ec7f598ce0d9",
-          },
-        ],
-      },
-      top10: null,
-      top250: 84,
-      isSeries: false,
-      audience: [
-        {
-          count: 430816,
-          country: "Канада",
-        },
-        {
-          count: 321471,
-          country: "Франция",
-        },
-        {
-          count: 258840,
-          country: "США",
-        },
-      ],
-      ticketsOnSale: false,
-      lists: ["top250", "top500", "popular-films", "rotten-tomatoes", "hd"],
-      networks: null,
-      createdAt: "2024-04-13T02:06:07.996Z",
-      updatedAt: "2025-03-11T01:00:54.592Z",
-      fees: {
-        russia: {
-          value: 6257,
-          currency: "$",
-        },
-        usa: {
-          value: 2071334,
-          currency: "$",
-        },
-        world: {
-          value: 3548768,
-          currency: "$",
-        },
-      },
-      videos: {
-        trailers: [
-          {
-            url: "https://www.youtube.com/embed/XJ69WnwvZhE",
-            name: "Official Trailer",
-            site: "youtube",
-            type: "TRAILER",
-          },
-        ],
-      },
-      logo: {
-        url: "https://image.openmoviedb.com/tmdb-images/original/26Mtj2VLRXiQzqjwkAQ6uH18ATj.png",
-        previewUrl:
-          "https://image.openmoviedb.com/tmdb-images/w500/26Mtj2VLRXiQzqjwkAQ6uH18ATj.png",
-      },
-      isTmdbChecked: true,
-    },
+
     {
       id: 425400,
       externalId: {
@@ -9526,2039 +10511,6 @@ const initialMovies = {
       networks: null,
       createdAt: "2024-04-13T02:09:48.072Z",
       updatedAt: "2025-03-10T01:00:46.827Z",
-      isTmdbChecked: true,
-    },
-    {
-      id: 1108571,
-      externalId: {
-        kpHD: "46699d8b8013479e9d6d7f940e0b43d3",
-        imdb: "tt6741368",
-        tmdb: 458302,
-      },
-      name: "Приключения Реми",
-      alternativeName: "Rémi sans famille",
-      enName: null,
-      names: [
-        {
-          name: "Pryhody malenkoho Remi",
-          language: "UA",
-          type: "Transliteration",
-        },
-        {
-          name: "Без семьи",
-          language: "RU",
-          type: null,
-        },
-        {
-          name: "Les aventures de Rémi",
-          language: "CA",
-          type: "Français",
-        },
-        {
-          name: "O Pequeno Órfão",
-          language: "BR",
-          type: null,
-        },
-        {
-          name: "Remi Sans Famille",
-          language: "US",
-          type: null,
-        },
-      ],
-      type: "movie",
-      typeNumber: 1,
-      year: 2018,
-      description:
-        "Удивительное путешествие по Франции маленького Реми в компании уличного музыканта, обезьянки и цирковой собаки.  Вместе им предстоит пережить неожиданные встречи, приключения и испытания, чтобы раскрыть тайну происхождения мальчика.",
-      shortDescription:
-        "Мальчик Реми и уличный артист Виталис бродят по Франции XIX века. Красивая авантюрная мелодрама для всей семьи",
-      slogan: null,
-      status: null,
-      rating: {
-        kp: 8.335,
-        imdb: 7.1,
-        filmCritics: 0,
-        russianFilmCritics: 0,
-        await: null,
-      },
-      votes: {
-        kp: 113091,
-        imdb: 3204,
-        filmCritics: 0,
-        russianFilmCritics: 1,
-        await: 0,
-      },
-      movieLength: 105,
-      totalSeriesLength: null,
-      seriesLength: null,
-      ratingMpaa: null,
-      ageRating: 18,
-      poster: {
-        url: "https://image.openmoviedb.com/kinopoisk-images/1599028/3bb8ef0f-0230-4eeb-acb0-e2b44329de37/orig",
-        previewUrl:
-          "https://image.openmoviedb.com/kinopoisk-images/1599028/3bb8ef0f-0230-4eeb-acb0-e2b44329de37/x1000",
-      },
-      backdrop: {
-        url: "https://image.openmoviedb.com/kinopoisk-ott-images/1652588/2a0000016d1fad5a7fa59ff75917c900760d/orig",
-        previewUrl:
-          "https://image.openmoviedb.com/kinopoisk-ott-images/1652588/2a0000016d1fad5a7fa59ff75917c900760d/x1000",
-      },
-      genres: [
-        {
-          name: "мелодрама",
-        },
-        {
-          name: "приключения",
-        },
-        {
-          name: "семейный",
-        },
-      ],
-      countries: [
-        {
-          name: "Франция",
-        },
-        {
-          name: "Бельгия",
-        },
-      ],
-      persons: [
-        {
-          id: 5001216,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5001216.jpg",
-          name: "Малом Пакуин",
-          enName: "Maleaume Paquin",
-          description: "Rémi",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 11670,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_11670.jpg",
-          name: "Даниель Отой",
-          enName: "Daniel Auteuil",
-          description: "Vitalis",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 42004,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_42004.jpg",
-          name: "Виржини Ледуайен",
-          enName: "Virginie Ledoyen",
-          description: "Mme Harper",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 44104,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_44104.jpg",
-          name: "Жонатан Заккаи",
-          enName: "Jonathan Zaccaï",
-          description: "Jérôme Barberin",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 41906,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_41906.jpg",
-          name: "Жак Перрен",
-          enName: "Jacques Perrin",
-          description: "Rémi âgé",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 5035,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5035.jpg",
-          name: "Людивин Санье",
-          enName: "Ludivine Sagnier",
-          description: "Mme Barberin",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 4939642,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4939642.jpg",
-          name: "Альбан Массон",
-          enName: "Albane Masson",
-          description: "Lise",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 1605363,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1605363.jpg",
-          name: "Зои Бойл",
-          enName: "Zoe Boyle",
-          description: "Mme Milligan",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 13302,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_13302.jpg",
-          name: "Николас Роу",
-          enName: "Nicholas Rowe",
-          description: "James Milligan",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 38170,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_38170.jpg",
-          name: "Никола Даффетт",
-          enName: "Nicola Duffett",
-          description: "Mrs. Driscoll",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 1136501,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1136501.jpg",
-          name: "Саймон Армстронг",
-          enName: "Simon Armstrong",
-          description: "Mr. Driscoll",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 4413451,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4413451.jpg",
-          name: "Флер Жеффрие",
-          enName: "Fleur Geffrier",
-          description: "Dame auberge",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 793125,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_793125.jpg",
-          name: "Жером Кашон",
-          enName: "Jérôme Cachon",
-          description: "Gendarme Albi",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 462835,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_462835.jpg",
-          name: "Ксавьер Лафит",
-          enName: "Xavier Lafitte",
-          description: "Docteur",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 1751782,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1751782.jpg",
-          name: "Эллиот Буссон",
-          enName: "Elliot Bousson",
-          description: "Eliott",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 4734817,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4734817.jpg",
-          name: "Осеан Ле Коссен",
-          enName: "Océane Le Caoussin",
-          description: "Betty",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 4734818,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4734818.jpg",
-          name: "Марго Ле Коссен",
-          enName: "Margaux Le Caoussin",
-          description: "Eloïse",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 5616594,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5616594.jpg",
-          name: "Саид Алами",
-          enName: "Saïd Alami",
-          description: "Bradley Driscoll",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 1967998,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1967998.jpg",
-          name: "Ксавьер Потье",
-          enName: "Xavier Pottier",
-          description: "Patron de bar",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 56470,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_56470.jpg",
-          name: "Кармен Ферланд",
-          enName: "Carmen Ferland",
-          description: "Gouvernante Milligan (в титрах: Carmen Ferlan)",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 1091689,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1091689.jpg",
-          name: "Бенуа Бертон",
-          enName: "Benoît Berthon",
-          description: "Gendarme subalterne Albi",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 1280200,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1280200.jpg",
-          name: "Режис Мэйнард",
-          enName: "Régis Maynard",
-          description: "Paysan",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 465687,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_465687.jpg",
-          name: "Седрик Вебер",
-          enName: "Cédric Weber",
-          description: "Aubergiste",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 41636,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_41636.jpg",
-          name: "Ксавье Мали",
-          enName: "Xavier Maly",
-          description: "Curé Chavanon",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 1748740,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1748740.jpg",
-          name: "Джонатан Вейт",
-          enName: "Jonathan Waite",
-          description: "Majordome Toulouse",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 227356,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_227356.jpg",
-          name: "Венсан Жуан",
-          enName: "Vincent Jouan",
-          description: "Le juge",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 1163984,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1163984.jpg",
-          name: "Жан-Ив Лемуан",
-          enName: "Jean-Yves Lemoine",
-          description: "Commissaire de police (в титрах: Jean-Yves R. Lemoine)",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 736124,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_736124.jpg",
-          name: "Рафаэль Симонет",
-          enName: "Raphaël Simonet",
-          description: "Fermier 1",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 3035409,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3035409.jpg",
-          name: "Элоиз Жене",
-          enName: "Eloïse Genet",
-          description: "Villageoise Chavanon",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 5616595,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5616595.jpg",
-          name: "Лорен Беляш",
-          enName: "Laurent Belhache",
-          description: "Doublure Vitalis",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 5135502,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5135502.jpg",
-          name: "Мишель Грос",
-          enName: "Michel Gros",
-          description: "Doublure Vitalis",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 5616596,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5616596.jpg",
-          name: "Матис Гийон",
-          enName: "Mathis Guillon",
-          description: "Doublure Rémi",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 5616597,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5616597.jpg",
-          name: "Татис Лаборд-Раффель",
-          enName: "Tatis Laborde-Raffel",
-          description: "Doublure Rémi",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 5616598,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5616598.jpg",
-          name: "Эктор Бори",
-          enName: "Hector Borie",
-          description: "Doublure Rémi",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 5616599,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5616599.jpg",
-          name: "Вирджиния Шардон",
-          enName: "Virginie Chardon",
-          description: "Doublure Rémi nuit",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 4117511,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4117511.jpg",
-          name: "Николас де Лавернь",
-          enName: "Nicolas de Lavergne",
-          description: null,
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 5341725,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5341725.jpg",
-          name: "Себастьен Лашери",
-          enName: "Sebastien Lacheray",
-          description: null,
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2825155,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2825155.jpg",
-          name: "Руперт Уинн-Джеймс",
-          enName: "Rupert Wynne-James",
-          description: null,
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 762706,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_762706.jpg",
-          name: "Ромарик Лоуренс",
-          enName: "Romaric Laurence",
-          description: null,
-          profession: "композиторы",
-          enProfession: "composer",
-        },
-        {
-          id: 1986871,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1986871.jpg",
-          name: "Себастьен Инизан",
-          enName: "Sébastien Inizan",
-          description: null,
-          profession: "художники",
-          enProfession: "designer",
-        },
-        {
-          id: 1987675,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1987675.jpg",
-          name: "Патрик Шмитт",
-          enName: "Patrick Schmitt",
-          description: null,
-          profession: "художники",
-          enProfession: "designer",
-        },
-        {
-          id: 2004774,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2004774.jpg",
-          name: "Агнес Безье",
-          enName: "Agnes Beziers",
-          description: null,
-          profession: "художники",
-          enProfession: "designer",
-        },
-        {
-          id: 2473121,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2473121.jpg",
-          name: "Антуан Блоссье",
-          enName: "Antoine Blossier",
-          description: null,
-          profession: "режиссеры",
-          enProfession: "director",
-        },
-        {
-          id: 3226156,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3226156.jpg",
-          name: "Стефан Гарнье",
-          enName: "Stéphane Garnier",
-          description: null,
-          profession: "монтажеры",
-          enProfession: "editor",
-        },
-        {
-          id: 868728,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_868728.jpg",
-          name: "Ромейн Лакурбас",
-          enName: "Romain Lacourbas",
-          description: null,
-          profession: "операторы",
-          enProfession: "operator",
-        },
-        {
-          id: 231346,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_231346.jpg",
-          name: "Эрик Йехельманн",
-          enName: "Eric Jehelmann",
-          description: null,
-          profession: "продюсеры",
-          enProfession: "producer",
-        },
-        {
-          id: 226565,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_226565.jpg",
-          name: "Филипп Руссле",
-          enName: "Philippe Rousselet",
-          description: null,
-          profession: "продюсеры",
-          enProfession: "producer",
-        },
-        {
-          id: 676527,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_676527.jpg",
-          name: "Фабрис Джанферми",
-          enName: "Fabrice Gianfermi",
-          description: null,
-          profession: "продюсеры",
-          enProfession: "producer",
-        },
-        {
-          id: 4750160,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4750160.jpg",
-          name: "Седрик Иланд",
-          enName: "Cédric Iland",
-          description: null,
-          profession: "продюсеры",
-          enProfession: "producer",
-        },
-        {
-          id: 1159783,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1159783.jpg",
-          name: "Ольга Шорохова",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 273180,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_273180.jpg",
-          name: "Никита Прозоровский",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 1824212,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1824212.jpg",
-          name: "Наталья Грачёва",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 1557066,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1557066.jpg",
-          name: "Антон Эльдаров",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 2956583,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2956583.jpg",
-          name: "Владимир Левашёв",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 4165159,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4165159.jpg",
-          name: "Татьяна Манетина",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 3713007,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3713007.jpg",
-          name: "Ульяна Куликова",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 1649331,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1649331.jpg",
-          name: "Наталья Фищук",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 1232680,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1232680.jpg",
-          name: "Илья Бледный",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 297868,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_297868.jpg",
-          name: "Ирина Савина",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 257034,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_257034.jpg",
-          name: "Валерий Сторожик",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 4950190,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4950190.jpg",
-          name: "Маргарита Корш",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 273498,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_273498.jpg",
-          name: "Михаил Тихонов",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 4544457,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4544457.jpg",
-          name: "Евгений Рубцов",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 2221788,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2221788.jpg",
-          name: "Александр Запорожец",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 6268494,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_6268494.jpg",
-          name: "Алиса Смирнова",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 5662719,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5662719.jpg",
-          name: "Милана Скударева",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 1539232,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1539232.jpg",
-          name: "Сергей Чихачёв",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 2473121,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2473121.jpg",
-          name: "Антуан Блоссье",
-          enName: "Antoine Blossier",
-          description: null,
-          profession: "сценаристы",
-          enProfession: "writer",
-        },
-        {
-          id: 559071,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_559071.jpg",
-          name: "Гектор Мало",
-          enName: "Hector Malot",
-          description: null,
-          profession: "сценаристы",
-          enProfession: "writer",
-        },
-        {
-          id: 6851705,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_6851705.jpg",
-          name: "Тосики Кумагаи",
-          enName: "Toshiki Kumagai",
-          description: null,
-          profession: "актеры",
-          enProfession: "actor",
-        },
-      ],
-      premiere: {
-        country: null,
-        cinema: null,
-        bluray: null,
-        dvd: null,
-        digital: "2019-09-16T00:00:00.000Z",
-        russia: "2019-07-25T00:00:00.000Z",
-        world: "2018-09-30T00:00:00.000Z",
-      },
-      watchability: {
-        items: [
-          {
-            name: "Okko",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/239697/7713e586-17d1-42d1-ac62-53e9ef1e70c3/orig",
-            },
-            url: "https://okko.tv/movie/remi-sans-famille?utm_medium=referral&utm_source=yandex_search&utm_campaign=new_search_feed",
-          },
-          {
-            name: "Иви",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/2419418/0dfd1724-848f-4725-9160-abc571f41c11/orig",
-            },
-            url: "https://www.ivi.ru/watch/223677?utm_source=yandex&utm_medium=wizard",
-          },
-          {
-            name: "PREMIER",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/239697/0f86e907-9531-47e9-87bd-5101a08d4e30/orig",
-            },
-            url: "https://premier.one/show/10214?utm_source=yandex&utm_medium=yandex_feed_search&utm_campaign=yandex_feed",
-          },
-          {
-            name: "Триколор Кино и ТВ",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/239697/947e777c-2f73-4cbc-b09d-6bfa3966ba13/orig",
-            },
-            url: "https://kino.tricolor.tv/watch/priklyucheniya-remi-2018/",
-          },
-          {
-            name: "Кино1ТВ",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/1672343/4e5f7a8e-d5ac-4904-9fc0-208753ccf520/orig",
-            },
-            url: "https://kino.1tv.ru/serials/priklyucheniya-remi?utm_source=yandex&utm_medium=wizard",
-          },
-          {
-            name: "Wink",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/1672343/54096cbe-cc3b-41c9-8e44-990ebbca8d61/orig",
-            },
-            url: "https://wink.ru/media_items/84327775?utm_source=yandex&utm_medium=koldunschick&utm_content=name",
-          },
-          {
-            name: "24ТВ",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/2439731/85e83b8d-1159-4781-bad5-ce0a809b3843/orig",
-            },
-            url: "https://24h.tv/contents/2018-remi-sans-famille-722384456793450386",
-          },
-          {
-            name: "VK Видео",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/236744/144e68b3-ba95-46ca-bf79-bf771516eea3/orig",
-            },
-            url: "https://vk.com/video-203654344_456239294",
-          },
-          {
-            name: "Смотрёшка",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/236744/c88e652e-2eb1-472d-b636-a266364dbf58/orig",
-            },
-            url: "https://smotreshka.tv/archive/5de496ecb7ee6b36c71790a3?utm_source=yandex_search&utm_campaign=yandex_feed&utm_term=archive&utm_content=archive",
-          },
-          {
-            name: "KION",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/239697/daeb142e-3ecc-4bb2-9bff-4827996643ab/orig",
-            },
-            url: "https://kion.ru/video/movie/1107611530?utm_source=yandex&utm_medium=organic&utm_campaign=wizard",
-          },
-          {
-            name: "Kinopoisk HD",
-            logo: {
-              url: "https://yastatic.net/s3/kinopoisk-frontend/hd-www/release/apple-touch-icon-180x180.png",
-            },
-            url: "https://hd.kinopoisk.ru/?rt=46699d8b8013479e9d6d7f940e0b43d3",
-          },
-        ],
-      },
-      top10: null,
-      top250: 136,
-      isSeries: false,
-      ticketsOnSale: false,
-      lists: ["top250", "top500", "hd-family", "hd"],
-      networks: null,
-      createdAt: "2024-04-13T02:10:10.681Z",
-      updatedAt: "2025-03-11T01:00:54.592Z",
-      fees: {
-        russia: {
-          value: 121143,
-          currency: "$",
-        },
-        world: {
-          value: 7443906,
-          currency: "$",
-        },
-      },
-      videos: {
-        trailers: [
-          {
-            url: "https://www.youtube.com/embed/liXHciCs0w4",
-            name: "Приключения Реми - дублированный трейлер",
-            site: "youtube",
-            type: "TRAILER",
-          },
-          {
-            url: "https://www.youtube.com/embed/cM20ZJ2UjOg",
-            name: "Приключения Реми (официальный трейлер)",
-            site: "youtube",
-            type: "TRAILER",
-          },
-          {
-            url: "https://www.youtube.com/embed/rhe-8LSwXqI",
-            name: "Trailer (English Subs)",
-            site: "youtube",
-            type: "TRAILER",
-          },
-        ],
-      },
-      logo: {
-        url: "https://image.openmoviedb.com/tmdb-images/original/3c7ZGOK8sexPCziS8cWom7ACF6T.png",
-        previewUrl:
-          "https://image.openmoviedb.com/tmdb-images/w500/3c7ZGOK8sexPCziS8cWom7ACF6T.png",
-      },
-      isTmdbChecked: true,
-    },
-    {
-      id: 5105855,
-      externalId: {
-        kpHD: "65fbd5ff9a534808a54e1e39a6c22811",
-        imdb: "tt13097932",
-        tmdb: 760774,
-      },
-      name: "Одна жизнь",
-      alternativeName: "One Life",
-      enName: null,
-      names: [
-        {
-          name: "Lazos De vida",
-          language: "MX",
-          type: null,
-        },
-        {
-          name: "یک زندگی",
-          language: "IR",
-          type: null,
-        },
-        {
-          name: "ONE LIFE 奇跡が繋いだ6000の命",
-          language: "JP",
-          type: null,
-        },
-        {
-          name: "Los niños de Winton",
-          language: "ES",
-          type: null,
-        },
-      ],
-      type: "movie",
-      typeNumber: 1,
-      year: 2023,
-      description:
-        "Скромного и непубличного джентльмена Николаса Уинтона приглашают на телевизионное ток-шоу, где он наконец-то узнает всю правду о событиях Второй мировой войны, когда он пытался спасти сотни детей от гибели в концлагере. Одна жизнь может изменить судьбы сотен людей — как в прошлом, так и в настоящем.",
-      shortDescription:
-        "Молодой филантроп придумывает, как спасти сотни детей от концлагеря. Проникновенная драма с Энтони Хопкинсом",
-      slogan: "Основано на реальной истории невидимого подвига, потрясшего мир",
-      status: null,
-      rating: {
-        kp: 8.542,
-        imdb: 7.5,
-        filmCritics: 7.3,
-        russianFilmCritics: 0,
-        await: null,
-      },
-      votes: {
-        kp: 215181,
-        imdb: 32844,
-        filmCritics: 146,
-        russianFilmCritics: 2,
-        await: 0,
-      },
-      movieLength: 109,
-      totalSeriesLength: null,
-      seriesLength: null,
-      ratingMpaa: "pg",
-      ageRating: 18,
-      poster: {
-        url: "https://image.openmoviedb.com/kinopoisk-images/9784475/4564801f-fe39-4493-b042-98038357d242/orig",
-        previewUrl:
-          "https://image.openmoviedb.com/kinopoisk-images/9784475/4564801f-fe39-4493-b042-98038357d242/x1000",
-      },
-      backdrop: {
-        url: "https://image.openmoviedb.com/kinopoisk-ott-images/236744/2a0000018e9a4990ede987ce5ae3b643a2f9/orig",
-        previewUrl:
-          "https://image.openmoviedb.com/kinopoisk-ott-images/236744/2a0000018e9a4990ede987ce5ae3b643a2f9/x1000",
-      },
-      genres: [
-        {
-          name: "драма",
-        },
-        {
-          name: "биография",
-        },
-        {
-          name: "история",
-        },
-      ],
-      countries: [
-        {
-          name: "Великобритания",
-        },
-        {
-          name: "Чехия",
-        },
-        {
-          name: "Австралия",
-        },
-        {
-          name: "США",
-        },
-      ],
-      persons: [
-        {
-          id: 8968,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_8968.jpg",
-          name: "Энтони Хопкинс",
-          enName: "Anthony Hopkins",
-          description: "Nicky Winton",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 25775,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25775.jpg",
-          name: "Хелена Бонем Картер",
-          enName: "Helena Bonham Carter",
-          description: "Babi Winton",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 739199,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_739199.jpg",
-          name: "Джонни Флинн",
-          enName: "Johnny Flynn",
-          description: "Young Nicky Winton",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 6236,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_6236.jpg",
-          name: "Лена Олин",
-          enName: "Lena Olin",
-          description: "Grete Winton",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 966872,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_966872.jpg",
-          name: "Тим Стид",
-          enName: "Tim Steed",
-          description: "Bernard",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 3821,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3821.jpg",
-          name: "Матильда Торпе",
-          enName: "Matilda Thorpe",
-          description: "Nina",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 2410232,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2410232.jpg",
-          name: "Дэниэл Браун",
-          enName: "Daniel Brown",
-          description: "Frank",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 3112178,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3112178.jpg",
-          name: "Алекс Шарп",
-          enName: "Alex Sharp",
-          description: "Trevor Chadwick",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 1454888,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1454888.jpg",
-          name: "Иржи Симек",
-          enName: "Jirí Simek",
-          description: "Rudi",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 29744,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_29744.jpg",
-          name: "Ромола Гарай",
-          enName: "Romola Garai",
-          description: "Doreen Warriner",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 7060689,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_7060689.jpg",
-          name: null,
-          enName: "Barbora Váchová",
-          description: "Monika Holub (в титрах: Barbora Vachova)",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 3562793,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3562793.jpg",
-          name: "Джулиана Моска",
-          enName: "Juliana Moska",
-          description: "Hana Hejdukova",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 5977075,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5977075.jpg",
-          name: null,
-          enName: "Jolana Jirotková",
-          description: "Gap-Toothed Girl (в титрах: Jolana Jirotkova)",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 5724247,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5724247.jpg",
-          name: null,
-          enName: "Michal Skach",
-          description: "Jan Slonek",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 7172277,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_7172277.jpg",
-          name: null,
-          enName: "Samuel Himal",
-          description: "Karel Slonek",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 10156295,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10156295.jpg",
-          name: null,
-          enName: "Matej Karas",
-          description: "Petr Slonek",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 10156296,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10156296.jpg",
-          name: null,
-          enName: "Ella Novakova",
-          description: "Lenka",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 6247716,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_6247716.jpg",
-          name: "Мартин Беднар",
-          enName: "Martin Bednár",
-          description: "Vaclav Slonek (в титрах: Martin Bednar)",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 1772409,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1772409.jpg",
-          name: "Петр Еништа",
-          enName: "Petr Jenista",
-          description: "Communist BCRC Volunteer",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 245376,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_245376.jpg",
-          name: "Самуэль Финци",
-          enName: "Samuel Finzi",
-          description: "Rabbi Hertz",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 597717,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_597717.jpg",
-          name: "Михал Роунс",
-          enName: "Michal Rones",
-          description: "Refugee Camp Guide",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 1272802,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1272802.jpg",
-          name: "Даррен Кларк",
-          enName: "Darren Clarke",
-          description: "Home Office Clerk",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 3518567,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3518567.jpg",
-          name: null,
-          enName: "Katerina Jebavá",
-          description: "German Mother (в титрах: Katerina Jebava)",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 1725370,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1725370.jpg",
-          name: "Ник Блэйкли",
-          enName: "Nick Blakeley",
-          description: "Junior Civil Servant",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 6263804,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_6263804.jpg",
-          name: null,
-          enName: "Kiana Klysch",
-          description: "Young Mother",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 5623751,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5623751.jpg",
-          name: null,
-          enName: "Sean Brodeur",
-          description: "Father",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 10156297,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10156297.jpg",
-          name: null,
-          enName: "Frantiska Polakova",
-          description: "Young Vera Diamontova",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 10156298,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10156298.jpg",
-          name: null,
-          enName: "Alzbeta Cerna",
-          description: "Eva Diamontova",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 10156299,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10156299.jpg",
-          name: null,
-          enName: "Dan Vynohradnyk",
-          description: "Tommy",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 10156300,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10156300.jpg",
-          name: null,
-          enName: "Max Vynohradnyk",
-          description: "Honza",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 5389762,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5389762.jpg",
-          name: "Антоние Форманова",
-          enName: "Antonie Formanová",
-          description: "Marta Diamontova (в титрах: Antonie Formanova)",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 4097883,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4097883.jpg",
-          name: "Рут Шмидтова",
-          enName: "Rút Schmidtová",
-          description: "Mrs. Diamantova (в титрах: Rut Schmidtova)",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 3869144,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3869144.jpg",
-          name: "Том Гленистер",
-          enName: "Tom Glenister",
-          description: "William Hughes",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 101650,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_101650.jpg",
-          name: "Майкл Гулд",
-          enName: "Michael Gould",
-          description: "Leadbetter",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 3122452,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3122452.jpg",
-          name: "Зигги Хит",
-          enName: "Ziggy Heath",
-          description: "Young Martin Blake",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 7008195,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_7008195.jpg",
-          name: null,
-          enName: "Beáta Mikusová",
-          description: "Frightened Girl (в титрах: Beata Mikusova)",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 3566200,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3566200.jpg",
-          name: "Януш Хуммель",
-          enName: "Janusz Hummel",
-          description: "Father at Train Window",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 664226,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_664226.jpg",
-          name: null,
-          enName: "Michaela Hráská",
-          description: "Mother at Train Window (в титрах: Michaela Hraska)",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 4439692,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4439692.jpg",
-          name: "Иржи Валес",
-          enName: "Jiri Vales",
-          description: "Lone Father",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 10156301,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10156301.jpg",
-          name: null,
-          enName: "Katerina Kocichová",
-          description: "Shocked Mother (в титрах: Katerina Kocichova)",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 5510153,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5510153.jpg",
-          name: null,
-          enName: "Milan Ligac",
-          description: "Czech Military",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 40827,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_40827.jpg",
-          name: "Эдриан Роулинз",
-          enName: "Adrian Rawlins",
-          description: "Geoff",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 50885,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_50885.jpg",
-          name: "Саманта Спиро",
-          enName: "Samantha Spiro",
-          description: "Esther Rantzen",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 4303605,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4303605.jpg",
-          name: "Стюарт Рамсей",
-          enName: "Stuart Ramsay",
-          description: "Gavin Campbell",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 4042553,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4042553.jpg",
-          name: null,
-          enName: "Matilda Bedford",
-          description: "Restaurant Hostess",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 15074,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_15074.jpg",
-          name: "Джонатан Прайс",
-          enName: "Jonathan Pryce",
-          description: "Martin Blake",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 451440,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_451440.jpg",
-          name: "Чарльз Армстронг",
-          enName: "Charles Armstrong",
-          description: "Wine Waiter",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 55711,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_55711.jpg",
-          name: "Энгус Кеннеди",
-          enName: "Angus Kennedy",
-          description: "New Statesman Reporter",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 3147892,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3147892.jpg",
-          name: "Лукас Краль",
-          enName: "Lukás Král",
-          description: "Reluctant Father (в титрах: Lukas Kral)",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 4362138,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4362138.jpg",
-          name: "Вилма Франтова",
-          enName: "Vilma Frantová",
-          description: "Weeping Mother (в титрах: Vilma Frantova)",
-          profession: "актеры",
-          enProfession: "actor",
-        },
-        {
-          id: 1542161,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1542161.jpg",
-          name: "Фолькер Бертельман",
-          enName: "Volker Bertelmann",
-          description: null,
-          profession: "композиторы",
-          enProfession: "composer",
-        },
-        {
-          id: 71133,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_71133.jpg",
-          name: "Кристина Мур",
-          enName: "Christina Moore",
-          description: null,
-          profession: "художники",
-          enProfession: "designer",
-        },
-        {
-          id: 2758711,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2758711.jpg",
-          name: "Ян Калоус",
-          enName: "Jan Kalous",
-          description: null,
-          profession: "художники",
-          enProfession: "designer",
-        },
-        {
-          id: 3247425,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3247425.jpg",
-          name: "Алин Леонелло",
-          enName: "Aline Leonello",
-          description: null,
-          profession: "художники",
-          enProfession: "designer",
-        },
-        {
-          id: 2814268,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2814268.jpg",
-          name: "Джо Уайт",
-          enName: "Jo White",
-          description: null,
-          profession: "художники",
-          enProfession: "designer",
-        },
-        {
-          id: 1997444,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1997444.jpg",
-          name: "Джоэнна Итуэлл",
-          enName: "Joanna Eatwell",
-          description: null,
-          profession: "художники",
-          enProfession: "designer",
-        },
-        {
-          id: 2002896,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2002896.jpg",
-          name: "Филиппа Харт",
-          enName: "Philippa Hart",
-          description: null,
-          profession: "художники",
-          enProfession: "designer",
-        },
-        {
-          id: 4042776,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4042776.jpg",
-          name: "Петра Венцелидесова",
-          enName: "Petra Vencelidesova",
-          description: null,
-          profession: "художники",
-          enProfession: "designer",
-        },
-        {
-          id: 7097436,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_7097436.jpg",
-          name: "Клара Зимова",
-          enName: "Klara Zimova",
-          description: null,
-          profession: "художники",
-          enProfession: "designer",
-        },
-        {
-          id: 589193,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_589193.jpg",
-          name: "Джеймс Хоуз",
-          enName: "James Hawes",
-          description: null,
-          profession: "режиссеры",
-          enProfession: "director",
-        },
-        {
-          id: 2001122,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2001122.jpg",
-          name: "Люсия Зуччетти",
-          enName: "Lucia Zucchetti",
-          description: null,
-          profession: "монтажеры",
-          enProfession: "editor",
-        },
-        {
-          id: 831685,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_831685.jpg",
-          name: "Зак Николсон",
-          enName: "Zac Nicholson",
-          description: null,
-          profession: "операторы",
-          enProfession: "operator",
-        },
-        {
-          id: 1092431,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1092431.jpg",
-          name: "Эйн Каннинг",
-          enName: "Iain Canning",
-          description: null,
-          profession: "продюсеры",
-          enProfession: "producer",
-        },
-        {
-          id: 2690772,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2690772.jpg",
-          name: "Гай Хили",
-          enName: "Guy Heeley",
-          description: null,
-          profession: "продюсеры",
-          enProfession: "producer",
-        },
-        {
-          id: 2474045,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2474045.jpg",
-          name: "Джоэнна Лори",
-          enName: "Joanna Laurie",
-          description: null,
-          profession: "продюсеры",
-          enProfession: "producer",
-        },
-        {
-          id: 42327,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_42327.jpg",
-          name: "Эмиль Шерман",
-          enName: "Emile Sherman",
-          description: null,
-          profession: "продюсеры",
-          enProfession: "producer",
-        },
-        {
-          id: 1604859,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1604859.jpg",
-          name: "Борис Токарев",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 1055690,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1055690.jpg",
-          name: "Марианна Шульц",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 2953207,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2953207.jpg",
-          name: "Юрий Романов",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 1654804,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1654804.jpg",
-          name: "Ксения Бржезовская",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 4548805,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4548805.jpg",
-          name: "Александр Васильев",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 637303,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_637303.jpg",
-          name: "Юлия Рудина",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 1758684,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1758684.jpg",
-          name: "Наталья Терешкова",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 1655611,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1655611.jpg",
-          name: "Андрей Лёвин",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 1660134,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1660134.jpg",
-          name: "Михаил Хрусталёв",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 2824466,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2824466.jpg",
-          name: "Ирина Обрезкова",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 1654785,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1654785.jpg",
-          name: "Наталья Мартынова",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 2339605,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2339605.jpg",
-          name: "Дмитрий Стрелков",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 277374,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_277374.jpg",
-          name: "Станислав Концевич",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 1663396,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1663396.jpg",
-          name: "Светлана Кузнецова",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 37392,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_37392.jpg",
-          name: "Максим Сергеев",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 4748851,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4748851.jpg",
-          name: "Иван Вальберг",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 6578961,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_6578961.jpg",
-          name: "Лев Энтелис",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 10119350,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10119350.jpg",
-          name: "Марк Васильев",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 10155557,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10155557.jpg",
-          name: "Полина Терешкова",
-          enName: null,
-          description: null,
-          profession: "актеры дубляжа",
-          enProfession: "voice_actor",
-        },
-        {
-          id: 232653,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_232653.jpg",
-          name: "Люсинда Коксон",
-          enName: "Lucinda Coxon",
-          description: null,
-          profession: "сценаристы",
-          enProfession: "writer",
-        },
-        {
-          id: 745330,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_745330.jpg",
-          name: "Ник Дрэйк",
-          enName: "Nick Drake",
-          description: null,
-          profession: "сценаристы",
-          enProfession: "writer",
-        },
-        {
-          id: 395573,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_395573.jpg",
-          name: "Барбара Уинтон",
-          enName: "Barbara Winton",
-          description: null,
-          profession: "сценаристы",
-          enProfession: "writer",
-        },
-        {
-          id: 3159483,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3159483.jpg",
-          name: "Кэтерин Брайдл",
-          enName: "Katherine Bridle",
-          description: null,
-          profession: "продюсеры",
-          enProfession: "producer",
-        },
-        {
-          id: 2512560,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2512560.jpg",
-          name: "Никки Эрншоу",
-          enName: "Nicky Earnshaw",
-          description: null,
-          profession: "продюсеры",
-          enProfession: "producer",
-        },
-        {
-          id: 5622887,
-          photo:
-            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5622887.jpg",
-          name: "Саймон Гиллис",
-          enName: "Simon Gillis",
-          description: null,
-          profession: "продюсеры",
-          enProfession: "producer",
-        },
-      ],
-      premiere: {
-        country: null,
-        digital: null,
-        cinema: null,
-        bluray: null,
-        dvd: null,
-        russia: "2024-02-15T00:00:00.000Z",
-        world: "2023-09-09T00:00:00.000Z",
-      },
-      top10: null,
-      top250: 58,
-      isSeries: false,
-      audience: [
-        {
-          count: 125566,
-          country: "Россия",
-        },
-      ],
-      ticketsOnSale: false,
-      lists: ["top250", "top500", "popular-films", "rotten-tomatoes", "hd"],
-      networks: null,
-      createdAt: "2024-04-13T04:11:58.691Z",
-      updatedAt: "2025-03-11T01:00:54.686Z",
-      watchability: {
-        items: [
-          {
-            name: "Иви",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/2419418/0dfd1724-848f-4725-9160-abc571f41c11/orig",
-            },
-            url: "https://www.ivi.ru/watch/odna-zhizn?utm_source=yandex&utm_medium=wizard",
-          },
-          {
-            name: "24ТВ",
-            logo: {
-              url: "https://avatars.mds.yandex.net/get-ott/2439731/85e83b8d-1159-4781-bad5-ce0a809b3843/orig",
-            },
-            url: "https://24h.tv/contents/2023-one-life-1076029935556438663",
-          },
-          {
-            name: "Kinopoisk HD",
-            logo: {
-              url: "https://yastatic.net/s3/kinopoisk-frontend/hd-www/release/apple-touch-icon-180x180.png",
-            },
-            url: "https://hd.kinopoisk.ru/?rt=65fbd5ff9a534808a54e1e39a6c22811",
-          },
-        ],
-      },
-      fees: {
-        russia: {
-          value: 693587,
-          currency: "$",
-        },
-        usa: {
-          value: 5716885,
-          currency: "$",
-        },
-        world: {
-          value: 56475835,
-          currency: "$",
-        },
-      },
-      sequelsAndPrequels: [
-        {
-          id: 602502,
-          name: "Семья Никки",
-          alternativeName: "Nicky's Family",
-          enName: null,
-          type: "movie",
-          poster: {
-            url: "https://image.openmoviedb.com/kinopoisk-images/1777765/70623832-3b39-42f1-9e68-a7fc4e08fa88/orig",
-            previewUrl:
-              "https://image.openmoviedb.com/kinopoisk-images/1777765/70623832-3b39-42f1-9e68-a7fc4e08fa88/x1000",
-          },
-        },
-      ],
-      videos: {
-        trailers: [
-          {
-            url: "https://www.youtube.com/embed/6ethollg-PI",
-            name: "Official Trailer",
-            site: "youtube",
-            type: "TRAILER",
-          },
-        ],
-      },
-      logo: {
-        url: "https://image.openmoviedb.com/tmdb-images/original/t3LmvcsV0ejbnaAzH1tRtEHjpnT.png",
-        previewUrl:
-          "https://image.openmoviedb.com/tmdb-images/w500/t3LmvcsV0ejbnaAzH1tRtEHjpnT.png",
-      },
       isTmdbChecked: true,
     },
   ],
