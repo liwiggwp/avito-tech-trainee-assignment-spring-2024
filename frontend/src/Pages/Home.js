@@ -38,10 +38,18 @@ export default function HOME() {
     fetchMovies();
   }, []);
 
-  const handleCountryChange = (event) => {
+  const handleCountryChange = async (event) => {
     setSelectedCountry(event.target.value);
-  };
 
+    const filteredMovies = await getMovies({
+      "countries.name": event.target.value,
+    });
+    setMovies(filteredMovies);
+  };
+  const handleGenreClick = async (genre) => {
+    const filteredMovies = await getMovies({ "genres.name": genre });
+    setMovies(filteredMovies);
+  };
   return (
     <>
       <Header />
@@ -146,6 +154,13 @@ export default function HOME() {
                     value={genre.name}
                     color="grey"
                     fontSize={15}
+                    sx={{
+                      cursor: "pointer",
+                      "&:hover": {
+                        color: "white",
+                      },
+                    }}
+                    onClick={() => handleGenreClick(genre.name)}
                   >
                     {genre.name}
                   </Typography>
@@ -153,39 +168,55 @@ export default function HOME() {
                 <Typography variant="h6" color="white">
                   По году
                 </Typography>
-                <Typography color="grey" fontSize={15}>
-                  2020
-                </Typography>
-                <Typography color="grey" fontSize={15}>
-                  2021
-                </Typography>
-                <Typography color="grey" fontSize={15}>
-                  2022
-                </Typography>
-                <Typography color="grey" fontSize={15}>
-                  2023
-                </Typography>
-                <Typography color="grey" fontSize={15}>
-                  2024
-                </Typography>
+                {[2020, 2021, 2022, 2023, 2024].map((year) => (
+                  <Typography
+                    key={year}
+                    color="grey"
+                    fontSize={15}
+                    sx={{
+                      cursor: "pointer",
+                      "&:hover": {
+                        color: "white",
+                      },
+                    }}
+                    onClick={async () => {
+                      const filteredMovies = await getMovies({ year });
+                      setMovies(filteredMovies);
+                    }}
+                  >
+                    {year}
+                  </Typography>
+                ))}
                 <Typography variant="h6" color="white">
                   По странам
                 </Typography>
-                <Typography color="grey" fontSize={15}>
-                  Американские
-                </Typography>
-                <Typography color="grey" fontSize={15}>
-                  Российские
-                </Typography>
-                <Typography color="grey" fontSize={15}>
-                  Немецкое
-                </Typography>
-                <Typography color="grey" fontSize={15}>
-                  Турецкое
-                </Typography>
-                <Typography color="grey" fontSize={15}>
-                  Советское
-                </Typography>
+                {[
+                  { label: "Американские", value: "США" },
+                  { label: "Российские", value: "Россия" },
+                  { label: "Немецкое", value: "Германия" },
+                  { label: "Турецкое", value: "Турция" },
+                  { label: "Советское", value: "СССР" },
+                ].map((country) => (
+                  <Typography
+                    key={country.value}
+                    color="grey"
+                    fontSize={15}
+                    sx={{
+                      cursor: "pointer",
+                      "&:hover": {
+                        color: "white",
+                      },
+                    }}
+                    onClick={async () => {
+                      const filteredMovies = await getMovies({
+                        "countries.name": country.value,
+                      });
+                      setMovies(filteredMovies);
+                    }}
+                  >
+                    {country.label}
+                  </Typography>
+                ))}
 
                 <FormControl
                   sx={{ minWidth: 120, mt: -2 }}
