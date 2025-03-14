@@ -5,18 +5,29 @@ import Api from "../Services/ApiRequest";
 import Header from "../Components/header/Header";
 import playButton from "../Assets/play.png";
 import MovieCarousel from "../Components/catalog/MovieCarousel";
+import Review from "../Components/review/Review";
 
 const MoviePage = () => {
   const { id } = useParams();
-  const { movie, getMovieById } = Api();
+  const { movie, getMovieById, getReviews } = Api();
   const [showTrailer, setShowTrailer] = useState(false);
   const [playTrailer, setPlayTrailer] = useState(false);
   const [showAllActors, setShowAllActors] = useState(false);
   const [showAllActorsVoice, setShowAllActorsVoice] = useState(false);
+  const [reviews, setReviews] = useState([]); 
 
   useEffect(() => {
     getMovieById(id);
+
+    const fetchReviews = async () => {
+      const response = await getReviews(id, 1, 10); 
+      if (response) {
+        setReviews(response.reviews); 
+      }
+    };
+    fetchReviews();
   }, [id]);
+
 
   const handleMouseEnter = () => {
     setShowTrailer(true);
@@ -341,6 +352,7 @@ const MoviePage = () => {
               )}
             </Grid>
           </Grid>
+          <Review reviews={reviews}/>
         </Container>
       </Box>
     </>
