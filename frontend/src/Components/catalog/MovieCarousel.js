@@ -26,18 +26,41 @@ const MovieCarousel = ({ movies }) => {
   };
 
   return (
-    <Box>
+    <>
       <Box
         display="flex"
         alignItems="center"
         justifyContent="space-between"
+       
       >
-        <Typography variant="h5">Фильмы</Typography>
+        <Typography variant="h5" color="white">
+          Фильмы
+        </Typography>
         <Box>
-          <IconButton onClick={rotateLeft}>
+          <IconButton
+            onClick={rotateLeft}
+            sx={{
+              width: 40,
+              height: 40,
+              borderRadius: 1,
+              border: "1px solid grey",
+              backgroundColor: "transparent",
+              color: "grey",
+            }}
+          >
             <ArrowBackIos />
           </IconButton>
-          <IconButton onClick={rotateRight}>
+          <IconButton
+            onClick={rotateRight}
+            sx={{
+              width: 40,
+              height: 40,
+              borderRadius: 1,
+              border: "1px solid grey",
+              backgroundColor: "transparent",
+              color: "grey",
+            }}
+          >
             <ArrowForwardIos />
           </IconButton>
         </Box>
@@ -50,7 +73,6 @@ const MovieCarousel = ({ movies }) => {
           gap: 2,
           "&::-webkit-scrollbar": { display: "none" },
           scrollbarWidth: "none",
-          width: "100%",
           padding: 1,
         }}
       >
@@ -64,8 +86,12 @@ const MovieCarousel = ({ movies }) => {
                 component="img"
                 image={movie.poster?.previewUrl}
                 alt={movie.name || movie.alternativeName}
-                sx={{ height: "100%", width: "100%", filter: "brightness(70%)" }}
-                />
+                sx={{
+                  height: "100%",
+                  width: "100%",
+                  filter: "brightness(70%)",
+                }}
+              />
               <Box
                 sx={{
                   position: "absolute",
@@ -81,6 +107,10 @@ const MovieCarousel = ({ movies }) => {
                     color: "white",
                     textAlign: "center",
                     fontWeight: "bold",
+                    whiteSpace: "nowrap",
+                    overflow: "hidden",
+                    textOverflow: "ellipsis",
+                    maxWidth: "100%",
                   }}
                 >
                   {movie.name || movie.alternativeName}
@@ -90,7 +120,7 @@ const MovieCarousel = ({ movies }) => {
           </Card>
         ))}
       </Box>
-    </Box>
+    </>
   );
 };
 
