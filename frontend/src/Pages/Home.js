@@ -80,7 +80,10 @@ export default function HOME() {
             >
               <Button
                 variant="outlined"
-                onClick={() => getMovies({ type: "movie" })}
+                onClick={async () => {
+                  const filteredMovies = await getMovies({ type: "movie" });
+                  setMovies(filteredMovies);
+                }}
                 sx={{
                   color: "grey",
                   borderColor: "#161616",
@@ -93,7 +96,10 @@ export default function HOME() {
               </Button>
               <Button
                 variant="outlined"
-                onClick={() => getMovies({ type: "tv-series" })}
+                onClick={async () => {
+                  const filteredMovies = await getMovies({ type: "tv-series" });
+                  setMovies(filteredMovies);
+                }}
                 sx={{
                   color: "grey",
                   borderColor: "#161616",
@@ -106,7 +112,10 @@ export default function HOME() {
               </Button>
               <Button
                 variant="outlined"
-                onClick={() => getMovies({ type: "anime" })}
+                onClick={async () => {
+                  const filteredMovies = await getMovies({ type: "anime" });
+                  setMovies(filteredMovies);
+                }}
                 sx={{
                   color: "grey",
                   borderColor: "#161616",
