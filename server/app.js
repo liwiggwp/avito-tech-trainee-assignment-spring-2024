@@ -9,7 +9,43 @@ app.get("/", (req, res) => {
 
 // Получение всех фильмов
 app.get("/movie", (req, res) => {
-  res.json(Object.values(initialMovies));
+  const { type, year, "genres.name": genresName, "countries.name": countriesName } = req.query;
+  let movies = initialMovies.docs;
+
+  // По типу
+  if (type) {
+    movies = movies.filter((movie) => movie.type === type);
+  }
+
+  // По году
+  if (year) {
+    const specificYear = parseInt(year, 10);
+    movies = movies.filter(
+      (movie) => parseInt(movie.year, 10) === specificYear
+    );
+  }
+
+  // По жанру
+  if (genresName) {
+    const genreFilters = genresName.toLowerCase().split(",");
+    movies = movies.filter((movie) =>
+      movie.genres.some((genre) =>
+        genreFilters.includes(genre.name.toLowerCase())
+      )
+    );
+  }
+
+  // По стране
+  if (countriesName) {
+    const countryFilters = countriesName.toLowerCase().split(",");
+    movies = movies.filter((movie) =>
+      movie.countries.some((country) =>
+        countryFilters.includes(country.name.toLowerCase())
+      )
+    );
+  }
+
+  res.json(movies);
 });
 
 // Получение списка стран, жанров
