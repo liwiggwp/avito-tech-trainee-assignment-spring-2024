@@ -11,28 +11,37 @@ import {
   MenuItem,
   FormControl,
   InputLabel,
+  Button,
 } from "@mui/material";
 import MovieCarousel from "../Components/catalog/MovieCarousel";
 export default function HOME() {
-  const { movies, getMovies, getCategories } = useApi();
+  const { getMovies, getCategories } = useApi();
   const [genres, setGenres] = useState([]);
   const [countries, setCountries] = useState([]);
   const [selectedCountry, setSelectedCountry] = useState("");
+  const [moviesTop, setMoviesTop] = useState([]);
+  const [movies, setMovies] = useState([]);
 
   useEffect(() => {
-    getMovies();
-
+    const fetchMovies = async () => {
+      const movies = await getMovies();
+      setMovies(movies);
+      const moviesTop = await getMovies({ lists: "popular-films" });
+      setMoviesTop(moviesTop);
+    };
     getCategories("genres.name")
       .then((data) => setGenres(data))
       .catch(console.error);
     getCategories("countries.name")
       .then((data) => setCountries(data))
       .catch(console.error);
+    fetchMovies();
   }, []);
 
   const handleCountryChange = (event) => {
     setSelectedCountry(event.target.value);
   };
+
   return (
     <>
       <Header />
@@ -43,7 +52,7 @@ export default function HOME() {
         }}
       >
         <Container maxWidth="xl" sx={{ mt: 8 }}>
-          <MovieCarousel movies={movies} />
+          <MovieCarousel movies={moviesTop} />
           <Box
             sx={{
               backgroundColor: "rgba(37, 37, 37, 0.5)",
@@ -51,11 +60,64 @@ export default function HOME() {
               mb: 2,
               p: 1,
               borderRadius: 1,
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+              gap: 1,
             }}
           >
             <Typography variant="h5" color="white">
               Навигация
             </Typography>
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: 1,
+                flex: 1,
+              }}
+            >
+              <Button
+                variant="outlined"
+                onClick={() => getMovies({ type: "movie" })}
+                sx={{
+                  color: "grey",
+                  borderColor: "#161616",
+                  "&:hover": {
+                    backgroundColor: "rgba(22, 22, 22, 0.5)",
+                  },
+                }}
+              >
+                Фильмы
+              </Button>
+              <Button
+                variant="outlined"
+                onClick={() => getMovies({ type: "tv-series" })}
+                sx={{
+                  color: "grey",
+                  borderColor: "#161616",
+                  "&:hover": {
+                    backgroundColor: "rgba(22, 22, 22, 0.5)",
+                  },
+                }}
+              >
+                Сериалы
+              </Button>
+              <Button
+                variant="outlined"
+                onClick={() => getMovies({ type: "anime" })}
+                sx={{
+                  color: "grey",
+                  borderColor: "#161616",
+                  "&:hover": {
+                    backgroundColor: "rgba(22, 22, 22, 0.5)",
+                  },
+                }}
+              >
+                Аниме
+              </Button>
+            </Box>
           </Box>
 
           <Grid container spacing={2} sx={{ p: 1 }}>

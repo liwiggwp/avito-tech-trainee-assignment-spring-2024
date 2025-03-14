@@ -40,7 +40,7 @@ const MovieCarousel = ({ movies }) => {
         }}
       >
         <Typography variant="h5" color="white">
-          Фильмы
+          Популярные фильмы
         </Typography>
         <Box>
           <IconButton
