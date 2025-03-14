@@ -5,6 +5,7 @@ export default function useApi() {
   const { get } = httpService();
   const [movies, setMovies] = useState([]);
   const [movie, setMovie] = useState(null);
+  const [categories, setCategories] = useState([]);
 
   const getMovies = async () => {
     try {
@@ -14,6 +15,15 @@ export default function useApi() {
       console.log(error);
     }
   };
+  const getCategories = async (field) => {
+    try {
+      const response = await get(`/movie/possible-values-by-field?field=${field}`);
+      return response.data;
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
   const getMovieById = async (id) => {
     try {
       const response = await get(`/movie/${id}`);
@@ -22,10 +32,15 @@ export default function useApi() {
       console.log(error);
     }
   };
+
+
+
   return {
     getMovies,
     getMovieById,
+    getCategories,
     movies,
     movie,
+    categories,
   };
 }
