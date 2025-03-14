@@ -37,10 +37,26 @@ export default function useApi() {
     }
   };
 
+  const getReviews = async (movieId, page = 1, limit = 10) => {
+    try {
+      const queryString = new URLSearchParams({
+        movieId,
+        page,
+        limit,
+      }).toString();
+      const response = await get(`/review?${queryString}`);
+      return response.data;
+    } catch (error) {
+      console.log(error);
+      return null;
+    }
+  };
+
   return {
     getMovies,
     getMovieById,
     getCategories,
+    getReviews,
     movies,
     movie,
     categories,
