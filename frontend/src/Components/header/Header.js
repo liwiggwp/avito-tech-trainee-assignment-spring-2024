@@ -13,7 +13,7 @@ export default function Header() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="fixed" sx={{ backgroundColor: "#161616" }}>
-        <Container maxWidth="lg">
+        <Container maxWidth="xl">
           <Toolbar>
             <Box sx={{ display: "flex", flexGrow: 1 }}>
               <Typography variant="h5">Avito tech Movies</Typography>
