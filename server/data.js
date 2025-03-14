@@ -10513,6 +10513,1002 @@ const initialMovies = {
       updatedAt: "2025-03-10T01:00:46.827Z",
       isTmdbChecked: true,
     },
+    {
+      id: 7393640,
+      name: "Иш Иш",
+      alternativeName: "Ish Ish",
+      type: "tv-series",
+      typeNumber: 2,
+      year: 2025,
+      description:
+        "Иш Иш унаследовала от матери и красоту, и бедность, а судьба вынудила её стать танцовщицей против собственной воли. Но случай приводит её в мир семьи Гретелли, где она раскрывает правду о прошлом своей семьи.",
+      shortDescription: null,
+      slogan: null,
+      status: "completed",
+      rating: {
+        kp: 0,
+        imdb: 4.7,
+        filmCritics: 0,
+        russianFilmCritics: 0,
+        await: 0,
+      },
+      votes: {
+        kp: 0,
+        imdb: 20,
+        filmCritics: 0,
+        russianFilmCritics: 0,
+        await: 0,
+      },
+      movieLength: null,
+      totalSeriesLength: null,
+      seriesLength: 40,
+      ratingMpaa: null,
+      ageRating: null,
+      poster: {
+        url: "https://image.openmoviedb.com/kinopoisk-images/4486454/5f666a03-8073-4715-85a5-7ed0dd2db5b3/orig",
+        previewUrl:
+          "https://image.openmoviedb.com/kinopoisk-images/4486454/5f666a03-8073-4715-85a5-7ed0dd2db5b3/x1000",
+      },
+      genres: [
+        {
+          name: "драма",
+        },
+      ],
+      countries: [
+        {
+          name: "Египет",
+        },
+      ],
+      persons: [
+        {
+          id: 870979,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_870979.jpg",
+          name: "Энтсар",
+          enName: "Entsar",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 3093628,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3093628.jpg",
+          name: "Яссер Али Мехер",
+          enName: "Yasser Ali Maher",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 1845213,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1845213.jpg",
+          name: "Алаа Морси",
+          enName: "Alaa Morsy",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 871643,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_871643.jpg",
+          name: "Дина",
+          enName: "Dina",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 1734282,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1734282.jpg",
+          name: "Идвард",
+          enName: "Edward",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 2268679,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2268679.jpg",
+          name: "Эхаб Фахми",
+          enName: "Ehab Fahmy",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 6075877,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_6075877.jpg",
+          name: "Ессам Эль Сакка",
+          enName: "Essam El Sakka",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 580206,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_580206.jpg",
+          name: "Хала Седки",
+          enName: "Hala Sedqy",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 607584,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_607584.jpg",
+          name: "Хамди Хейкал",
+          enName: "Hamdy Heykal",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 3850026,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3850026.jpg",
+          name: "Карим Фахми",
+          enName: "Karim Fahmy",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 607583,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_607583.jpg",
+          name: "Халед Эль Сави",
+          enName: "Khaled El Sawi",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 5145053,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5145053.jpg",
+          name: "Май Омар",
+          enName: "Mai Omar",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 842080,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_842080.jpg",
+          name: "Маджед Эль Масри",
+          enName: "Majed El Masry",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 3070631,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3070631.jpg",
+          name: "Мохамед Аль Шарнуби",
+          enName: "Mohamed Al Sharnuby",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 3334488,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3334488.jpg",
+          name: "Мохамед Мамдух",
+          enName: "Mohamed Mamdouh",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 4389044,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4389044.jpg",
+          name: null,
+          enName: "Nada Musa",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 4065018,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4065018.jpg",
+          name: "Шаймаа Сайф",
+          enName: "Shaimaa Saif",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 1038288,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1038288.jpg",
+          name: "Тарек Эль Нахри",
+          enName: "Tarek El Nahry",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 3115849,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3115849.jpg",
+          name: "Мохаммад Сами",
+          enName: "Mohammad Samy",
+          description: null,
+          profession: "режиссеры",
+          enProfession: "director",
+        },
+        {
+          id: 10322754,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10322754.jpg",
+          name: null,
+          enName: "Mai Wael",
+          description: null,
+          profession: "режиссеры",
+          enProfession: "director",
+        },
+        {
+          id: 6852518,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_6852518.jpg",
+          name: "Хассан Ассири",
+          enName: "Hassan Assiri",
+          description: null,
+          profession: "продюсеры",
+          enProfession: "producer",
+        },
+        {
+          id: 3115849,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3115849.jpg",
+          name: "Мохаммад Сами",
+          enName: "Mohammad Samy",
+          description: null,
+          profession: "сценаристы",
+          enProfession: "writer",
+        },
+      ],
+      premiere: {
+        world: "2025-03-01T00:00:00.000Z",
+        russia: null,
+        digital: null,
+        cinema: null,
+        bluray: null,
+        dvd: null,
+      },
+      releaseYears: [
+        {
+          start: 2025,
+          end: 2025,
+        },
+      ],
+      top10: null,
+      top250: null,
+      isSeries: true,
+      ticketsOnSale: false,
+      lists: [],
+      createdAt: "2025-03-13T20:44:51.297Z",
+      updatedAt: "2025-03-13T20:44:51.297Z",
+    },
+    {
+      id: 7385223,
+      name: null,
+      alternativeName: "The Boroughs",
+      type: "tv-series",
+      typeNumber: 2,
+      year: null,
+      description: null,
+      shortDescription: null,
+      slogan: null,
+      status: "post-production",
+      rating: {
+        kp: 0,
+        imdb: 0,
+        filmCritics: 0,
+        russianFilmCritics: 0,
+        await: 0,
+      },
+      votes: {
+        kp: 0,
+        imdb: 0,
+        filmCritics: 0,
+        russianFilmCritics: 0,
+        await: 0,
+      },
+      movieLength: null,
+      totalSeriesLength: null,
+      seriesLength: null,
+      ratingMpaa: null,
+      ageRating: null,
+      genres: [
+        {
+          name: "фантастика",
+        },
+        {
+          name: "фэнтези",
+        },
+        {
+          name: "драма",
+        },
+        {
+          name: "детектив",
+        },
+        {
+          name: "приключения",
+        },
+      ],
+      countries: [
+        {
+          name: "США",
+        },
+      ],
+      persons: [
+        {
+          id: 24088,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_24088.jpg",
+          name: "Джена Мэлоун",
+          enName: "Jena Malone",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 21361,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_21361.jpg",
+          name: "Джина Дэвис",
+          enName: "Geena Davis",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 22783,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_22783.jpg",
+          name: "Кларк Питерс",
+          enName: "Clarke Peters",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 6470,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_6470.jpg",
+          name: "Билл Пуллман",
+          enName: "Bill Pullman",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 6225,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_6225.jpg",
+          name: "Альфред Молина",
+          enName: "Alfred Molina",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 8293,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_8293.jpg",
+          name: "Элфри Вудард",
+          enName: "Alfre Woodard",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 29570,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_29570.jpg",
+          name: "Денис О’Хэр",
+          enName: "Denis O'Hare",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 1233953,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1233953.jpg",
+          name: "Элис Кремелберг",
+          enName: "Alice Kremelberg",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 389197,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_389197.jpg",
+          name: "Сет Нумрик",
+          enName: "Seth Numrich",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 1786454,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1786454.jpg",
+          name: "Карлос Миранда",
+          enName: "Carlos Miranda",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 673764,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_673764.jpg",
+          name: "Алекс Найт",
+          enName: "Alex Knight",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 5524492,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5524492.jpg",
+          name: null,
+          enName: "Emilia Faucher",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 6985992,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_6985992.jpg",
+          name: "Элдон Джонс",
+          enName: "Eldon Jones",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 1194381,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1194381.jpg",
+          name: "Хэйес Харгров",
+          enName: "Hayes Hargrove",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 254,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_254.jpg",
+          name: "Эд Бегли мл.",
+          enName: "Ed Begley Jr.",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 3288,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3288.jpg",
+          name: "Ди Уоллес-Стоун",
+          enName: "Dee Wallace-Stone",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 67053,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_67053.jpg",
+          name: "Джейн Качмарек",
+          enName: "Jane Kaczmarek",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 558055,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_558055.jpg",
+          name: "Эрик Эдельштейн",
+          enName: "Eric Edelstein",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 948504,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_948504.jpg",
+          name: "Муса Крэйиш",
+          enName: "Mousa Hussein Kraish",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 3524666,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3524666.jpg",
+          name: "Рафаэль Касаль",
+          enName: "Rafael Casal",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 610788,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_610788.jpg",
+          name: "Джон Песано",
+          enName: "John Paesano",
+          description: null,
+          profession: "композиторы",
+          enProfession: "composer",
+        },
+        {
+          id: 2000528,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2000528.jpg",
+          name: "Рут Эммон",
+          enName: "Ruth Ammon",
+          description: null,
+          profession: "художники",
+          enProfession: "designer",
+        },
+        {
+          id: 4627388,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4627388.jpg",
+          name: null,
+          enName: "Lindsay Coda",
+          description: null,
+          profession: "художники",
+          enProfession: "designer",
+        },
+        {
+          id: 385521,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_385521.jpg",
+          name: "Майкл Аллен Гловер",
+          enName: "Michael Allen Glover",
+          description: null,
+          profession: "художники",
+          enProfession: "designer",
+        },
+        {
+          id: 4294323,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4294323.jpg",
+          name: "Мэйди Хэйс",
+          enName: "Madie Hays",
+          description: null,
+          profession: "художники",
+          enProfession: "designer",
+        },
+        {
+          id: 3027566,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3027566.jpg",
+          name: "Ноэми Катарина Прайсверк",
+          enName: "Noemi Katharina Preiswerk",
+          description: null,
+          profession: "монтажеры",
+          enProfession: "editor",
+        },
+        {
+          id: 1196397,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1196397.jpg",
+          name: "Кристофер Нельсон",
+          enName: "Christopher Nelson",
+          description: null,
+          profession: "монтажеры",
+          enProfession: "editor",
+        },
+        {
+          id: 614282,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_614282.jpg",
+          name: "Мэттью Дженсен",
+          enName: "Matthew Jensen",
+          description: null,
+          profession: "операторы",
+          enProfession: "operator",
+        },
+        {
+          id: 1229323,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1229323.jpg",
+          name: "Мишель Лоулер",
+          enName: "Michelle Lawler",
+          description: null,
+          profession: "операторы",
+          enProfession: "operator",
+        },
+        {
+          id: 4761452,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4761452.jpg",
+          name: "Мэри-Маргарет Кунце",
+          enName: "Mary-Margaret Kunze",
+          description: null,
+          profession: "продюсеры",
+          enProfession: "producer",
+        },
+        {
+          id: 1515851,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1515851.jpg",
+          name: "Джо Лотито",
+          enName: "Joe Lotito",
+          description: null,
+          profession: "продюсеры",
+          enProfession: "producer",
+        },
+        {
+          id: 694795,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_694795.jpg",
+          name: "Хосе Молина",
+          enName: "Jose Molina",
+          description: null,
+          profession: "продюсеры",
+          enProfession: "producer",
+        },
+        {
+          id: 10917,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10917.jpg",
+          name: "Джеймс Шеймус",
+          enName: "James Schamus",
+          description: null,
+          profession: "продюсеры",
+          enProfession: "producer",
+        },
+        {
+          id: 1136468,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1136468.jpg",
+          name: "Уилл Мэтьюз",
+          enName: "Will Matthews",
+          description: null,
+          profession: "сценаристы",
+          enProfession: "writer",
+        },
+      ],
+      premiere: {
+        world: null,
+        russia: null,
+        digital: null,
+        cinema: null,
+        bluray: null,
+        dvd: null,
+      },
+      releaseYears: [
+        {
+          start: null,
+          end: null,
+        },
+      ],
+      top10: null,
+      top250: null,
+      isSeries: true,
+      ticketsOnSale: false,
+      lists: [],
+      createdAt: "2025-03-12T20:48:17.456Z",
+      updatedAt: "2025-03-12T20:48:17.456Z",
+    },
+    {
+      id: 7393983,
+      name: "А потом ты встретила возлюбленного",
+      alternativeName: "W Teqabel Habib",
+      type: "tv-series",
+      typeNumber: 2,
+      year: 2025,
+      description:
+        "Богатая женщина узнаёт, что муж изменил ей и женился на другой. Она решает расстаться с ним и отправляется на поиски новой любви. Её ждут неожиданные испытания и конфликты, в которые она оказывается втянута против своей воли.",
+      shortDescription: null,
+      slogan: null,
+      status: "completed",
+      rating: {
+        kp: 0,
+        imdb: 0,
+        filmCritics: 0,
+        russianFilmCritics: 0,
+        await: 0,
+      },
+      votes: {
+        kp: 0,
+        imdb: 0,
+        filmCritics: 0,
+        russianFilmCritics: 0,
+        await: 0,
+      },
+      movieLength: null,
+      totalSeriesLength: null,
+      seriesLength: 40,
+      ratingMpaa: null,
+      ageRating: null,
+      poster: {
+        url: "https://image.openmoviedb.com/kinopoisk-images/10809116/ac6fd835-6881-49a3-85a5-65f5d4cca8a9/orig",
+        previewUrl:
+          "https://image.openmoviedb.com/kinopoisk-images/10809116/ac6fd835-6881-49a3-85a5-65f5d4cca8a9/x1000",
+      },
+      genres: [
+        {
+          name: "мелодрама",
+        },
+      ],
+      countries: [
+        {
+          name: "Египет",
+        },
+      ],
+      persons: [
+        {
+          id: 3922947,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3922947.jpg",
+          name: "Анушка",
+          enName: "Anoushka",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 4407464,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4407464.jpg",
+          name: "Бадриа Толба",
+          enName: "Badria Tolba",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 3606227,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3606227.jpg",
+          name: null,
+          enName: "Batul El-Haddad",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 2636076,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2636076.jpg",
+          name: "Эман Аль Сайед",
+          enName: "Eman Al Sayyed",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 6652210,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_6652210.jpg",
+          name: null,
+          enName: "Enjy Kiwan",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 2766007,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2766007.jpg",
+          name: "Ханан Сулиман",
+          enName: "Hanan Suliman",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 10322887,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10322887.jpg",
+          name: null,
+          enName: "Jihan Khairy",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 3850026,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_3850026.jpg",
+          name: "Карим Фахми",
+          enName: "Karim Fahmy",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 871634,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_871634.jpg",
+          name: "Халед Селим",
+          enName: "Khaled Selim",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 6076971,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_6076971.jpg",
+          name: "Амр Махмуд Яссин",
+          enName: "Amr Mahmoud Yassin",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 2797099,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2797099.jpg",
+          name: "Менна Арафа",
+          enName: "Menna Arafa",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 4389044,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_4389044.jpg",
+          name: null,
+          enName: "Nada Musa",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 864576,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_864576.jpg",
+          name: "Николь Саба",
+          enName: "Nicole Saba",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 10322889,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10322889.jpg",
+          name: null,
+          enName: "Passant Abu Basha",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 5319819,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5319819.jpg",
+          name: "Пассант Шауки",
+          enName: "Passant Shawky",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 780509,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_780509.jpg",
+          name: "Рашван Тавфик",
+          enName: "Rashwan Tawfiq",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 825257,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_825257.jpg",
+          name: "Салах Абдаллах",
+          enName: "Salah Abdallah",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 870996,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_870996.jpg",
+          name: "Ясмин Абдулазиз",
+          enName: "Yasmin Abdulaziz",
+          description: null,
+          profession: "актеры",
+          enProfession: "actor",
+        },
+        {
+          id: 10322895,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_10322895.jpg",
+          name: null,
+          enName: "Mohamed Hamdy El Khabeeri",
+          description: null,
+          profession: "режиссеры",
+          enProfession: "director",
+        },
+        {
+          id: 1734283,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1734283.jpg",
+          name: "Амр Ассем",
+          enName: "Amr Assem",
+          description: null,
+          profession: "монтажеры",
+          enProfession: "editor",
+        },
+        {
+          id: 5099246,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_5099246.jpg",
+          name: "Тамер Морси",
+          enName: "Tamer Morsi",
+          description: null,
+          profession: "продюсеры",
+          enProfession: "producer",
+        },
+        {
+          id: 6076971,
+          photo:
+            "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_6076971.jpg",
+          name: "Амр Махмуд Яссин",
+          enName: "Amr Mahmoud Yassin",
+          description: null,
+          profession: "сценаристы",
+          enProfession: "writer",
+        },
+      ],
+      premiere: {
+        world: "2025-03-01T00:00:00.000Z",
+        russia: null,
+        digital: null,
+        cinema: null,
+        bluray: null,
+        dvd: null,
+      },
+      releaseYears: [
+        {
+          start: 2025,
+          end: 2025,
+        },
+      ],
+      top10: null,
+      top250: null,
+      isSeries: true,
+      ticketsOnSale: false,
+      lists: [],
+      createdAt: "2025-03-13T20:44:51.633Z",
+      updatedAt: "2025-03-13T20:44:51.633Z",
+    },
   ],
   total: 250,
   limit: 15,
