@@ -1,5 +1,10 @@
 const express = require("express");
-const { initialMovies, initialGenres, initialCountries } = require("./data");
+const {
+  initialMovies,
+  initialGenres,
+  initialCountries,
+  initialReview,
+} = require("./data");
 
 const app = express();
 
@@ -86,6 +91,29 @@ app.get("/movie/:id", (req, res) => {
   } else {
     res.status(404).send({ message: "Movie not found" });
   }
+});
+
+// Получение отзывов по фильму
+app.get("/review", (req, res) => {
+  const movieId = parseInt(req.query.movieId, 10);
+  const page = parseInt(req.query.page, 10) || 1;
+  const limit = parseInt(req.query.limit, 10) || 10;
+
+  if (!movieId) {
+    return res.status(400).send({ message: "movieId is required" });
+  }
+
+  const reviews = initialReview.docs.filter((review) => review.movieId === movieId);
+
+  const startIndex = (page - 1) * limit;
+  const paginatedReviews = reviews.slice(startIndex, startIndex + limit);
+
+  res.json({
+    page,
+    limit,
+    total: reviews.length,
+    reviews: paginatedReviews,
+  });
 });
 
 const PORT = 5000;
