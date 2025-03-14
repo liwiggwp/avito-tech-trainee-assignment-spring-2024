@@ -7,17 +7,21 @@ export default function useApi() {
   const [movie, setMovie] = useState(null);
   const [categories, setCategories] = useState([]);
 
-  const getMovies = async () => {
+  const getMovies = async (params = {}) => {
     try {
-      const response = await get(`/movie`);
-      setMovies(response.data[0]);
+      const queryString = new URLSearchParams(params).toString();
+      const response = await get(`/movie?${queryString}`);
+      return response.data;
     } catch (error) {
       console.log(error);
     }
   };
+
   const getCategories = async (field) => {
     try {
-      const response = await get(`/movie/possible-values-by-field?field=${field}`);
+      const response = await get(
+        `/movie/possible-values-by-field?field=${field}`
+      );
       return response.data;
     } catch (error) {
       console.log(error);
@@ -32,8 +36,6 @@ export default function useApi() {
       console.log(error);
     }
   };
-
-
 
   return {
     getMovies,
