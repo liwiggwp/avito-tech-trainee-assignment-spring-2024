@@ -60,7 +60,7 @@ export default function HOME() {
         }}
       >
         <Container maxWidth="xl" sx={{ mt: 8 }}>
-          <MovieCarousel movies={moviesTop} />
+          <MovieCarousel name={"Популярные фильмы"} movies={moviesTop} />
           <Box
             sx={{
               backgroundColor: "rgba(37, 37, 37, 0.5)",

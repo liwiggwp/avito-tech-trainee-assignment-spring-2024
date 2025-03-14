@@ -4,6 +4,7 @@ import { Container, Grid, Typography, Button, Card, Box } from "@mui/material";
 import Api from "../Services/ApiRequest";
 import Header from "../Components/header/Header";
 import playButton from "../Assets/play.png";
+import MovieCarousel from "../Components/catalog/MovieCarousel";
 
 const MoviePage = () => {
   const { id } = useParams();
@@ -122,7 +123,6 @@ const MoviePage = () => {
                 </>
               )}
             </Grid>
-
             <Grid item xs={12} md={6}>
               <Typography variant="h4" fontWeight="bold">
                 {movie?.name}
@@ -272,7 +272,6 @@ const MoviePage = () => {
               </Typography>
               <Typography variant="body1">{movie?.description}</Typography>
             </Grid>
-
             <Grid item xs={12} md={3}>
               <Typography variant="h3" sx={{ fontWeight: "bold" }}>
                 {movie?.rating?.kp.toFixed(1)}
@@ -331,6 +330,14 @@ const MoviePage = () => {
                     </Typography>
                   )}
                 </>
+              )}
+            </Grid>
+            <Grid item xs={12}>
+              {movie?.sequelsAndPrequels?.length > 0 && (
+                <MovieCarousel
+                  name={"Сиквелы, приквелы и ремейки"}
+                  movies={movie.sequelsAndPrequels}
+                />
               )}
             </Grid>
           </Grid>

@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Box, IconButton, Card, CardMedia, Typography } from "@mui/material";
 import { ArrowBackIos, ArrowForwardIos } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
-const MovieCarousel = ({ movies }) => {
+const MovieCarousel = ({ name, movies }) => {
   const [currentMovies, setCurrentMovies] = useState(movies || []);
 
   useEffect(() => {
@@ -40,7 +41,7 @@ const MovieCarousel = ({ movies }) => {
         }}
       >
         <Typography variant="h5" color="white">
-          Популярные фильмы
+          {name}
         </Typography>
         <Box>
           <IconButton
@@ -83,47 +84,54 @@ const MovieCarousel = ({ movies }) => {
         }}
       >
         {currentMovies.map((movie, index) => (
-          <Card
+          <Link
+            to={`/${movie.id}`}
             key={index}
-            sx={{ minWidth: 150, boxShadow: 3, position: "relative" }}
+            style={{ textDecoration: "none" }}
           >
-            <Box sx={{ position: "relative" }}>
-              <CardMedia
-                component="img"
-                image={movie.poster?.previewUrl}
-                alt={movie.name || movie.alternativeName}
-                sx={{
-                  height: "100%",
-                  width: "100%",
-                  filter: "brightness(70%)",
-                }}
-              />
-              <Box
-                sx={{
-                  position: "absolute",
-                  bottom: 0,
-                  left: 0,
-                  right: 0,
-                  padding: "8px 0",
-                }}
-              >
-                <Typography
-                  variant="body2"
+            <Card
+              key={index}
+              sx={{ minWidth: 150, boxShadow: 3, position: "relative" }}
+            >
+              <Box sx={{ position: "relative" }}>
+                <CardMedia
+                  component="img"
+                  image={movie.poster?.previewUrl}
+                  alt={movie.name || movie.alternativeName}
                   sx={{
-                    color: "white",
-                    textAlign: "center",
-                    fontWeight: "bold",
-                    whiteSpace: "nowrap",
-                    overflow: "hidden",
-                    textOverflow: "ellipsis",
-                    maxWidth: "100%",
+                    height: "100%",
+                    width: "100%",
+                    filter: "brightness(70%)",
+                    objectFit: "cover",
+                  }}
+                />
+                <Box
+                  sx={{
+                    position: "absolute",
+                    bottom: 0,
+                    left: 0,
+                    right: 0,
+                    padding: "8px 0",
                   }}
                 >
-                  {movie.name || movie.alternativeName}
-                </Typography>
+                  <Typography
+                    variant="body2"
+                    sx={{
+                      color: "white",
+                      textAlign: "center",
+                      fontWeight: "bold",
+                      whiteSpace: "nowrap",
+                      overflow: "hidden",
+                      textOverflow: "ellipsis",
+                      maxWidth: "100%",
+                    }}
+                  >
+                    {movie.name || movie.alternativeName}
+                  </Typography>
+                </Box>
               </Box>
-            </Box>
-          </Card>
+            </Card>
+          </Link>
         ))}
       </Box>
     </>
