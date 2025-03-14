@@ -9,7 +9,13 @@ app.get("/", (req, res) => {
 
 // Получение всех фильмов
 app.get("/movie", (req, res) => {
-  const { type, year, "genres.name": genresName, "countries.name": countriesName } = req.query;
+  const {
+    type,
+    year,
+    lists,
+    "genres.name": genresName,
+    "countries.name": countriesName,
+  } = req.query;
   let movies = initialMovies.docs;
 
   // По типу
@@ -42,6 +48,16 @@ app.get("/movie", (req, res) => {
       movie.countries.some((country) =>
         countryFilters.includes(country.name.toLowerCase())
       )
+    );
+  }
+
+  // По коллекциям
+  if (lists) {
+    const listFilters = lists.toLowerCase().split(",");
+    movies = movies.filter(
+      (movie) =>
+        movie.lists &&
+        movie.lists.some((list) => listFilters.includes(list.toLowerCase()))
     );
   }
 
