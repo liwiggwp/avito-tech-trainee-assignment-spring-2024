@@ -31,7 +31,13 @@ const MovieCarousel = ({ movies }) => {
         display="flex"
         alignItems="center"
         justifyContent="space-between"
-       
+        sx={{
+          backgroundColor: "rgba(37, 37, 37, 0.5)",
+          mt: 2,
+          mb: 2,
+          p: 1,
+          borderRadius: 1,
+        }}
       >
         <Typography variant="h5" color="white">
           Фильмы
