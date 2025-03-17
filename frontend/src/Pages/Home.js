@@ -47,7 +47,7 @@ export default function HOME() {
     getCategories("countries.name")
       .then((data) => setCountries(data))
       .catch(console.error);
-      
+
     fetchMoviesTop();
   }, [page, limit]);
 
@@ -65,7 +65,7 @@ export default function HOME() {
   };
 
   const handleCountryClick = async (event) => {
-    setSelectedCountry( event.target.value);
+    setSelectedCountry(event.target.value);
     fetchFilteredMovies({ "countries.name": event.target.value });
   };
 
@@ -80,6 +80,21 @@ export default function HOME() {
       ...filters,
       page: newPage,
       limit,
+    });
+
+    setMovies(filteredMovies.docs);
+    setPages(filteredMovies.pages);
+  };
+
+  const handleLimitChange = async (event) => {
+    const newLimit = event.target.value;
+    setLimit(newLimit);
+    setPage(1);
+
+    const filteredMovies = await getMovies({
+      ...filters,
+      page: 1,
+      limit: newLimit,
     });
 
     setMovies(filteredMovies.docs);
@@ -168,6 +183,48 @@ export default function HOME() {
                 Аниме
               </Button>
             </Box>
+            <FormControl
+              sx={{ minWidth: 70, ml: 2 }}
+              size="small"
+              variant="standard"
+            >
+              <InputLabel
+                id="limit-select-label"
+                sx={{
+                  color: "grey",
+                  fontSize: 15,
+                  "&.Mui-focused": {
+                    color: "grey",
+                  },
+                }}
+              >
+                Количество
+              </InputLabel>
+              <Select
+                labelId="limit-select-label"
+                value={limit}
+                onChange={handleLimitChange}
+                disableUnderline
+                sx={{
+                  color: "grey",
+                  fontSize: 15,
+                  textAlign: "center",
+                  "&:focus": {
+                    backgroundColor: "transparent",
+                    outline: "none",
+                  },
+                  "& .MuiSelect-icon": {
+                    color: "rgba(250, 175, 0, 0.7)",
+                  },
+                }}
+              >
+                {[10, 20, 30, 50].map((value) => (
+                  <MenuItem key={value} value={value}>
+                    {value}
+                  </MenuItem>
+                ))}
+              </Select>
+            </FormControl>
           </Box>
 
           <Grid container spacing={2} sx={{ p: 1 }}>
