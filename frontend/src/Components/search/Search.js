@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Box from "@mui/material/Box";
 import InputBase from "@mui/material/InputBase";
 import SearchIcon from "@mui/icons-material/Search";
@@ -11,23 +11,38 @@ function SearchBar() {
     JSON.parse(localStorage.getItem("searchHistory")) || []
   );
   const [showHistory, setShowHistory] = useState(false);
+  const [debouncedSearchQuery, setDebouncedSearchQuery] = useState("");
 
-  const filteredSuggestions = searchHistory.filter((item) =>
-    item.toLowerCase().startsWith(searchQuery.toLowerCase())
-  );
+  useEffect(() => {
+    const handler = setTimeout(() => {
+      setDebouncedSearchQuery(searchQuery);
+    }, 1000);
+
+    return () => clearTimeout(handler);
+  }, [searchQuery]);
+
+  useEffect(() => {
+    if (debouncedSearchQuery.trim()) {
+      handleSearch();
+    }
+  }, [debouncedSearchQuery]);
 
   const handleSearch = () => {
-    if (!searchQuery.trim()) return;
+    if (!debouncedSearchQuery.trim()) return;
 
     const updatedHistory = [
-      searchQuery,
-      ...searchHistory.filter((item) => item !== searchQuery),
+      debouncedSearchQuery,
+      ...searchHistory.filter((item) => item !== debouncedSearchQuery),
     ].slice(0, 20);
     setSearchHistory(updatedHistory);
     localStorage.setItem("searchHistory", JSON.stringify(updatedHistory));
 
     setShowHistory(false);
   };
+
+  const filteredSuggestions = searchHistory.filter((item) =>
+    item.toLowerCase().startsWith(searchQuery.toLowerCase())
+  );
 
   const handleFocus = () => {
     setShowHistory(true);
@@ -69,7 +84,10 @@ function SearchBar() {
         <InputBase
           placeholder="Поиск"
           value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
+          onChange={(e) => {
+            setSearchQuery(e.target.value);
+            setShowHistory(true);
+          }}
           onKeyDown={(e) => {
             if (e.key === "Enter") handleSearch();
           }}
@@ -112,7 +130,7 @@ function SearchBar() {
               onClick={() => {
                 setSearchQuery(item);
                 setShowHistory(false);
-                handleSearch();
+                setDebouncedSearchQuery(item);
               }}
             >
               {item}
