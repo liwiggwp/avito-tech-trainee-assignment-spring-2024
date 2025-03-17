@@ -25,9 +25,9 @@ export default function HOME() {
   useEffect(() => {
     const fetchMovies = async () => {
       const movies = await getMovies();
-      setMovies(movies);
+      setMovies(movies.docs);
       const moviesTop = await getMovies({ lists: "popular-films" });
-      setMoviesTop(moviesTop);
+      setMoviesTop(moviesTop.docs);
     };
     getCategories("genres.name")
       .then((data) => setGenres(data))
@@ -38,17 +38,17 @@ export default function HOME() {
     fetchMovies();
   }, []);
 
-  const handleCountryChange = async (event) => {
+  const handleCountryClick = async (event) => {
     setSelectedCountry(event.target.value);
 
     const filteredMovies = await getMovies({
       "countries.name": event.target.value,
     });
-    setMovies(filteredMovies);
+    setMovies(filteredMovies.docs);
   };
   const handleGenreClick = async (genre) => {
     const filteredMovies = await getMovies({ "genres.name": genre });
-    setMovies(filteredMovies);
+    setMovies(filteredMovies.docs);
   };
   return (
     <>
@@ -90,7 +90,7 @@ export default function HOME() {
                 variant="outlined"
                 onClick={async () => {
                   const filteredMovies = await getMovies({ type: "movie" });
-                  setMovies(filteredMovies);
+                  setMovies(filteredMovies.docs);
                 }}
                 sx={{
                   color: "grey",
@@ -106,7 +106,7 @@ export default function HOME() {
                 variant="outlined"
                 onClick={async () => {
                   const filteredMovies = await getMovies({ type: "tv-series" });
-                  setMovies(filteredMovies);
+                  setMovies(filteredMovies.docs);
                 }}
                 sx={{
                   color: "grey",
@@ -122,7 +122,7 @@ export default function HOME() {
                 variant="outlined"
                 onClick={async () => {
                   const filteredMovies = await getMovies({ type: "anime" });
-                  setMovies(filteredMovies);
+                  setMovies(filteredMovies.docs);
                 }}
                 sx={{
                   color: "grey",
@@ -181,7 +181,7 @@ export default function HOME() {
                     }}
                     onClick={async () => {
                       const filteredMovies = await getMovies({ year });
-                      setMovies(filteredMovies);
+                      setMovies(filteredMovies.docs);
                     }}
                   >
                     {year}
@@ -211,7 +211,7 @@ export default function HOME() {
                       const filteredMovies = await getMovies({
                         "countries.name": country.value,
                       });
-                      setMovies(filteredMovies);
+                      setMovies(filteredMovies.docs);
                     }}
                   >
                     {country.label}
@@ -239,7 +239,7 @@ export default function HOME() {
                   <Select
                     labelId="country-select-label"
                     value={selectedCountry}
-                    onChange={handleCountryChange}
+                    onChange={handleCountryClick}
                     disableUnderline
                     sx={{
                       color: "grey",
