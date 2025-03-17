@@ -28,6 +28,16 @@ export default function useApi() {
     }
   };
 
+  const getSearch = async (query) => {
+    try {
+      const queryString = new URLSearchParams({ query }).toString();
+      const response = await get(`/movie/search?query=${query}`);
+      return response.data;
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
   const getMovieById = async (id) => {
     try {
       const response = await get(`/movie/${id}`);
@@ -57,6 +67,7 @@ export default function useApi() {
     getMovieById,
     getCategories,
     getReviews,
+    getSearch,
     movies,
     movie,
     categories,

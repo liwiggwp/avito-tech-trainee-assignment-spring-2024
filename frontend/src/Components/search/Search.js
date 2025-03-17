@@ -1,17 +1,23 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Box from "@mui/material/Box";
 import InputBase from "@mui/material/InputBase";
 import SearchIcon from "@mui/icons-material/Search";
-import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-
+import Api from "../../Services/ApiRequest";
+import SearchList from "./SearchList";
+import { Typography } from "@mui/material";
 function SearchBar() {
+  const { getSearch } = Api();
   const [searchQuery, setSearchQuery] = useState("");
   const [searchHistory, setSearchHistory] = useState(
     JSON.parse(localStorage.getItem("searchHistory")) || []
   );
+  const [searchResults, setSearchResults] = useState([]);
   const [showHistory, setShowHistory] = useState(false);
+  const [showResults, setShowResults] = useState(false);
   const [debouncedSearchQuery, setDebouncedSearchQuery] = useState("");
+  const [noResults, setNoResults] = useState(false);
+
+  const searchRef = useRef(null);
 
   useEffect(() => {
     const handler = setTimeout(() => {
@@ -24,20 +30,49 @@ function SearchBar() {
   useEffect(() => {
     if (debouncedSearchQuery.trim()) {
       handleSearch();
+    } else {
+      setSearchResults([]);
+      setNoResults(false);
+      setShowResults(false);
     }
   }, [debouncedSearchQuery]);
 
-  const handleSearch = () => {
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (searchRef.current && !searchRef.current.contains(event.target)) {
+        setShowHistory(false);
+        setShowResults(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
+  const handleSearch = async () => {
     if (!debouncedSearchQuery.trim()) return;
 
     const updatedHistory = [
       debouncedSearchQuery,
       ...searchHistory.filter((item) => item !== debouncedSearchQuery),
-    ].slice(0, 20);
+    ].slice(0, 8);
     setSearchHistory(updatedHistory);
     localStorage.setItem("searchHistory", JSON.stringify(updatedHistory));
 
     setShowHistory(false);
+    setShowResults(true);
+
+    try {
+      const results = await getSearch(debouncedSearchQuery);
+      setSearchResults(results.docs);
+      setNoResults(results.docs.length === 0);
+    } catch (error) {
+      console.error(error);
+      setSearchResults([]);
+      setNoResults(true);
+    }
   };
 
   const filteredSuggestions = searchHistory.filter((item) =>
@@ -49,11 +84,13 @@ function SearchBar() {
   };
 
   const handleBlur = () => {
-    setTimeout(() => setShowHistory(false), 200);
+    setTimeout(() => {
+      setShowHistory(false);
+    }, 200);
   };
 
   return (
-    <Box>
+    <Box ref={searchRef}>
       <Box
         sx={{
           position: "relative",
@@ -63,10 +100,6 @@ function SearchBar() {
             backgroundColor: "rgba(255, 255, 255, 0.25)",
           },
           width: "100%",
-          "@media (min-width:600px)": {
-            marginLeft: "8px",
-            width: "auto",
-          },
         }}
       >
         <Box
@@ -98,45 +131,40 @@ function SearchBar() {
             color: "inherit",
             width: "100%",
             "& .MuiInputBase-input": {
-              padding: "8px 8px 8px 0",
+              padding: "8px 100px 8px 0",
               paddingLeft: "calc(1em + 32px)",
               transition: "width 0.2s ease-in-out",
-              "@media (min-width:600px)": {
-                width: "12ch",
-                "&:focus": {
-                  width: "20ch",
-                },
-              },
             },
           }}
         />
       </Box>
       {showHistory && filteredSuggestions.length > 0 && (
-        <List
+        <SearchList
+          items={filteredSuggestions}
+          isSuggestions={true}
+          setSearchQuery={setSearchQuery}
+          setShowHistory={setShowHistory}
+          setDebouncedSearchQuery={setDebouncedSearchQuery}
+        />
+      )}
+      {showResults && searchResults.length > 0 && (
+        <SearchList items={searchResults} isSuggestions={false} />
+      )}
+      {noResults && (
+        <Box
           sx={{
             position: "absolute",
             top: "100%",
-            width: "27ch",
+            width: "36ch",
             backgroundColor: "rgb(57, 57, 57 )",
             borderRadius: "4px",
             zIndex: 10,
-            ml: 1,
+            color: "white",
+            padding: "8px 16px",
           }}
         >
-          {filteredSuggestions.map((item, index) => (
-            <ListItem
-              key={index}
-              button
-              onClick={() => {
-                setSearchQuery(item);
-                setShowHistory(false);
-                setDebouncedSearchQuery(item);
-              }}
-            >
-              {item}
-            </ListItem>
-          ))}
-        </List>
+          <Typography variant="body2">Ничего не найдено</Typography>
+        </Box>
       )}
     </Box>
   );
