@@ -20,8 +20,13 @@ app.get("/movie", (req, res) => {
     lists,
     "genres.name": genresName,
     "countries.name": countriesName,
+    ageRating,
+    page = 1,
+    limit = 10,
+    selectFields,
   } = req.query;
-  let movies = initialMovies.docs;
+
+  let movies = initialMovies;
 
   // По типу
   if (type) {
@@ -66,7 +71,48 @@ app.get("/movie", (req, res) => {
     );
   }
 
-  res.json(movies);
+  // По возрастному рейтингу
+  if (ageRating) {
+    const ageRatingFilters = ageRating.toLowerCase().split(",");
+    movies = movies.filter((movie) => {
+      const movieAgeRating = String(movie.ageRating || "").toLowerCase();
+      return ageRatingFilters.includes(movieAgeRating);
+    });
+  }
+
+  // Пагинация
+  const pageNumber = parseInt(page, 10);
+  const limitNumber = parseInt(limit, 10);
+  const startIndex = (pageNumber - 1) * limitNumber;
+  const paginatedMovies = movies.slice(
+    startIndex,
+    startIndex + limitNumber
+  );
+
+  // Выбор полей
+  let selectedMovies = paginatedMovies;
+  if (selectFields) {
+    const fields = selectFields.split(",");
+    selectedMovies = paginatedMovies.map((movie) => {
+      const selectedMovie = {};
+      fields.forEach((field) => {
+        if (movie[field] !== undefined) {
+          selectedMovie[field] = movie[field];
+        }
+      });
+      return selectedMovie;
+    });
+  }
+
+  const AllPages = Math.ceil(movies.length / limitNumber);
+
+  res.json({
+    docs: selectedMovies,
+    total: movies.length,
+    limit: limitNumber,
+    page: pageNumber,
+    pages: AllPages,
+  });
 });
 
 // Получение списка стран, жанров
@@ -85,7 +131,7 @@ app.get("/movie/possible-values-by-field", (req, res) => {
 // Получение фильма по id
 app.get("/movie/:id", (req, res) => {
   const movieId = parseInt(req.params.id, 10);
-  const movie = initialMovies.docs.find((movie) => movie.id === movieId);
+  const movie = initialMovies.find((movie) => movie.id === movieId);
   if (movie) {
     res.json(movie);
   } else {
@@ -103,7 +149,9 @@ app.get("/review", (req, res) => {
     return res.status(400).send({ message: "movieId is required" });
   }
 
-  const reviews = initialReview.docs.filter((review) => review.movieId === movieId);
+  const reviews = initialReview.docs.filter(
+    (review) => review.movieId === movieId
+  );
 
   const startIndex = (page - 1) * limit;
   const paginatedReviews = reviews.slice(startIndex, startIndex + limit);
