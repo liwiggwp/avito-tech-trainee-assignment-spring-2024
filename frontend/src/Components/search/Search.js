@@ -12,6 +12,10 @@ function SearchBar() {
   );
   const [showHistory, setShowHistory] = useState(false);
 
+  const filteredSuggestions = searchHistory.filter((item) =>
+    item.toLowerCase().startsWith(searchQuery.toLowerCase())
+  );
+
   const handleSearch = () => {
     if (!searchQuery.trim()) return;
 
@@ -89,7 +93,7 @@ function SearchBar() {
           }}
         />
       </Box>
-      {showHistory && searchHistory.length > 0 && (
+      {showHistory && filteredSuggestions.length > 0 && (
         <List
           sx={{
             position: "absolute",
@@ -101,7 +105,7 @@ function SearchBar() {
             ml: 1,
           }}
         >
-          {searchHistory.map((item, index) => (
+          {filteredSuggestions.map((item, index) => (
             <ListItem
               key={index}
               button
