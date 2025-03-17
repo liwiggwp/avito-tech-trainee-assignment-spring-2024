@@ -14,6 +14,8 @@ import {
   Button,
 } from "@mui/material";
 import MovieCarousel from "../Components/catalog/MovieCarousel";
+import Pagination from "../Components/pagination/Pagination";
+
 export default function HOME() {
   const { getMovies, getCategories } = useApi();
   const [genres, setGenres] = useState([]);
@@ -21,11 +23,21 @@ export default function HOME() {
   const [selectedCountry, setSelectedCountry] = useState("");
   const [moviesTop, setMoviesTop] = useState([]);
   const [movies, setMovies] = useState([]);
+  const [page, setPage] = useState(1);
+  const [pages, setPages] = useState(1);
+  const [limit, setLimit] = useState(10);
+  const [filters, setFilters] = useState({});
+
+  const fetchMovies = async () => {
+    const movies = await getMovies({ ...filters, page, limit });
+    setMovies(movies.docs);
+    setPages(movies.pages);
+  };
 
   useEffect(() => {
-    const fetchMovies = async () => {
-      const movies = await getMovies();
-      setMovies(movies.docs);
+    fetchMovies(page);
+
+    const fetchMoviesTop = async () => {
       const moviesTop = await getMovies({ lists: "popular-films" });
       setMoviesTop(moviesTop.docs);
     };
@@ -35,21 +47,45 @@ export default function HOME() {
     getCategories("countries.name")
       .then((data) => setCountries(data))
       .catch(console.error);
-    fetchMovies();
-  }, []);
+      
+    fetchMoviesTop();
+  }, [page, limit]);
 
-  const handleCountryClick = async (event) => {
-    setSelectedCountry(event.target.value);
+  const fetchFilteredMovies = async (newFilters) => {
+    setFilters(newFilters);
 
     const filteredMovies = await getMovies({
-      "countries.name": event.target.value,
+      ...newFilters,
+      page: 1,
+      limit: 10,
     });
+
     setMovies(filteredMovies.docs);
+    setPages(filteredMovies.pages);
   };
+
+  const handleCountryClick = async (event) => {
+    setSelectedCountry( event.target.value);
+    fetchFilteredMovies({ "countries.name": event.target.value });
+  };
+
   const handleGenreClick = async (genre) => {
-    const filteredMovies = await getMovies({ "genres.name": genre });
-    setMovies(filteredMovies.docs);
+    fetchFilteredMovies({ "genres.name": genre });
   };
+
+  const handlePageChange = async (newPage) => {
+    setPage(newPage);
+
+    const filteredMovies = await getMovies({
+      ...filters,
+      page: newPage,
+      limit,
+    });
+
+    setMovies(filteredMovies.docs);
+    setPages(filteredMovies.pages);
+  };
+
   return (
     <>
       <Header />
@@ -89,8 +125,7 @@ export default function HOME() {
               <Button
                 variant="outlined"
                 onClick={async () => {
-                  const filteredMovies = await getMovies({ type: "movie" });
-                  setMovies(filteredMovies.docs);
+                  await fetchFilteredMovies({ type: "movie" });
                 }}
                 sx={{
                   color: "grey",
@@ -105,8 +140,7 @@ export default function HOME() {
               <Button
                 variant="outlined"
                 onClick={async () => {
-                  const filteredMovies = await getMovies({ type: "tv-series" });
-                  setMovies(filteredMovies.docs);
+                  fetchFilteredMovies({ type: "tv-series" });
                 }}
                 sx={{
                   color: "grey",
@@ -121,8 +155,7 @@ export default function HOME() {
               <Button
                 variant="outlined"
                 onClick={async () => {
-                  const filteredMovies = await getMovies({ type: "anime" });
-                  setMovies(filteredMovies.docs);
+                  fetchFilteredMovies({ type: "anime" });
                 }}
                 sx={{
                   color: "grey",
@@ -180,8 +213,7 @@ export default function HOME() {
                       },
                     }}
                     onClick={async () => {
-                      const filteredMovies = await getMovies({ year });
-                      setMovies(filteredMovies.docs);
+                      fetchFilteredMovies({ year });
                     }}
                   >
                     {year}
@@ -208,10 +240,7 @@ export default function HOME() {
                       },
                     }}
                     onClick={async () => {
-                      const filteredMovies = await getMovies({
-                        "countries.name": country.value,
-                      });
-                      setMovies(filteredMovies.docs);
+                      fetchFilteredMovies({ "countries.name": country.value });
                     }}
                   >
                     {country.label}
@@ -264,6 +293,11 @@ export default function HOME() {
               <CardMovie movies={movies} />
             </Grid>
           </Grid>
+          <Pagination
+            page={page}
+            pages={pages}
+            onPageChange={handlePageChange}
+          />
         </Container>
       </Box>
     </>
