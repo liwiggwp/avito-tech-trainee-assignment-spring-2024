@@ -128,6 +128,42 @@ app.get("/movie/possible-values-by-field", (req, res) => {
   }
 });
 
+// Поиск фильмов по названию
+app.get("/movie/search", (req, res) => {
+  const { query, page = 1, limit = 10 } = req.query;
+
+  if (!query) {
+    return res.status(400).send({ message: "Query parameter is required" });
+  }
+
+  const searchQuery = query.toLowerCase();
+  const filteredMovies = initialMovies.filter(
+    (movie) => movie.name && movie.name.toLowerCase().includes(searchQuery)
+  );
+
+  if (filteredMovies.length === 0) {
+    return res.status(404).send({ message: "No movies found" });
+  }
+
+  const pageNumber = parseInt(page, 10);
+  const limitNumber = parseInt(limit, 10);
+  const startIndex = (pageNumber - 1) * limitNumber;
+  const paginatedMovies = filteredMovies.slice(
+    startIndex,
+    startIndex + limitNumber
+  );
+
+  const totalPages = Math.ceil(filteredMovies.length / limitNumber);
+
+  res.json({
+    docs: paginatedMovies,
+    total: filteredMovies.length,
+    limit: limitNumber,
+    page: pageNumber,
+    pages: totalPages,
+  });
+});
+
 // Получение фильма по id
 app.get("/movie/:id", (req, res) => {
   const movieId = parseInt(req.params.id, 10);
@@ -138,6 +174,8 @@ app.get("/movie/:id", (req, res) => {
     res.status(404).send({ message: "Movie not found" });
   }
 });
+
+
 
 // Получение отзывов по фильму
 app.get("/review", (req, res) => {
