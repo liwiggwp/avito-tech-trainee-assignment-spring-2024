@@ -15,6 +15,7 @@ import {
 } from "@mui/material";
 import MovieCarousel from "../Components/catalog/MovieCarousel";
 import Pagination from "../Components/pagination/Pagination";
+import NavigationBox from "../Components/navigation/NavigationBox";
 
 export default function HOME() {
   const { getMovies, getCategories } = useApi();
@@ -125,106 +126,11 @@ export default function HOME() {
               gap: 1,
             }}
           >
-            <Typography variant="h5" color="white">
-              Навигация
-            </Typography>
-            <Box
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: 1,
-                flex: 1,
-              }}
-            >
-              <Button
-                variant="outlined"
-                onClick={async () => {
-                  await fetchFilteredMovies({ type: "movie" });
-                }}
-                sx={{
-                  color: "grey",
-                  borderColor: "#161616",
-                  "&:hover": {
-                    backgroundColor: "rgba(22, 22, 22, 0.5)",
-                  },
-                }}
-              >
-                Фильмы
-              </Button>
-              <Button
-                variant="outlined"
-                onClick={async () => {
-                  fetchFilteredMovies({ type: "tv-series" });
-                }}
-                sx={{
-                  color: "grey",
-                  borderColor: "#161616",
-                  "&:hover": {
-                    backgroundColor: "rgba(22, 22, 22, 0.5)",
-                  },
-                }}
-              >
-                Сериалы
-              </Button>
-              <Button
-                variant="outlined"
-                onClick={async () => {
-                  fetchFilteredMovies({ type: "anime" });
-                }}
-                sx={{
-                  color: "grey",
-                  borderColor: "#161616",
-                  "&:hover": {
-                    backgroundColor: "rgba(22, 22, 22, 0.5)",
-                  },
-                }}
-              >
-                Аниме
-              </Button>
-            </Box>
-            <FormControl
-              sx={{ minWidth: 70, ml: 2 }}
-              size="small"
-              variant="standard"
-            >
-              <InputLabel
-                id="limit-select-label"
-                sx={{
-                  color: "grey",
-                  fontSize: 15,
-                  "&.Mui-focused": {
-                    color: "grey",
-                  },
-                }}
-              >
-                Количество
-              </InputLabel>
-              <Select
-                labelId="limit-select-label"
-                value={limit}
-                onChange={handleLimitChange}
-                disableUnderline
-                sx={{
-                  color: "grey",
-                  fontSize: 15,
-                  textAlign: "center",
-                  "&:focus": {
-                    backgroundColor: "transparent",
-                    outline: "none",
-                  },
-                  "& .MuiSelect-icon": {
-                    color: "rgba(250, 175, 0, 0.7)",
-                  },
-                }}
-              >
-                {[10, 20, 30, 50].map((value) => (
-                  <MenuItem key={value} value={value}>
-                    {value}
-                  </MenuItem>
-                ))}
-              </Select>
-            </FormControl>
+            <NavigationBox
+              onFetchFiltered={fetchFilteredMovies}
+              limit={limit}
+              onHandleLimitChange={handleLimitChange}
+            />
           </Box>
 
           <Grid container spacing={2} sx={{ p: 1 }}>
