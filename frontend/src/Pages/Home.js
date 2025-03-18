@@ -1,18 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import useApi from "../Services/ApiRequest";
 import CardMovie from "../Components/CardMovie";
 import Header from "../Components/header/Header";
-import {
-  Box,
-  Typography,
-  Grid,
-  Container,
-  Select,
-  MenuItem,
-  FormControl,
-  InputLabel,
-  Button,
-} from "@mui/material";
+import { Box, Typography, Grid, Container } from "@mui/material";
 import MovieCarousel from "../Components/catalog/MovieCarousel";
 import Pagination from "../Components/pagination/Pagination";
 import NavigationBox from "../Components/navigation/NavigationBox";
@@ -30,28 +20,34 @@ export default function HOME() {
   const [limit, setLimit] = useState(10);
   const [filters, setFilters] = useState({});
 
-  const fetchMovies = async () => {
+  const fetchMovies = useCallback(async () => {
     const movies = await getMovies({ ...filters, page, limit });
     setMovies(movies.docs);
     setPages(movies.pages);
-  };
+  }, [filters, page, limit, getMovies]);
+
+  const fetchMoviesTop = useCallback(async () => {
+    const moviesTop = await getMovies({ lists: "popular-films" });
+    setMoviesTop(moviesTop.docs);
+  }, [getMovies]);
+
+  const fetchCategories = useCallback(async () => {
+    try {
+      const genresData = await getCategories("genres.name");
+      setGenres(genresData);
+
+      const countriesData = await getCategories("countries.name");
+      setCountries(countriesData);
+    } catch (error) {
+      console.error(error);
+    }
+  }, [getCategories]);
 
   useEffect(() => {
-    fetchMovies(page);
-
-    const fetchMoviesTop = async () => {
-      const moviesTop = await getMovies({ lists: "popular-films" });
-      setMoviesTop(moviesTop.docs);
-    };
-    getCategories("genres.name")
-      .then((data) => setGenres(data))
-      .catch(console.error);
-    getCategories("countries.name")
-      .then((data) => setCountries(data))
-      .catch(console.error);
-
+    fetchMovies();
     fetchMoviesTop();
-  }, [page, limit]);
+    fetchCategories();
+  }, [fetchMovies, fetchMoviesTop, fetchCategories]);
 
   const fetchFilteredMovies = async (newFilters) => {
     setFilters(newFilters);
