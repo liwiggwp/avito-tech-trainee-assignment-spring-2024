@@ -1,7 +1,7 @@
 import React from "react";
 import { Typography, Box } from "@mui/material";
-import ButtonNavigation from "./ButtonNavigation";
-import NumberMovieSelect from "./NumberMovieSelect";
+import CustomButton from "../common/CustomButton";
+import CustomSelect from "../common/CustomSelect";
 
 function NavigationBox({ onFetchFiltered, limit, onHandleLimitChange }) {
   const navigationItems = [
@@ -9,7 +9,7 @@ function NavigationBox({ onFetchFiltered, limit, onHandleLimitChange }) {
     { type: "tv-series", name: "Сериалы" },
     { type: "anime", name: "Аниме" },
   ];
-
+  const options = [10, 20, 30, 50];
   return (
     <>
       <Typography variant="h5" color="white">
@@ -25,14 +25,19 @@ function NavigationBox({ onFetchFiltered, limit, onHandleLimitChange }) {
         }}
       >
         {navigationItems.map((item) => (
-          <ButtonNavigation
+          <CustomButton
             key={item.type}
-            onFetchFiltered={() => onFetchFiltered({ type: item.type })}
+            onClick={() => onFetchFiltered({ type: item.type })}
             name={item.name}
           />
         ))}
       </Box>
-      <NumberMovieSelect limit={limit} onHandleLimitChange={onHandleLimitChange} />
+      <CustomSelect
+        label="Количество"
+        value={limit}
+        options={options}
+        onChange={onHandleLimitChange}
+      />
     </>
   );
 }

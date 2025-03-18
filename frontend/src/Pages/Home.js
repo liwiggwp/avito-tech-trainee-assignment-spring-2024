@@ -16,6 +16,7 @@ import {
 import MovieCarousel from "../Components/catalog/MovieCarousel";
 import Pagination from "../Components/pagination/Pagination";
 import NavigationBox from "../Components/navigation/NavigationBox";
+import CategoryBox from "../Components/category/CategoryBox";
 
 export default function HOME() {
   const { getMovies, getCategories } = useApi();
@@ -144,111 +145,14 @@ export default function HOME() {
                   columnCount: 2,
                 }}
               >
-                {genres.map((genre, index) => (
-                  <Typography
-                    key={index}
-                    value={genre.name}
-                    color="grey"
-                    fontSize={15}
-                    sx={{
-                      cursor: "pointer",
-                      "&:hover": {
-                        color: "white",
-                      },
-                    }}
-                    onClick={() => handleGenreClick(genre.name)}
-                  >
-                    {genre.name}
-                  </Typography>
-                ))}
-                <Typography variant="h6" color="white">
-                  По году
-                </Typography>
-                {[2020, 2021, 2022, 2023, 2024].map((year) => (
-                  <Typography
-                    key={year}
-                    color="grey"
-                    fontSize={15}
-                    sx={{
-                      cursor: "pointer",
-                      "&:hover": {
-                        color: "white",
-                      },
-                    }}
-                    onClick={async () => {
-                      fetchFilteredMovies({ year });
-                    }}
-                  >
-                    {year}
-                  </Typography>
-                ))}
-                <Typography variant="h6" color="white">
-                  По странам
-                </Typography>
-                {[
-                  { label: "Американские", value: "США" },
-                  { label: "Российские", value: "Россия" },
-                  { label: "Немецкое", value: "Германия" },
-                  { label: "Турецкое", value: "Турция" },
-                  { label: "Советское", value: "СССР" },
-                ].map((country) => (
-                  <Typography
-                    key={country.value}
-                    color="grey"
-                    fontSize={15}
-                    sx={{
-                      cursor: "pointer",
-                      "&:hover": {
-                        color: "white",
-                      },
-                    }}
-                    onClick={async () => {
-                      fetchFilteredMovies({ "countries.name": country.value });
-                    }}
-                  >
-                    {country.label}
-                  </Typography>
-                ))}
-
-                <FormControl
-                  sx={{ minWidth: 120, mt: -2 }}
-                  size="small"
-                  variant="standard"
-                >
-                  <InputLabel
-                    id="country-select-label"
-                    sx={{
-                      color: "grey",
-                      fontSize: 15,
-                      "&.Mui-focused": {
-                        color: "grey",
-                      },
-                    }}
-                    shrink={false}
-                  >
-                    Другое
-                  </InputLabel>
-                  <Select
-                    labelId="country-select-label"
-                    value={selectedCountry}
-                    onChange={handleCountryClick}
-                    disableUnderline
-                    sx={{
-                      color: "grey",
-                      fontSize: 15,
-                      "&:focus": {
-                        backgroundColor: "transparent",
-                        outline: "none",
-                      },
-                    }}
-                  >
-                    {countries.map((country, index) => (
-                      <MenuItem key={index} value={country.name}>
-                        {country.name}
-                      </MenuItem>
-                    ))}
-                  </Select>
-                </FormControl>
+                <CategoryBox
+                  genres={genres}
+                  onFetchFilteredMovies={fetchFilteredMovies}
+                  onHandleGenreClick={handleGenreClick}
+                  selectedCountry={selectedCountry}
+                  onHandleCountryClick={handleCountryClick}
+                  countries={countries}
+                />
               </Box>
             </Grid>
 

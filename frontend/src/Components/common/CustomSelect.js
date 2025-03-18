@@ -1,11 +1,11 @@
 import React from "react";
 import { FormControl, InputLabel, Select, MenuItem } from "@mui/material";
 
-function NumberMovieSelect({ limit, onHandleLimitChange }) {
+function CustomSelect({ label, value, onChange, options }) {
   return (
-    <FormControl sx={{ minWidth: 70, ml: 2 }} size="small" variant="standard">
+    <FormControl sx={{ minWidth: 70 }} size="small" variant="standard">
       <InputLabel
-        id="limit-select-label"
+        labelId={`${label}-select-label`}
         sx={{
           color: "grey",
           fontSize: 15,
@@ -14,12 +14,12 @@ function NumberMovieSelect({ limit, onHandleLimitChange }) {
           },
         }}
       >
-        Количество
+        {label}
       </InputLabel>
       <Select
-        labelId="limit-select-label"
-        value={limit}
-        onChange={onHandleLimitChange}
+        labelId={`${label}-select-label`}
+        value={value}
+        onChange={onChange}
         disableUnderline
         sx={{
           color: "grey",
@@ -34,9 +34,9 @@ function NumberMovieSelect({ limit, onHandleLimitChange }) {
           },
         }}
       >
-        {[10, 20, 30, 50].map((value) => (
-          <MenuItem key={value} value={value}>
-            {value}
+        {options.map((option, index) => (
+          <MenuItem key={index} value={option.value || option}>
+            {option.label || option}
           </MenuItem>
         ))}
       </Select>
@@ -44,4 +44,4 @@ function NumberMovieSelect({ limit, onHandleLimitChange }) {
   );
 }
 
-export default NumberMovieSelect;
+export default CustomSelect;

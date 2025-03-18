@@ -1,16 +1,17 @@
 import React from "react";
 import { Button } from "@mui/material";
 
-function ButtonNavigation({ onFetchFiltered, name }) {
+function CustomButton({ onClick, name }) {
   return (
     <Button
       variant="outlined"
-      onClick={onFetchFiltered}
+      onClick={onClick}
       sx={{
         color: "grey",
         borderColor: "#161616",
         "&:hover": {
-          backgroundColor: "rgba(22, 22, 22, 0.5)",
+          backgroundColor: "rgba(250, 175, 0, 0.7)",
+          color: "black",
         },
       }}
     >
@@ -19,4 +20,4 @@ function ButtonNavigation({ onFetchFiltered, name }) {
   );
 }
 
-export default ButtonNavigation;
+export default CustomButton;
